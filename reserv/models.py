@@ -41,12 +41,29 @@ class DateChecker(models.Model):
         logger.debug("I'm do it")
         self.init()
         self.driver.get(self.url)
-        self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_btnAccept"]/span[1]').click()
-        self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_btnNewAppointment"]/span').click()
+        self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_btnAccept"]').click()
+        self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_btnNewAppointment"]').click()
         self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_ddCitizenship_Input"]').send_keys(self.nationality)
-        self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_ddCitizenship_DropDown"]/div/ul/li[22]').click()
+        self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_ddCountryOfResidence_Input"]').click()
+        self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_ddVisaType_Input"]').click()
         self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_ddVisaType_DropDown"]/div/ul/li[2]').click()
+        try:
+            #checkbox = driver.find_element_by_id("recaptcha-anchor")
+            #checkbox = driver.find_element_by_id("g-recaptcha")
+            #checkbox.click()
+            box = self.driver.find_element_by_xpath("//*[@id='recaptcha-token']")
+            #box = driver.find_element_by_css_selector("#recaptcha-anchor")
+            print(box.location, box.size)
+            box.click()
+            #actions.move_to_element(box)
+            #actions.click(box)
+            #actions.perform()
+        except Exception as e:
+            print(e)
+
+        #self.driver.find_element_by_xpath('//*[@id="recaptcha-anchor"]/div[5]').click()
         self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_btnNext"]/span').click()
+
 
 
 

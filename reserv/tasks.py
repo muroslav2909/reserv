@@ -3,12 +3,16 @@
 from __future__ import absolute_import
 from celery import task
 from reserv.models import DateChecker
-
+from selenium import webdriver
 
 @task()
 def check_date(company_id):
-    # print "I'm in selery 1"
-    # rdb.set_trace()
-    # print "I'm in selery 2"
     p = DateChecker.objects.get(id=company_id)
-    print "do(): %s " % str(p.do())
+    p.do()
+    print "do(): %s " % p.name
+
+@task()
+def stop():
+    driver = DateChecker.driver
+    #driver = webdriver.Firefox()
+    driver.close()
