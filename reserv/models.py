@@ -1,5 +1,7 @@
 from __future__ import unicode_literals
+from datetime import time
 from pip import logger
+from time import sleep
 
 from django.db import models
 
@@ -10,6 +12,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.proxy import *
 from pyvirtualdisplay import Display
 from visareserv.constatnts import *
+import pyautogui
 
 
 class DateChecker(models.Model):
@@ -37,35 +40,33 @@ class DateChecker(models.Model):
         logger.debug("Init: good.")
         return True
 
+
+    def hover(self):
+        wd = self.webdriver_connection.connection
+        element = wd.find_element_by_class_name("recaptcha-checkbox-hover")
+        hov = self.ActionChains(wd).move_to_element(element)
+        hov.perform()
+
     def do(self):
         logger.debug("I'm do it")
         self.init()
         self.driver.get(self.url)
+        self.driver.maximize_window()
         self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_btnAccept"]').click()
         self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_btnNewAppointment"]').click()
         self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_ddCitizenship_Input"]').send_keys(self.nationality)
         self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_ddCountryOfResidence_Input"]').click()
         self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_ddVisaType_Input"]').click()
         self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_ddVisaType_DropDown"]/div/ul/li[2]').click()
+
         try:
-            #checkbox = driver.find_element_by_id("recaptcha-anchor")
-            #checkbox = driver.find_element_by_id("g-recaptcha")
-            #checkbox.click()
-            box = self.driver.find_element_by_xpath("//*[@id='recaptcha-token']")
-            #box = driver.find_element_by_css_selector("#recaptcha-anchor")
-            print(box.location, box.size)
-            box.click()
-            #actions.move_to_element(box)
-            #actions.click(box)
-            #actions.perform()
-        except Exception as e:
-            print(e)
+            pyautogui.click(x=771, y=573)
+        except Exception, e:
+            print e
+        sleep(3)
+        self.driver.save_screenshot('1.jpg')
 
-        #self.driver.find_element_by_xpath('//*[@id="recaptcha-anchor"]/div[5]').click()
-        self.driver.find_element_by_xpath('//*[@id="ctl00_cp1_btnNext"]/span').click()
-
-
-
+        # print self.driver.find_element_by_class_name('rc-image-tile-wrapper')#.get_attribute('img')
 
     def __unicode__(self):
         return self.name
