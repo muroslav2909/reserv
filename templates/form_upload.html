@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+
+
+
+ <form aciton="" name="save_massage" method="post" >
+        {% csrf_token %}
+        {{ form.as_p }}
+        <label>
+            <div>visitor_name</div> <input type="text" name="visitor_name" id="visitor_name" value=0>
+        </label>
+        <label>
+            <div>message_text</div> <input type="text" name="message_text" id="message_text" value=0>
+        </label>
+        <label>
+            <div>visitor_email</div> <input type="text" name="visitor_email" id="visitor_email" value=''>
+        </label>
+        <!--<div class="error">{{error}}</div>-->
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
+
+
+
+
+
+<div class="container" style="display:none;" id="myAlert">
+              <div class="alert alert-success alert-dismissable" id="myAlert2">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                  Дякуємо! Ваше повідомлення успішно надіслано.
+            </div>

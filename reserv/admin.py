@@ -14,6 +14,7 @@ class DateCheckerAdmin(admin.ModelAdmin):
     list_filter = ("nationality", "status")
 
     def run(self, request, queryset):
+
            try:
                 if queryset.count() > 1:
                     self.message_user(request, "Choose only one campaign")
@@ -32,7 +33,7 @@ class DateCheckerAdmin(admin.ModelAdmin):
                     self.message_user(request, "Choose only one campaign")
                 else:
                     campaign = queryset[0]
-                    stop.delay()
+                    #stop.delay()
                     campaign.status = STOP
                     campaign.save()
            except Exception, e:

@@ -10,9 +10,10 @@ def check_date(company_id):
     p = DateChecker.objects.get(id=company_id)
     p.do()
     print "do(): %s " % p.name
-
-@task()
-def stop():
-    driver = DateChecker.driver
-    #driver = webdriver.Firefox()
-    driver.close()
+#
+# @task()
+# def stop():
+#     driver = webdriver.Firefox()
+#     driver = DateChecker.driver
+#
+#     driver.close()
