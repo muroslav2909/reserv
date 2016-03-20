@@ -1,0 +1,218 @@
+[2016-03-20 12:34:24 +0000] [8056] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 12:34:24 +0000] [8056] [INFO] Listening at: http://0.0.0.0:8001 (8056)
+[2016-03-20 12:34:24 +0000] [8056] [INFO] Using worker: sync
+[2016-03-20 12:34:24 +0000] [8069] [INFO] Booting worker with pid: 8069
+[2016-03-20 12:34:24 +0000] [8070] [INFO] Booting worker with pid: 8070
+[2016-03-20 12:34:25 +0000] [8075] [INFO] Booting worker with pid: 8075
+[2016-03-20 12:34:25 +0000] [8076] [INFO] Booting worker with pid: 8076
+[2016-03-20 12:34:25 +0000] [8077] [INFO] Booting worker with pid: 8077
+[2016-03-20 12:34:25 +0000] [8078] [INFO] Booting worker with pid: 8078
+[2016-03-20 12:34:25 +0000] [8079] [INFO] Booting worker with pid: 8079
+[2016-03-20 12:34:25 +0000] [8080] [INFO] Booting worker with pid: 8080
+[2016-03-20 12:34:25 +0000] [8082] [INFO] Booting worker with pid: 8082
+[2016-03-20 12:41:30 +0000] [8056] [INFO] Handling signal: term
+[2016-03-20 12:41:30 +0000] [8070] [INFO] Worker exiting (pid: 8070)
+[2016-03-20 12:41:30 +0000] [8069] [INFO] Worker exiting (pid: 8069)
+[2016-03-20 12:41:30 +0000] [8077] [INFO] Worker exiting (pid: 8077)
+[2016-03-20 12:41:30 +0000] [8076] [INFO] Worker exiting (pid: 8076)
+[2016-03-20 12:41:30 +0000] [8078] [INFO] Worker exiting (pid: 8078)
+[2016-03-20 12:41:30 +0000] [8079] [INFO] Worker exiting (pid: 8079)
+[2016-03-20 12:41:30 +0000] [8080] [INFO] Worker exiting (pid: 8080)
+[2016-03-20 12:41:30 +0000] [8082] [INFO] Worker exiting (pid: 8082)
+[2016-03-20 12:41:30 +0000] [8075] [INFO] Worker exiting (pid: 8075)
+[2016-03-20 12:41:30 +0000] [8056] [INFO] Shutting down: Master
+[2016-03-20 12:41:42 +0000] [8703] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 12:41:42 +0000] [8703] [INFO] Listening at: http://0.0.0.0:8001 (8703)
+[2016-03-20 12:41:42 +0000] [8703] [INFO] Using worker: sync
+[2016-03-20 12:41:42 +0000] [8708] [INFO] Booting worker with pid: 8708
+[2016-03-20 12:41:42 +0000] [8709] [INFO] Booting worker with pid: 8709
+[2016-03-20 12:41:42 +0000] [8712] [INFO] Booting worker with pid: 8712
+[2016-03-20 12:41:42 +0000] [8714] [INFO] Booting worker with pid: 8714
+[2016-03-20 12:41:42 +0000] [8716] [INFO] Booting worker with pid: 8716
+[2016-03-20 12:41:42 +0000] [8723] [INFO] Booting worker with pid: 8723
+[2016-03-20 12:41:42 +0000] [8726] [INFO] Booting worker with pid: 8726
+[2016-03-20 12:41:42 +0000] [8727] [INFO] Booting worker with pid: 8727
+[2016-03-20 12:41:43 +0000] [8728] [INFO] Booting worker with pid: 8728
+[2016-03-20 12:51:03 +0000] [9550] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 12:51:03 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:03 +0000] [9550] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:04 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:04 +0000] [9550] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:05 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:05 +0000] [9550] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:06 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:06 +0000] [9550] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:07 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:07 +0000] [9550] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:08 +0000] [9550] [ERROR] Can't connect to ('0.0.0.0', 8001)
+[2016-03-20 12:51:09 +0000] [9573] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 12:51:09 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:09 +0000] [9573] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:10 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:10 +0000] [9573] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:11 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:11 +0000] [9573] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:12 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:12 +0000] [9573] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:13 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:13 +0000] [9573] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:14 +0000] [9573] [ERROR] Can't connect to ('0.0.0.0', 8001)
+[2016-03-20 12:51:17 +0000] [9589] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 12:51:17 +0000] [9589] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:17 +0000] [9589] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:18 +0000] [9589] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:18 +0000] [9589] [ERROR] Retrying in 1 second.
+[2016-03-20 12:51:19 +0000] [9589] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:19 +0000] [9589] [ERROR] Retrying in 1 second.
+[2016-03-20 13:32:26 +0000] [40] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 13:32:26 +0000] [40] [INFO] Listening at: http://0.0.0.0:8001 (40)
+[2016-03-20 13:32:26 +0000] [40] [INFO] Using worker: sync
+[2016-03-20 13:32:26 +0000] [54] [INFO] Booting worker with pid: 54
+[2016-03-20 13:32:26 +0000] [55] [INFO] Booting worker with pid: 55
+[2016-03-20 13:32:26 +0000] [56] [INFO] Booting worker with pid: 56
+[2016-03-20 13:32:26 +0000] [57] [INFO] Booting worker with pid: 57
+[2016-03-20 13:32:26 +0000] [58] [INFO] Booting worker with pid: 58
+[2016-03-20 13:32:26 +0000] [59] [INFO] Booting worker with pid: 59
+[2016-03-20 13:32:26 +0000] [60] [INFO] Booting worker with pid: 60
+[2016-03-20 13:32:27 +0000] [63] [INFO] Booting worker with pid: 63
+[2016-03-20 13:32:27 +0000] [66] [INFO] Booting worker with pid: 66
+[2016-03-20 13:38:05 +0000] [33] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 13:38:05 +0000] [33] [INFO] Listening at: http://0.0.0.0:8001 (33)
+[2016-03-20 13:38:05 +0000] [33] [INFO] Using worker: sync
+[2016-03-20 13:38:05 +0000] [47] [INFO] Booting worker with pid: 47
+[2016-03-20 13:38:05 +0000] [48] [INFO] Booting worker with pid: 48
+[2016-03-20 13:38:05 +0000] [49] [INFO] Booting worker with pid: 49
+[2016-03-20 13:38:05 +0000] [52] [INFO] Booting worker with pid: 52
+[2016-03-20 13:38:05 +0000] [55] [INFO] Booting worker with pid: 55
+[2016-03-20 13:38:05 +0000] [56] [INFO] Booting worker with pid: 56
+[2016-03-20 13:38:05 +0000] [57] [INFO] Booting worker with pid: 57
+[2016-03-20 13:38:05 +0000] [58] [INFO] Booting worker with pid: 58
+[2016-03-20 13:38:05 +0000] [59] [INFO] Booting worker with pid: 59
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+Not Found: /static/mebli_7.jpg
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+Not Found: /static/mebli_12.jpg
+Not Found: /static/mebli_9.jpg
+Not Found: /static/bud_apiter_1.jpg
+Not Found: /static/bud_apiter_3.jpg
+Not Found: /static/kolysanka_1.jpg
+Not Found: /static/mebli_7.jpg
+Not Found: /static/mebli_12.jpg
+Not Found: /static/main_photo.jpg
+Not Found: /static/logo_vectorized.png
+[2016-03-20 13:42:47 +0000] [33] [INFO] Handling signal: term
+[2016-03-20 13:42:47 +0000] [48] [INFO] Worker exiting (pid: 48)
+[2016-03-20 13:42:47 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-03-20 13:42:47 +0000] [47] [INFO] Worker exiting (pid: 47)
+[2016-03-20 13:42:47 +0000] [52] [INFO] Worker exiting (pid: 52)
+[2016-03-20 13:42:47 +0000] [55] [INFO] Worker exiting (pid: 55)
+[2016-03-20 13:42:47 +0000] [56] [INFO] Worker exiting (pid: 56)
+[2016-03-20 13:42:47 +0000] [57] [INFO] Worker exiting (pid: 57)
+[2016-03-20 13:42:47 +0000] [59] [INFO] Worker exiting (pid: 59)
+[2016-03-20 13:42:47 +0000] [58] [INFO] Worker exiting (pid: 58)
+[2016-03-20 13:42:47 +0000] [33] [INFO] Shutting down: Master
+[2016-03-20 13:43:01 +0000] [157] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 13:43:01 +0000] [157] [INFO] Listening at: http://0.0.0.0:8001 (157)
+[2016-03-20 13:43:01 +0000] [157] [INFO] Using worker: sync
+[2016-03-20 13:43:01 +0000] [162] [INFO] Booting worker with pid: 162
+[2016-03-20 13:43:01 +0000] [163] [INFO] Booting worker with pid: 163
+[2016-03-20 13:43:01 +0000] [168] [INFO] Booting worker with pid: 168
+[2016-03-20 13:43:01 +0000] [169] [INFO] Booting worker with pid: 169
+[2016-03-20 13:43:01 +0000] [170] [INFO] Booting worker with pid: 170
+[2016-03-20 13:43:01 +0000] [173] [INFO] Booting worker with pid: 173
+[2016-03-20 13:43:01 +0000] [176] [INFO] Booting worker with pid: 176
+[2016-03-20 13:43:01 +0000] [179] [INFO] Booting worker with pid: 179
+[2016-03-20 13:43:01 +0000] [180] [INFO] Booting worker with pid: 180
+[2016-03-20 13:45:52 +0000] [157] [INFO] Handling signal: term
+[2016-03-20 13:45:52 +0000] [163] [INFO] Worker exiting (pid: 163)
+[2016-03-20 13:45:52 +0000] [162] [INFO] Worker exiting (pid: 162)
+[2016-03-20 13:45:52 +0000] [168] [INFO] Worker exiting (pid: 168)
+[2016-03-20 13:45:52 +0000] [169] [INFO] Worker exiting (pid: 169)
+[2016-03-20 13:45:52 +0000] [170] [INFO] Worker exiting (pid: 170)
+[2016-03-20 13:45:52 +0000] [173] [INFO] Worker exiting (pid: 173)
+[2016-03-20 13:45:52 +0000] [176] [INFO] Worker exiting (pid: 176)
+[2016-03-20 13:45:52 +0000] [179] [INFO] Worker exiting (pid: 179)
+[2016-03-20 13:45:52 +0000] [180] [INFO] Worker exiting (pid: 180)
+[2016-03-20 13:45:52 +0000] [157] [INFO] Shutting down: Master
+[2016-03-20 13:45:55 +0000] [205] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 13:45:55 +0000] [205] [INFO] Listening at: http://0.0.0.0:8001 (205)
+[2016-03-20 13:45:55 +0000] [205] [INFO] Using worker: sync
+[2016-03-20 13:45:55 +0000] [210] [INFO] Booting worker with pid: 210
+[2016-03-20 13:45:55 +0000] [211] [INFO] Booting worker with pid: 211
+[2016-03-20 13:45:55 +0000] [212] [INFO] Booting worker with pid: 212
+[2016-03-20 13:45:55 +0000] [217] [INFO] Booting worker with pid: 217
+[2016-03-20 13:45:56 +0000] [218] [INFO] Booting worker with pid: 218
+[2016-03-20 13:45:56 +0000] [219] [INFO] Booting worker with pid: 219
+[2016-03-20 13:45:56 +0000] [222] [INFO] Booting worker with pid: 222
+[2016-03-20 13:45:56 +0000] [224] [INFO] Booting worker with pid: 224
+[2016-03-20 13:45:56 +0000] [226] [INFO] Booting worker with pid: 226
+[2016-03-20 13:47:39 +0000] [33] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 13:47:39 +0000] [33] [INFO] Listening at: http://0.0.0.0:8001 (33)
+[2016-03-20 13:47:39 +0000] [33] [INFO] Using worker: sync
+[2016-03-20 13:47:39 +0000] [47] [INFO] Booting worker with pid: 47
+[2016-03-20 13:47:39 +0000] [48] [INFO] Booting worker with pid: 48
+[2016-03-20 13:47:39 +0000] [49] [INFO] Booting worker with pid: 49
+[2016-03-20 13:47:39 +0000] [50] [INFO] Booting worker with pid: 50
+[2016-03-20 13:47:39 +0000] [51] [INFO] Booting worker with pid: 51
+[2016-03-20 13:47:39 +0000] [56] [INFO] Booting worker with pid: 56
+[2016-03-20 13:47:40 +0000] [58] [INFO] Booting worker with pid: 58
+[2016-03-20 13:47:40 +0000] [61] [INFO] Booting worker with pid: 61
+[2016-03-20 13:47:40 +0000] [60] [INFO] Booting worker with pid: 60
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+

@@ -1,0 +1,2062 @@
+2016-03-20 12:34:23,497 INFO RPC interface 'supervisor' initialized
+2016-03-20 12:34:23,498 INFO daemonizing the supervisord process
+2016-03-20 12:34:23,499 INFO supervisord started with pid 8051
+2016-03-20 12:34:24,504 INFO spawned: 'autoreload' with pid 8054
+2016-03-20 12:34:24,507 INFO spawned: 'main_worker' with pid 8055
+2016-03-20 12:34:24,511 INFO spawned: 'gunicorn_server' with pid 8056
+2016-03-20 12:34:24,886 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:24 +0000] [8056] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 12:34:24,889 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:24 +0000] [8056] [INFO] Listening at: http://0.0.0.0:8001 (8056)
+[2016-03-20 12:34:24 +0000] [8056] [INFO] Using worker: sync
+
+2016-03-20 12:34:24,894 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:24 +0000] [8069] [INFO] Booting worker with pid: 8069
+
+2016-03-20 12:34:24,941 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:24 +0000] [8070] [INFO] Booting worker with pid: 8070
+
+2016-03-20 12:34:25,048 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:25 +0000] [8075] [INFO] Booting worker with pid: 8075
+
+2016-03-20 12:34:25,067 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:25 +0000] [8076] [INFO] Booting worker with pid: 8076
+
+2016-03-20 12:34:25,084 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:25 +0000] [8077] [INFO] Booting worker with pid: 8077
+
+2016-03-20 12:34:25,099 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:25 +0000] [8078] [INFO] Booting worker with pid: 8078
+
+2016-03-20 12:34:25,115 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:25 +0000] [8079] [INFO] Booting worker with pid: 8079
+
+2016-03-20 12:34:25,191 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:25 +0000] [8080] [INFO] Booting worker with pid: 8080
+
+2016-03-20 12:34:25,234 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:34:25 +0000] [8082] [INFO] Booting worker with pid: 8082
+
+2016-03-20 12:34:25,256 DEBG 'autoreload' stdout output:
+/home/myroslav/reserv/reserv/local/lib/python2.7/site-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 12:34:25,263 DEBG 'autoreload' stdout output:
+/home/myroslav/reserv/reserv/visareserv/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 12:34:25,270 DEBG 'autoreload' stdout output:
+/home/myroslav/reserv/reserv/visareserv/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 12:34:29,081 DEBG 'main_worker' stdout output:
+/home/myroslav/reserv/reserv/local/lib/python2.7/site-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 12:34:29,081 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:29,081: WARNING/MainProcess] /home/myroslav/reserv/reserv/local/lib/python2.7/site-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 12:34:29,121 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:29,120: INFO/Beat] beat: Starting...
+
+2016-03-20 12:34:29,825 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:29,824: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 2.00 seconds...
+
+
+2016-03-20 12:34:30,440 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:30,439: ERROR/Beat] beat: Connection error: . Trying again in 2.0 seconds...
+
+2016-03-20 12:34:31,832 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:31,832: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 4.00 seconds...
+
+
+2016-03-20 12:34:32,450 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:32,448: ERROR/Beat] beat: Connection error: . Trying again in 4.0 seconds...
+
+2016-03-20 12:34:35,453 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 12:34:35,453 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 12:34:35,453 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 12:34:35,843 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:35,842: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 6.00 seconds...
+
+
+2016-03-20 12:34:36,458 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:36,458: ERROR/Beat] beat: Connection error: . Trying again in 6.0 seconds...
+
+2016-03-20 12:34:41,859 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:41,859: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 8.00 seconds...
+
+
+2016-03-20 12:34:42,472 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:42,472: ERROR/Beat] beat: Connection error: . Trying again in 8.0 seconds...
+
+2016-03-20 12:34:49,873 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:49,872: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 10.00 seconds...
+
+
+2016-03-20 12:34:50,487 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:50,486: ERROR/Beat] beat: Connection error: . Trying again in 10.0 seconds...
+
+2016-03-20 12:34:59,892 DEBG 'main_worker' stdout output:
+[2016-03-20 12:34:59,891: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 12.00 seconds...
+
+
+2016-03-20 12:35:00,506 DEBG 'main_worker' stdout output:
+[2016-03-20 12:35:00,506: ERROR/Beat] beat: Connection error: . Trying again in 12.0 seconds...
+
+2016-03-20 12:35:11,905 DEBG 'main_worker' stdout output:
+[2016-03-20 12:35:11,905: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 14.00 seconds...
+
+
+2016-03-20 12:35:12,522 DEBG 'main_worker' stdout output:
+[2016-03-20 12:35:12,521: ERROR/Beat] beat: Connection error: . Trying again in 14.0 seconds...
+
+2016-03-20 12:35:25,924 DEBG 'main_worker' stdout output:
+[2016-03-20 12:35:25,923: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 16.00 seconds...
+
+
+2016-03-20 12:35:26,541 DEBG 'main_worker' stdout output:
+[2016-03-20 12:35:26,540: ERROR/Beat] beat: Connection error: . Trying again in 16.0 seconds...
+
+2016-03-20 12:35:41,945 DEBG 'main_worker' stdout output:
+[2016-03-20 12:35:41,944: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 18.00 seconds...
+
+
+2016-03-20 12:35:42,565 DEBG 'main_worker' stdout output:
+[2016-03-20 12:35:42,564: ERROR/Beat] beat: Connection error: . Trying again in 18.0 seconds...
+
+2016-03-20 12:35:59,981 DEBG 'main_worker' stdout output:
+[2016-03-20 12:35:59,980: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 20.00 seconds...
+
+
+2016-03-20 12:36:00,589 DEBG 'main_worker' stdout output:
+[2016-03-20 12:36:00,589: ERROR/Beat] beat: Connection error: . Trying again in 20.0 seconds...
+
+2016-03-20 12:36:20,011 DEBG 'main_worker' stdout output:
+[2016-03-20 12:36:20,011: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 22.00 seconds...
+
+
+2016-03-20 12:36:20,615 DEBG 'main_worker' stdout output:
+[2016-03-20 12:36:20,615: ERROR/Beat] beat: Connection error: . Trying again in 22.0 seconds...
+
+2016-03-20 12:36:42,040 DEBG 'main_worker' stdout output:
+[2016-03-20 12:36:42,038: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 24.00 seconds...
+
+
+2016-03-20 12:36:42,642 DEBG 'main_worker' stdout output:
+[2016-03-20 12:36:42,641: ERROR/Beat] beat: Connection error: . Trying again in 24.0 seconds...
+
+2016-03-20 12:37:06,074 DEBG 'main_worker' stdout output:
+[2016-03-20 12:37:06,073: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 26.00 seconds...
+
+
+2016-03-20 12:37:06,672 DEBG 'main_worker' stdout output:
+[2016-03-20 12:37:06,671: ERROR/Beat] beat: Connection error: . Trying again in 26.0 seconds...
+
+2016-03-20 12:37:32,104 DEBG 'main_worker' stdout output:
+[2016-03-20 12:37:32,103: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 28.00 seconds...
+
+
+2016-03-20 12:37:32,699 DEBG 'main_worker' stdout output:
+[2016-03-20 12:37:32,699: ERROR/Beat] beat: Connection error: . Trying again in 28.0 seconds...
+
+2016-03-20 12:38:00,138 DEBG 'main_worker' stdout output:
+[2016-03-20 12:38:00,137: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 30.00 seconds...
+
+
+2016-03-20 12:38:00,735 DEBG 'main_worker' stdout output:
+[2016-03-20 12:38:00,734: ERROR/Beat] beat: Connection error: . Trying again in 30.0 seconds...
+
+2016-03-20 12:38:30,173 DEBG 'main_worker' stdout output:
+[2016-03-20 12:38:30,172: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:38:30,768 DEBG 'main_worker' stdout output:
+[2016-03-20 12:38:30,767: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:39:02,213 DEBG 'main_worker' stdout output:
+[2016-03-20 12:39:02,213: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:39:02,799 DEBG 'main_worker' stdout output:
+[2016-03-20 12:39:02,799: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:39:34,259 DEBG 'main_worker' stdout output:
+[2016-03-20 12:39:34,258: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:39:34,846 DEBG 'main_worker' stdout output:
+[2016-03-20 12:39:34,846: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:40:06,294 DEBG 'main_worker' stdout output:
+[2016-03-20 12:40:06,294: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:40:06,880 DEBG 'main_worker' stdout output:
+[2016-03-20 12:40:06,879: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:40:38,335 DEBG 'main_worker' stdout output:
+[2016-03-20 12:40:38,334: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:40:38,920 DEBG 'main_worker' stdout output:
+[2016-03-20 12:40:38,920: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:41:10,372 DEBG 'main_worker' stdout output:
+[2016-03-20 12:41:10,371: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:41:10,968 DEBG 'main_worker' stdout output:
+[2016-03-20 12:41:10,967: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:41:30,233 DEBG killing autoreload (pid 8054) with signal SIGTERM
+2016-03-20 12:41:30,234 INFO waiting for autoreload to stop
+2016-03-20 12:41:30,240 DEBG fd 7 closed, stopped monitoring <POutputDispatcher at 139859480030024 for <Subprocess at 139859482907928 with name autoreload in state STOPPING> (stdout)>
+2016-03-20 12:41:30,240 INFO stopped: autoreload (terminated by SIGTERM)
+2016-03-20 12:41:30,240 DEBG received SIGCLD indicating a child quit
+2016-03-20 12:41:30,243 DEBG killing gunicorn_server (pid 8056) with signal SIGTERM
+2016-03-20 12:41:30,244 INFO waiting for gunicorn_server to stop
+2016-03-20 12:41:30,245 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8056] [INFO] Handling signal: term
+
+2016-03-20 12:41:30,246 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8070] [INFO] Worker exiting (pid: 8070)
+
+2016-03-20 12:41:30,247 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8069] [INFO] Worker exiting (pid: 8069)
+
+2016-03-20 12:41:30,247 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8077] [INFO] Worker exiting (pid: 8077)
+[2016-03-20 12:41:30 +0000] [8076] [INFO] Worker exiting (pid: 8076)
+
+2016-03-20 12:41:30,251 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8078] [INFO] Worker exiting (pid: 8078)
+
+2016-03-20 12:41:30,255 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8079] [INFO] Worker exiting (pid: 8079)
+
+2016-03-20 12:41:30,258 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8080] [INFO] Worker exiting (pid: 8080)
+
+2016-03-20 12:41:30,259 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8082] [INFO] Worker exiting (pid: 8082)
+
+2016-03-20 12:41:30,263 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8075] [INFO] Worker exiting (pid: 8075)
+
+2016-03-20 12:41:30,487 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:30 +0000] [8056] [INFO] Shutting down: Master
+
+2016-03-20 12:41:30,502 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 139859480030960 for <Subprocess at 139859482907352 with name gunicorn_server in state STOPPING> (stdout)>
+2016-03-20 12:41:30,503 INFO stopped: gunicorn_server (exit status 0)
+2016-03-20 12:41:30,503 DEBG received SIGCLD indicating a child quit
+2016-03-20 12:41:30,505 DEBG killing main_worker (pid 8055) with signal SIGTERM
+2016-03-20 12:41:30,505 INFO waiting for main_worker to stop
+2016-03-20 12:41:30,505 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-03-20 12:41:31,533 DEBG 'main_worker' stdout output:
+[2016-03-20 12:41:31,532: INFO/MainProcess] beat: Shutting down...
+
+2016-03-20 12:41:31,533 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fa984a97810 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-03-20 12:41:32,108 DEBG fd 10 closed, stopped monitoring <POutputDispatcher at 139859480030600 for <Subprocess at 139859482908288 with name main_worker in state STOPPING> (stdout)>
+2016-03-20 12:41:32,108 INFO stopped: main_worker (exit status 0)
+2016-03-20 12:41:32,108 DEBG received SIGCLD indicating a child quit
+2016-03-20 12:41:32,113 INFO spawned: 'autoreload' with pid 8685
+2016-03-20 12:41:39,491 DEBG 'autoreload' stdout output:
+Unknown command: 'supervisor'
+Type 'manage.py help' for usage.
+
+2016-03-20 12:41:39,515 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139859480211824 for <Subprocess at 139859482907928 with name autoreload in state STARTING> (stdout)>
+2016-03-20 12:41:39,515 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 12:41:39,516 DEBG received SIGCLD indicating a child quit
+2016-03-20 12:41:40,518 INFO spawned: 'autoreload' with pid 8698
+2016-03-20 12:41:40,972 DEBG 'autoreload' stdout output:
+Unknown command: 'supervisor'
+Type 'manage.py help' for usage.
+
+2016-03-20 12:41:41,000 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139859480211824 for <Subprocess at 139859482907928 with name autoreload in state STARTING> (stdout)>
+2016-03-20 12:41:41,000 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 12:41:41,000 DEBG received SIGCLD indicating a child quit
+2016-03-20 12:41:42,008 INFO spawned: 'gunicorn_server' with pid 8703
+2016-03-20 12:41:42,388 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8703] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 12:41:42,389 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8703] [INFO] Listening at: http://0.0.0.0:8001 (8703)
+
+2016-03-20 12:41:42,389 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8703] [INFO] Using worker: sync
+
+2016-03-20 12:41:42,393 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8708] [INFO] Booting worker with pid: 8708
+
+2016-03-20 12:41:42,404 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8709] [INFO] Booting worker with pid: 8709
+
+2016-03-20 12:41:42,483 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8712] [INFO] Booting worker with pid: 8712
+
+2016-03-20 12:41:42,486 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8714] [INFO] Booting worker with pid: 8714
+
+2016-03-20 12:41:42,540 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8716] [INFO] Booting worker with pid: 8716
+
+2016-03-20 12:41:42,796 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8723] [INFO] Booting worker with pid: 8723
+
+2016-03-20 12:41:42,874 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8726] [INFO] Booting worker with pid: 8726
+
+2016-03-20 12:41:42,958 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:42 +0000] [8727] [INFO] Booting worker with pid: 8727
+
+2016-03-20 12:41:43,003 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:41:43 +0000] [8728] [INFO] Booting worker with pid: 8728
+
+2016-03-20 12:41:43,005 INFO spawned: 'autoreload' with pid 8729
+2016-03-20 12:41:44,049 DEBG 'autoreload' stdout output:
+Unknown command: 'supervisor'
+Type 'manage.py help' for usage.
+
+2016-03-20 12:41:44,082 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 139859480213552 for <Subprocess at 139859482907928 with name autoreload in state STARTING> (stdout)>
+2016-03-20 12:41:44,082 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 12:41:44,082 DEBG received SIGCLD indicating a child quit
+2016-03-20 12:41:47,088 INFO spawned: 'autoreload' with pid 8741
+2016-03-20 12:41:47,581 DEBG 'autoreload' stdout output:
+Unknown command: 'supervisor'
+Type 'manage.py help' for usage.
+
+2016-03-20 12:41:47,609 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 139859480213552 for <Subprocess at 139859482907928 with name autoreload in state STARTING> (stdout)>
+2016-03-20 12:41:47,609 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 12:41:47,609 DEBG received SIGCLD indicating a child quit
+2016-03-20 12:41:48,610 INFO gave up: autoreload entered FATAL state, too many start retries too quickly
+2016-03-20 12:41:52,617 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 12:41:52,621 INFO spawned: 'main_worker' with pid 8757
+2016-03-20 12:41:54,002 DEBG 'main_worker' stdout output:
+/home/myroslav/reserv/reserv/local/lib/python2.7/site-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 12:41:54,003 DEBG 'main_worker' stdout output:
+[2016-03-20 12:41:54,002: WARNING/MainProcess] /home/myroslav/reserv/reserv/local/lib/python2.7/site-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 12:41:54,012 DEBG 'main_worker' stdout output:
+[2016-03-20 12:41:54,011: INFO/Beat] beat: Starting...
+
+2016-03-20 12:41:54,122 DEBG 'main_worker' stdout output:
+[2016-03-20 12:41:54,121: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 2.00 seconds...
+
+
+2016-03-20 12:41:54,439 DEBG 'main_worker' stdout output:
+[2016-03-20 12:41:54,439: ERROR/Beat] beat: Connection error: . Trying again in 2.0 seconds...
+
+2016-03-20 12:41:56,130 DEBG 'main_worker' stdout output:
+[2016-03-20 12:41:56,130: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 4.00 seconds...
+
+
+2016-03-20 12:41:56,448 DEBG 'main_worker' stdout output:
+[2016-03-20 12:41:56,447: ERROR/Beat] beat: Connection error: . Trying again in 4.0 seconds...
+
+2016-03-20 12:42:00,150 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:00,149: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 6.00 seconds...
+
+
+2016-03-20 12:42:00,459 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:00,458: ERROR/Beat] beat: Connection error: . Trying again in 6.0 seconds...
+
+2016-03-20 12:42:03,463 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 12:42:06,160 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:06,159: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 8.00 seconds...
+
+
+2016-03-20 12:42:06,474 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:06,473: ERROR/Beat] beat: Connection error: . Trying again in 8.0 seconds...
+
+2016-03-20 12:42:14,174 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:14,173: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 10.00 seconds...
+
+
+2016-03-20 12:42:14,488 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:14,488: ERROR/Beat] beat: Connection error: . Trying again in 10.0 seconds...
+
+2016-03-20 12:42:24,194 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:24,194: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 12.00 seconds...
+
+
+2016-03-20 12:42:29,519 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:29,517: ERROR/Beat] beat: Connection error: . Trying again in 12.0 seconds...
+
+2016-03-20 12:42:36,224 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:36,224: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 14.00 seconds...
+
+
+2016-03-20 12:42:41,540 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:41,540: ERROR/Beat] beat: Connection error: . Trying again in 14.0 seconds...
+
+2016-03-20 12:42:55,256 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:55,255: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 16.00 seconds...
+
+
+2016-03-20 12:42:55,566 DEBG 'main_worker' stdout output:
+[2016-03-20 12:42:55,566: ERROR/Beat] beat: Connection error: . Trying again in 16.0 seconds...
+
+2016-03-20 12:43:11,283 DEBG 'main_worker' stdout output:
+[2016-03-20 12:43:11,282: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 18.00 seconds...
+
+
+2016-03-20 12:43:11,601 DEBG 'main_worker' stdout output:
+[2016-03-20 12:43:11,601: ERROR/Beat] beat: Connection error: . Trying again in 18.0 seconds...
+
+2016-03-20 12:43:29,315 DEBG 'main_worker' stdout output:
+[2016-03-20 12:43:29,314: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 20.00 seconds...
+
+
+2016-03-20 12:43:29,632 DEBG 'main_worker' stdout output:
+[2016-03-20 12:43:29,631: ERROR/Beat] beat: Connection error: . Trying again in 20.0 seconds...
+
+2016-03-20 12:43:49,343 DEBG 'main_worker' stdout output:
+[2016-03-20 12:43:49,342: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 22.00 seconds...
+
+
+2016-03-20 12:43:49,670 DEBG 'main_worker' stdout output:
+[2016-03-20 12:43:49,669: ERROR/Beat] beat: Connection error: . Trying again in 22.0 seconds...
+
+2016-03-20 12:44:11,378 DEBG 'main_worker' stdout output:
+[2016-03-20 12:44:11,378: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 24.00 seconds...
+
+
+2016-03-20 12:44:11,704 DEBG 'main_worker' stdout output:
+[2016-03-20 12:44:11,703: ERROR/Beat] beat: Connection error: . Trying again in 24.0 seconds...
+
+2016-03-20 12:44:35,408 DEBG 'main_worker' stdout output:
+[2016-03-20 12:44:35,407: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 26.00 seconds...
+
+
+2016-03-20 12:44:35,735 DEBG 'main_worker' stdout output:
+[2016-03-20 12:44:35,735: ERROR/Beat] beat: Connection error: . Trying again in 26.0 seconds...
+
+2016-03-20 12:45:01,467 DEBG 'main_worker' stdout output:
+[2016-03-20 12:45:01,467: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 28.00 seconds...
+
+
+2016-03-20 12:45:01,790 DEBG 'main_worker' stdout output:
+[2016-03-20 12:45:01,790: ERROR/Beat] beat: Connection error: . Trying again in 28.0 seconds...
+
+2016-03-20 12:45:29,500 DEBG 'main_worker' stdout output:
+[2016-03-20 12:45:29,500: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 30.00 seconds...
+
+
+2016-03-20 12:45:29,845 DEBG 'main_worker' stdout output:
+[2016-03-20 12:45:29,845: ERROR/Beat] beat: Connection error: . Trying again in 30.0 seconds...
+
+2016-03-20 12:45:59,538 DEBG 'main_worker' stdout output:
+[2016-03-20 12:45:59,537: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:45:59,886 DEBG 'main_worker' stdout output:
+[2016-03-20 12:45:59,885: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:46:31,582 DEBG 'main_worker' stdout output:
+[2016-03-20 12:46:31,582: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:46:31,924 DEBG 'main_worker' stdout output:
+[2016-03-20 12:46:31,924: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:47:03,625 DEBG 'main_worker' stdout output:
+[2016-03-20 12:47:03,624: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:47:03,962 DEBG 'main_worker' stdout output:
+[2016-03-20 12:47:03,961: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:47:35,672 DEBG 'main_worker' stdout output:
+[2016-03-20 12:47:35,671: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:47:36,017 DEBG 'main_worker' stdout output:
+[2016-03-20 12:47:36,016: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:48:07,718 DEBG 'main_worker' stdout output:
+[2016-03-20 12:48:07,717: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:48:08,056 DEBG 'main_worker' stdout output:
+[2016-03-20 12:48:08,056: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:48:39,756 DEBG 'main_worker' stdout output:
+[2016-03-20 12:48:39,756: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:48:40,102 DEBG 'main_worker' stdout output:
+[2016-03-20 12:48:40,101: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:49:11,794 DEBG 'main_worker' stdout output:
+[2016-03-20 12:49:11,794: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:49:12,155 DEBG 'main_worker' stdout output:
+[2016-03-20 12:49:12,154: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:49:43,839 DEBG 'main_worker' stdout output:
+[2016-03-20 12:49:43,839: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:49:44,205 DEBG 'main_worker' stdout output:
+[2016-03-20 12:49:44,205: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:50:15,881 DEBG 'main_worker' stdout output:
+[2016-03-20 12:50:15,881: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:50:16,251 DEBG 'main_worker' stdout output:
+[2016-03-20 12:50:16,251: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:50:47,920 DEBG 'main_worker' stdout output:
+[2016-03-20 12:50:47,920: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 32.00 seconds...
+
+
+2016-03-20 12:50:48,309 DEBG 'main_worker' stdout output:
+[2016-03-20 12:50:48,309: ERROR/Beat] beat: Connection error: . Trying again in 32.0 seconds...
+
+2016-03-20 12:51:02,012 INFO RPC interface 'supervisor' initialized
+2016-03-20 12:51:02,014 INFO daemonizing the supervisord process
+2016-03-20 12:51:02,015 INFO supervisord started with pid 9547
+2016-03-20 12:51:03,019 INFO spawned: 'autoreload' with pid 9548
+2016-03-20 12:51:03,021 INFO spawned: 'main_worker' with pid 9549
+2016-03-20 12:51:03,026 INFO spawned: 'gunicorn_server' with pid 9550
+2016-03-20 12:51:03,401 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:03 +0000] [9550] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 12:51:03 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:03 +0000] [9550] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:03,537 DEBG 'autoreload' stdout output:
+/home/myroslav/reserv/reserv/local/lib/python2.7/site-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 12:51:03,543 DEBG 'autoreload' stdout output:
+/home/myroslav/reserv/reserv/visareserv/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 12:51:03,550 DEBG 'autoreload' stdout output:
+/home/myroslav/reserv/reserv/visareserv/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 12:51:04,403 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:04 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:04 +0000] [9550] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:04,949 DEBG 'main_worker' stdout output:
+/home/myroslav/reserv/reserv/local/lib/python2.7/site-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 12:51:04,949 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:04,949: WARNING/MainProcess] /home/myroslav/reserv/reserv/local/lib/python2.7/site-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 12:51:05,001 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:05,000: INFO/Beat] beat: Starting...
+
+2016-03-20 12:51:05,051 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:05,050: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 2.00 seconds...
+
+
+2016-03-20 12:51:05,404 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:05 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:05,405 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:05 +0000] [9550] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:05,556 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:05,555: ERROR/Beat] beat: Connection error: . Trying again in 2.0 seconds...
+
+2016-03-20 12:51:06,406 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:06 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:06,407 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:06 +0000] [9550] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:07,057 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:07,057: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 4.00 seconds...
+
+
+2016-03-20 12:51:07,408 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:07 +0000] [9550] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:07,408 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:07 +0000] [9550] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:07,571 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:07,571: ERROR/Beat] beat: Connection error: . Trying again in 4.0 seconds...
+
+2016-03-20 12:51:08,409 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:08 +0000] [9550] [ERROR] Can't connect to ('0.0.0.0', 8001)
+
+2016-03-20 12:51:08,423 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140423267257808 for <Subprocess at 140423270138224 with name gunicorn_server in state STARTING> (stdout)>
+2016-03-20 12:51:08,423 INFO exited: gunicorn_server (exit status 1; not expected)
+2016-03-20 12:51:08,424 DEBG received SIGCLD indicating a child quit
+2016-03-20 12:51:09,427 INFO spawned: 'gunicorn_server' with pid 9573
+2016-03-20 12:51:09,845 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:09 +0000] [9573] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 12:51:09,846 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:09 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:09,846 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:09 +0000] [9573] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:10,847 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:10 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:10,847 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:10 +0000] [9573] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:11,071 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:11,070: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 6.00 seconds...
+
+
+2016-03-20 12:51:11,588 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:11,587: ERROR/Beat] beat: Connection error: . Trying again in 6.0 seconds...
+
+2016-03-20 12:51:11,849 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:11 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:11,849 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:11 +0000] [9573] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:12,850 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:12 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:12,851 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:12 +0000] [9573] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:13,852 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 12:51:13,852 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 12:51:13,852 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:13 +0000] [9573] [ERROR] Connection in use: ('0.0.0.0', 8001)
+[2016-03-20 12:51:13 +0000] [9573] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:14,853 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:14 +0000] [9573] [ERROR] Can't connect to ('0.0.0.0', 8001)
+
+2016-03-20 12:51:14,868 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140423267257808 for <Subprocess at 140423270138224 with name gunicorn_server in state STARTING> (stdout)>
+2016-03-20 12:51:14,868 INFO exited: gunicorn_server (exit status 1; not expected)
+2016-03-20 12:51:14,868 DEBG received SIGCLD indicating a child quit
+2016-03-20 12:51:16,873 INFO spawned: 'gunicorn_server' with pid 9589
+2016-03-20 12:51:17,088 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:17,087: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 8.00 seconds...
+
+
+2016-03-20 12:51:17,411 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:17 +0000] [9589] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 12:51:17,412 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:17 +0000] [9589] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:17,413 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:17 +0000] [9589] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:17,604 DEBG 'main_worker' stdout output:
+[2016-03-20 12:51:17,603: ERROR/Beat] beat: Connection error: . Trying again in 8.0 seconds...
+
+2016-03-20 12:51:18,415 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:18 +0000] [9589] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:18,416 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:18 +0000] [9589] [ERROR] Retrying in 1 second.
+
+2016-03-20 12:51:19,417 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:19 +0000] [9589] [ERROR] Connection in use: ('0.0.0.0', 8001)
+
+2016-03-20 12:51:19,418 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 12:51:19 +0000] [9589] [ERROR] Retrying in 1 second.
+
+2016-03-20 13:32:25,813 CRIT Supervisor running as root (no user in config file)
+2016-03-20 13:32:25,870 INFO RPC interface 'supervisor' initialized
+2016-03-20 13:32:25,873 INFO daemonizing the supervisord process
+2016-03-20 13:32:25,873 INFO supervisord started with pid 32
+2016-03-20 13:32:26,402 INFO spawned: 'autoreload' with pid 38
+2016-03-20 13:32:26,404 INFO spawned: 'main_worker' with pid 39
+2016-03-20 13:32:26,407 INFO spawned: 'gunicorn_server' with pid 40
+2016-03-20 13:32:26,722 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [40] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 13:32:26,723 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [40] [INFO] Listening at: http://0.0.0.0:8001 (40)
+
+2016-03-20 13:32:26,723 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [40] [INFO] Using worker: sync
+
+2016-03-20 13:32:26,726 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [54] [INFO] Booting worker with pid: 54
+
+2016-03-20 13:32:26,803 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [55] [INFO] Booting worker with pid: 55
+
+2016-03-20 13:32:26,805 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [56] [INFO] Booting worker with pid: 56
+
+2016-03-20 13:32:26,854 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [57] [INFO] Booting worker with pid: 57
+
+2016-03-20 13:32:26,872 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [58] [INFO] Booting worker with pid: 58
+
+2016-03-20 13:32:26,964 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [59] [INFO] Booting worker with pid: 59
+
+2016-03-20 13:32:26,981 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:26 +0000] [60] [INFO] Booting worker with pid: 60
+
+2016-03-20 13:32:27,068 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:27 +0000] [63] [INFO] Booting worker with pid: 63
+
+2016-03-20 13:32:27,128 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:32:27 +0000] [66] [INFO] Booting worker with pid: 66
+
+2016-03-20 13:32:27,205 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 13:32:27,218 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:32:27,305 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:32:28,243 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-03-20 13:32:29,156 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:32:29,158 DEBG 'main_worker' stdout output:
+[2016-03-20 13:32:29,156: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:32:29,681 DEBG 'main_worker' stdout output:
+[2016-03-20 13:32:29,680: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-03-20 13:32:29,692 DEBG 'main_worker' stdout output:
+[2016-03-20 13:32:29,691: INFO/MainProcess] mingle: searching for neighbors
+
+2016-03-20 13:32:29,704 DEBG 'main_worker' stdout output:
+[2016-03-20 13:32:29,703: INFO/Beat] beat: Starting...
+
+2016-03-20 13:32:30,698 DEBG 'main_worker' stdout output:
+[2016-03-20 13:32:30,698: INFO/MainProcess] mingle: all alone
+
+2016-03-20 13:32:30,831 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-03-20 13:32:30,832 DEBG 'main_worker' stdout output:
+[2016-03-20 13:32:30,831: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-03-20 13:32:30,831: WARNING/MainProcess] celery@main_worker ready.
+
+2016-03-20 13:32:36,838 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:32:36,838 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:32:36,839 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:37:40,639 DEBG 'main_worker' stdout output:
+[2016-03-20 13:37:38,146: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer.py", line 279, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer.py", line 838, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 76, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 340, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 981, in on_readable
+    item = self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 331, in on_readable
+    return chan.handlers[type]()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 652, in _brpop_read
+    self.client.connection.disconnect()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 835, in disconnect
+    channel._on_connection_disconnect(self)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 489, in _on_connection_disconnect
+    self._disconnect_pools()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 477, in _disconnect_pools
+    self._async_pool.disconnect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 921, in disconnect
+    connection.disconnect()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 835, in disconnect
+    channel._on_connection_disconnect(self)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 491, in _on_connection_disconnect
+    raise get_redis_ConnectionError()
+ConnectionError
+
+2016-03-20 13:38:04,727 CRIT Supervisor running as root (no user in config file)
+2016-03-20 13:38:04,798 INFO RPC interface 'supervisor' initialized
+2016-03-20 13:38:04,801 INFO daemonizing the supervisord process
+2016-03-20 13:38:04,802 INFO supervisord started with pid 25
+2016-03-20 13:38:05,305 INFO spawned: 'autoreload' with pid 31
+2016-03-20 13:38:05,307 INFO spawned: 'main_worker' with pid 32
+2016-03-20 13:38:05,310 INFO spawned: 'gunicorn_server' with pid 33
+2016-03-20 13:38:05,639 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [33] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 13:38:05 +0000] [33] [INFO] Listening at: http://0.0.0.0:8001 (33)
+[2016-03-20 13:38:05 +0000] [33] [INFO] Using worker: sync
+
+2016-03-20 13:38:05,644 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [47] [INFO] Booting worker with pid: 47
+
+2016-03-20 13:38:05,689 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [48] [INFO] Booting worker with pid: 48
+
+2016-03-20 13:38:05,785 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [49] [INFO] Booting worker with pid: 49
+
+2016-03-20 13:38:05,825 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [52] [INFO] Booting worker with pid: 52
+
+2016-03-20 13:38:05,889 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [55] [INFO] Booting worker with pid: 55
+
+2016-03-20 13:38:05,929 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [56] [INFO] Booting worker with pid: 56
+
+2016-03-20 13:38:05,951 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [57] [INFO] Booting worker with pid: 57
+
+2016-03-20 13:38:05,969 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [58] [INFO] Booting worker with pid: 58
+
+2016-03-20 13:38:05,987 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:38:05 +0000] [59] [INFO] Booting worker with pid: 59
+
+2016-03-20 13:38:06,137 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 13:38:06,154 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:38:06,226 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:38:06,676 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-03-20 13:38:08,136 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:38:08,137 DEBG 'main_worker' stdout output:
+[2016-03-20 13:38:08,136: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:38:08,206 DEBG 'main_worker' stdout output:
+[2016-03-20 13:38:08,205: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-03-20 13:38:08,214 DEBG 'main_worker' stdout output:
+[2016-03-20 13:38:08,213: INFO/MainProcess] mingle: searching for neighbors
+
+2016-03-20 13:38:08,230 DEBG 'main_worker' stdout output:
+[2016-03-20 13:38:08,223: INFO/Beat] beat: Starting...
+
+2016-03-20 13:38:09,219 DEBG 'main_worker' stdout output:
+[2016-03-20 13:38:09,218: INFO/MainProcess] mingle: all alone
+
+2016-03-20 13:38:09,334 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-03-20 13:38:09,335 DEBG 'main_worker' stdout output:
+[2016-03-20 13:38:09,334: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-03-20 13:38:09,334: WARNING/MainProcess] celery@main_worker ready.
+
+2016-03-20 13:38:15,342 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:38:15,343 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:38:15,343 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:40:29,431 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:40:29,532 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:41:26,069 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:41:26,087 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:41:53,506 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:41:53,517 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:41:53,517 DEBG 'gunicorn_server' stdout output:
+Not Found: /static/mebli_7.jpg
+
+2016-03-20 13:41:53,655 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:41:53,666 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:41:53,667 DEBG 'gunicorn_server' stdout output:
+Not Found: /static/mebli_12.jpg
+
+2016-03-20 13:41:53,810 DEBG 'gunicorn_server' stdout output:
+Not Found: /static/mebli_9.jpg
+
+2016-03-20 13:41:53,897 DEBG 'gunicorn_server' stdout output:
+Not Found: /static/bud_apiter_1.jpg
+
+2016-03-20 13:41:53,917 DEBG 'gunicorn_server' stdout output:
+Not Found: /static/bud_apiter_3.jpg
+
+2016-03-20 13:41:53,920 DEBG 'gunicorn_server' stdout output:
+Not Found: /static/kolysanka_1.jpg
+
+2016-03-20 13:41:54,185 DEBG 'gunicorn_server' stdout output:
+Not Found: /static/mebli_7.jpg
+Not Found: /static/mebli_12.jpg
+
+2016-03-20 13:41:54,351 DEBG 'gunicorn_server' stdout output:
+Not Found: /static/main_photo.jpg
+
+2016-03-20 13:41:55,388 DEBG 'gunicorn_server' stdout output:
+Not Found: /static/logo_vectorized.png
+
+2016-03-20 13:42:46,745 DEBG killing autoreload (pid 31) with signal SIGTERM
+2016-03-20 13:42:46,748 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139904445892296 for <Subprocess at 139904446058720 with name autoreload in state STOPPING> (stdout)>
+2016-03-20 13:42:46,748 INFO stopped: autoreload (terminated by SIGTERM)
+2016-03-20 13:42:46,748 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:42:47,752 DEBG killing gunicorn_server (pid 33) with signal SIGTERM
+2016-03-20 13:42:47,754 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:42:47 +0000] [33] [INFO] Handling signal: term
+
+2016-03-20 13:42:47,754 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:42:47 +0000] [48] [INFO] Worker exiting (pid: 48)
+[2016-03-20 13:42:47 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-03-20 13:42:47 +0000] [47] [INFO] Worker exiting (pid: 47)
+
+2016-03-20 13:42:47,794 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:42:47 +0000] [52] [INFO] Worker exiting (pid: 52)
+[2016-03-20 13:42:47 +0000] [55] [INFO] Worker exiting (pid: 55)
+[2016-03-20 13:42:47 +0000] [56] [INFO] Worker exiting (pid: 56)
+[2016-03-20 13:42:47 +0000] [57] [INFO] Worker exiting (pid: 57)
+[2016-03-20 13:42:47 +0000] [59] [INFO] Worker exiting (pid: 59)
+[2016-03-20 13:42:47 +0000] [58] [INFO] Worker exiting (pid: 58)
+
+2016-03-20 13:42:47,910 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:42:47 +0000] [33] [INFO] Shutting down: Master
+
+2016-03-20 13:42:47,923 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 139904445893304 for <Subprocess at 139904446029696 with name gunicorn_server in state STOPPING> (stdout)>
+2016-03-20 13:42:47,924 INFO stopped: gunicorn_server (exit status 0)
+2016-03-20 13:42:47,924 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:42:48,929 DEBG killing main_worker (pid 32) with signal SIGTERM
+2016-03-20 13:42:48,929 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-03-20 13:42:49,940 DEBG 'main_worker' stdout output:
+[2016-03-20 13:42:49,940: INFO/MainProcess] beat: Shutting down...
+
+2016-03-20 13:42:49,942 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fbea9a427d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-03-20 13:42:50,483 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 139904445892656 for <Subprocess at 139904446029264 with name main_worker in state STOPPING> (stdout)>
+2016-03-20 13:42:50,483 INFO stopped: main_worker (exit status 0)
+2016-03-20 13:42:50,483 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:42:50,490 INFO spawned: 'autoreload' with pid 121
+2016-03-20 13:42:50,951 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 13:42:50,958 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:42:50,967 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:43:00,982 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:43:00,991 INFO spawned: 'gunicorn_server' with pid 157
+2016-03-20 13:43:01,149 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [157] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 13:43:01,149 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [157] [INFO] Listening at: http://0.0.0.0:8001 (157)
+
+2016-03-20 13:43:01,149 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [157] [INFO] Using worker: sync
+
+2016-03-20 13:43:01,151 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [162] [INFO] Booting worker with pid: 162
+
+2016-03-20 13:43:01,200 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [163] [INFO] Booting worker with pid: 163
+
+2016-03-20 13:43:01,300 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [168] [INFO] Booting worker with pid: 168
+
+2016-03-20 13:43:01,325 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [169] [INFO] Booting worker with pid: 169
+
+2016-03-20 13:43:01,402 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [170] [INFO] Booting worker with pid: 170
+
+2016-03-20 13:43:01,455 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [173] [INFO] Booting worker with pid: 173
+
+2016-03-20 13:43:01,548 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [176] [INFO] Booting worker with pid: 176
+
+2016-03-20 13:43:01,585 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [179] [INFO] Booting worker with pid: 179
+
+2016-03-20 13:43:01,613 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:43:01 +0000] [180] [INFO] Booting worker with pid: 180
+
+2016-03-20 13:43:11,628 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:43:11,636 INFO spawned: 'main_worker' with pid 189
+2016-03-20 13:43:12,144 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-03-20 13:43:12,204 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:43:12,205 DEBG 'main_worker' stdout output:
+[2016-03-20 13:43:12,204: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:43:12,243 DEBG 'main_worker' stdout output:
+[2016-03-20 13:43:12,242: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-03-20 13:43:12,252 DEBG 'main_worker' stdout output:
+[2016-03-20 13:43:12,252: INFO/MainProcess] mingle: searching for neighbors
+
+2016-03-20 13:43:12,264 DEBG 'main_worker' stdout output:
+[2016-03-20 13:43:12,263: INFO/Beat] beat: Starting...
+
+2016-03-20 13:43:13,259 DEBG 'main_worker' stdout output:
+[2016-03-20 13:43:13,258: INFO/MainProcess] mingle: all alone
+
+2016-03-20 13:43:13,284 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-03-20 13:43:13,285 DEBG 'main_worker' stdout output:
+[2016-03-20 13:43:13,284: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-03-20 13:43:13,284: WARNING/MainProcess] celery@main_worker ready.
+
+2016-03-20 13:43:22,299 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:45:52,331 DEBG killing autoreload (pid 121) with signal SIGTERM
+2016-03-20 13:45:52,333 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139904443388416 for <Subprocess at 139904446058720 with name autoreload in state STOPPING> (stdout)>
+2016-03-20 13:45:52,333 INFO stopped: autoreload (terminated by SIGTERM)
+2016-03-20 13:45:52,333 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:45:52,335 DEBG killing gunicorn_server (pid 157) with signal SIGTERM
+2016-03-20 13:45:52,335 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:52 +0000] [157] [INFO] Handling signal: term
+
+2016-03-20 13:45:52,336 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:52 +0000] [163] [INFO] Worker exiting (pid: 163)
+[2016-03-20 13:45:52 +0000] [162] [INFO] Worker exiting (pid: 162)
+
+2016-03-20 13:45:52,394 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:52 +0000] [168] [INFO] Worker exiting (pid: 168)
+[2016-03-20 13:45:52 +0000] [169] [INFO] Worker exiting (pid: 169)
+[2016-03-20 13:45:52 +0000] [170] [INFO] Worker exiting (pid: 170)
+[2016-03-20 13:45:52 +0000] [173] [INFO] Worker exiting (pid: 173)
+[2016-03-20 13:45:52 +0000] [176] [INFO] Worker exiting (pid: 176)
+[2016-03-20 13:45:52 +0000] [179] [INFO] Worker exiting (pid: 179)
+[2016-03-20 13:45:52 +0000] [180] [INFO] Worker exiting (pid: 180)
+
+2016-03-20 13:45:52,516 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:52 +0000] [157] [INFO] Shutting down: Master
+
+2016-03-20 13:45:52,526 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 139904443389856 for <Subprocess at 139904446029696 with name gunicorn_server in state STOPPING> (stdout)>
+2016-03-20 13:45:52,526 INFO stopped: gunicorn_server (exit status 0)
+2016-03-20 13:45:52,526 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:45:53,530 DEBG killing main_worker (pid 189) with signal SIGTERM
+2016-03-20 13:45:53,531 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-03-20 13:45:54,542 DEBG 'main_worker' stdout output:
+[2016-03-20 13:45:54,541: INFO/MainProcess] beat: Shutting down...
+
+2016-03-20 13:45:54,545 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f9169cf17d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-03-20 13:45:55,103 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 139904443391224 for <Subprocess at 139904446029264 with name main_worker in state STOPPING> (stdout)>
+2016-03-20 13:45:55,103 INFO stopped: main_worker (exit status 0)
+2016-03-20 13:45:55,103 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:45:55,112 INFO spawned: 'autoreload' with pid 200
+2016-03-20 13:45:55,558 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 13:45:55,565 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:45:55,576 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:45:55,576 DEBG 'autoreload' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+
+2016-03-20 13:45:55,576 DEBG 'autoreload' stdout output:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 345, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/djsupervisor/management/commands/supervisor.py", line 163, in run_from_argv
+
+2016-03-20 13:45:55,599 DEBG 'autoreload' stdout output:
+    return super(Command,self).run_from_argv(argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 348, in run_from_argv
+
+2016-03-20 13:45:55,599 DEBG 'autoreload' stdout output:
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 398, in execute
+    self.check()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 426, in check
+
+2016-03-20 13:45:55,600 DEBG 'autoreload' stdout output:
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 75, in run_checks
+
+2016-03-20 13:45:55,610 DEBG 'autoreload' stdout output:
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 10, in check_url_config
+
+2016-03-20 13:45:55,610 DEBG 'autoreload' stdout output:
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 19, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 33, in __get__
+
+2016-03-20 13:45:55,631 DEBG 'autoreload' stdout output:
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 417, in url_patterns
+
+2016-03-20 13:45:55,651 DEBG 'autoreload' stdout output:
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 33, in __get__
+
+2016-03-20 13:45:55,651 DEBG 'autoreload' stdout output:
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+
+2016-03-20 13:45:55,664 DEBG 'autoreload' stdout output:
+    __import__(name)
+  File "/project/visareserv/urls.py", line 10, in <module>
+
+2016-03-20 13:45:55,665 DEBG 'autoreload' stdout output:
+    ]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+NameError: name 'static' is not defined
+
+2016-03-20 13:45:55,717 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139904443466024 for <Subprocess at 139904446058720 with name autoreload in state STARTING> (stdout)>
+2016-03-20 13:45:55,717 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 13:45:55,717 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:45:55,721 INFO spawned: 'gunicorn_server' with pid 205
+2016-03-20 13:45:55,858 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:55 +0000] [205] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 13:45:55,858 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:55 +0000] [205] [INFO] Listening at: http://0.0.0.0:8001 (205)
+
+2016-03-20 13:45:55,858 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:55 +0000] [205] [INFO] Using worker: sync
+
+2016-03-20 13:45:55,876 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:55 +0000] [210] [INFO] Booting worker with pid: 210
+
+2016-03-20 13:45:55,886 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:55 +0000] [211] [INFO] Booting worker with pid: 211
+
+2016-03-20 13:45:55,940 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:55 +0000] [212] [INFO] Booting worker with pid: 212
+
+2016-03-20 13:45:55,991 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:55 +0000] [217] [INFO] Booting worker with pid: 217
+
+2016-03-20 13:45:56,037 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:56 +0000] [218] [INFO] Booting worker with pid: 218
+
+2016-03-20 13:45:56,071 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:56 +0000] [219] [INFO] Booting worker with pid: 219
+
+2016-03-20 13:45:56,159 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:56 +0000] [222] [INFO] Booting worker with pid: 222
+
+2016-03-20 13:45:56,165 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:56 +0000] [224] [INFO] Booting worker with pid: 224
+
+2016-03-20 13:45:56,176 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:45:56 +0000] [226] [INFO] Booting worker with pid: 226
+
+2016-03-20 13:45:57,180 INFO spawned: 'autoreload' with pid 237
+2016-03-20 13:45:57,911 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 13:45:57,917 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:45:57,926 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:45:57,926 DEBG 'autoreload' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 345, in execute
+
+2016-03-20 13:45:57,926 DEBG 'autoreload' stdout output:
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/djsupervisor/management/commands/supervisor.py", line 163, in run_from_argv
+    return super(Command,self).run_from_argv(argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 348, in run_from_argv
+
+2016-03-20 13:45:57,927 DEBG 'autoreload' stdout output:
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 398, in execute
+
+2016-03-20 13:45:57,927 DEBG 'autoreload' stdout output:
+    self.check()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 426, in check
+
+2016-03-20 13:45:57,927 DEBG 'autoreload' stdout output:
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 10, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 19, in check_resolver
+
+2016-03-20 13:45:57,927 DEBG 'autoreload' stdout output:
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 417, in url_patterns
+
+2016-03-20 13:45:57,927 DEBG 'autoreload' stdout output:
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+
+2016-03-20 13:45:57,927 DEBG 'autoreload' stdout output:
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/urls.py", line 10, in <module>
+
+2016-03-20 13:45:57,927 DEBG 'autoreload' stdout output:
+    ]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+NameError: name 'static' is not defined
+
+2016-03-20 13:45:57,957 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 139904443467608 for <Subprocess at 139904446058720 with name autoreload in state STARTING> (stdout)>
+2016-03-20 13:45:57,958 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 13:45:57,958 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:45:59,963 INFO spawned: 'autoreload' with pid 242
+2016-03-20 13:46:00,500 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 13:46:00,507 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:46:00,521 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:46:00,522 DEBG 'autoreload' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+
+2016-03-20 13:46:00,522 DEBG 'autoreload' stdout output:
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 345, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/djsupervisor/management/commands/supervisor.py", line 163, in run_from_argv
+
+2016-03-20 13:46:00,522 DEBG 'autoreload' stdout output:
+    return super(Command,self).run_from_argv(argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 348, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 398, in execute
+
+2016-03-20 13:46:00,523 DEBG 'autoreload' stdout output:
+    self.check()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 426, in check
+    include_deployment_checks=include_deployment_checks,
+
+2016-03-20 13:46:00,523 DEBG 'autoreload' stdout output:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 10, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 19, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 33, in __get__
+
+2016-03-20 13:46:00,523 DEBG 'autoreload' stdout output:
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 33, in __get__
+
+2016-03-20 13:46:00,523 DEBG 'autoreload' stdout output:
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+
+2016-03-20 13:46:00,523 DEBG 'autoreload' stdout output:
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/urls.py", line 10, in <module>
+    ]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+NameError: name 'static' is not defined
+
+2016-03-20 13:46:00,554 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 139904443467608 for <Subprocess at 139904446058720 with name autoreload in state STARTING> (stdout)>
+2016-03-20 13:46:00,555 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 13:46:00,555 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:46:03,562 INFO spawned: 'autoreload' with pid 247
+2016-03-20 13:46:04,058 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 13:46:04,064 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:6: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:46:04,074 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:46:04,074 DEBG 'autoreload' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+
+2016-03-20 13:46:04,074 DEBG 'autoreload' stdout output:
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 345, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/djsupervisor/management/commands/supervisor.py", line 163, in run_from_argv
+
+2016-03-20 13:46:04,074 DEBG 'autoreload' stdout output:
+    return super(Command,self).run_from_argv(argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 348, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 398, in execute
+
+2016-03-20 13:46:04,074 DEBG 'autoreload' stdout output:
+    self.check()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 426, in check
+
+2016-03-20 13:46:04,074 DEBG 'autoreload' stdout output:
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 75, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 10, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 19, in check_resolver
+    for pattern in resolver.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 33, in __get__
+
+2016-03-20 13:46:04,075 DEBG 'autoreload' stdout output:
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 417, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 410, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/urls.py", line 10, in <module>
+    ]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+NameError: name 'static' is not defined
+
+2016-03-20 13:46:04,109 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 139904443467608 for <Subprocess at 139904446058720 with name autoreload in state STARTING> (stdout)>
+2016-03-20 13:46:04,109 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 13:46:04,109 DEBG received SIGCLD indicating a child quit
+2016-03-20 13:46:05,111 INFO gave up: autoreload entered FATAL state, too many start retries too quickly
+2016-03-20 13:46:06,113 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:46:06,120 INFO spawned: 'main_worker' with pid 252
+2016-03-20 13:46:06,601 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-03-20 13:46:06,641 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:46:06,641 DEBG 'main_worker' stdout output:
+[2016-03-20 13:46:06,641: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:46:06,700 DEBG 'main_worker' stdout output:
+[2016-03-20 13:46:06,700: INFO/Beat] beat: Starting...
+
+2016-03-20 13:47:38,972 CRIT Supervisor running as root (no user in config file)
+2016-03-20 13:47:38,980 INFO RPC interface 'supervisor' initialized
+2016-03-20 13:47:38,981 INFO daemonizing the supervisord process
+2016-03-20 13:47:38,982 INFO supervisord started with pid 25
+2016-03-20 13:47:39,457 INFO spawned: 'autoreload' with pid 31
+2016-03-20 13:47:39,461 INFO spawned: 'main_worker' with pid 32
+2016-03-20 13:47:39,468 INFO spawned: 'gunicorn_server' with pid 33
+2016-03-20 13:47:39,692 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:39 +0000] [33] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 13:47:39 +0000] [33] [INFO] Listening at: http://0.0.0.0:8001 (33)
+[2016-03-20 13:47:39 +0000] [33] [INFO] Using worker: sync
+
+2016-03-20 13:47:39,693 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:39 +0000] [47] [INFO] Booting worker with pid: 47
+
+2016-03-20 13:47:39,719 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:39 +0000] [48] [INFO] Booting worker with pid: 48
+
+2016-03-20 13:47:39,775 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:39 +0000] [49] [INFO] Booting worker with pid: 49
+
+2016-03-20 13:47:39,812 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:39 +0000] [50] [INFO] Booting worker with pid: 50
+
+2016-03-20 13:47:39,838 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:39 +0000] [51] [INFO] Booting worker with pid: 51
+
+2016-03-20 13:47:39,930 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:39 +0000] [56] [INFO] Booting worker with pid: 56
+
+2016-03-20 13:47:40,020 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:40 +0000] [58] [INFO] Booting worker with pid: 58
+
+2016-03-20 13:47:40,040 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:40 +0000] [61] [INFO] Booting worker with pid: 61
+
+2016-03-20 13:47:40,045 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 13:47:40 +0000] [60] [INFO] Booting worker with pid: 60
+
+2016-03-20 13:47:40,714 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-03-20 13:47:40,993 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:47:40,994 DEBG 'main_worker' stdout output:
+[2016-03-20 13:47:40,993: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 13:47:41,053 DEBG 'main_worker' stdout output:
+[2016-03-20 13:47:41,053: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-03-20 13:47:41,072 DEBG 'main_worker' stdout output:
+[2016-03-20 13:47:41,072: INFO/MainProcess] mingle: searching for neighbors
+
+2016-03-20 13:47:41,134 DEBG 'main_worker' stdout output:
+[2016-03-20 13:47:41,134: INFO/Beat] beat: Starting...
+
+2016-03-20 13:47:41,181 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 13:47:41,225 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:47:41,292 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:47:42,082 DEBG 'main_worker' stdout output:
+[2016-03-20 13:47:42,079: INFO/MainProcess] mingle: all alone
+
+2016-03-20 13:47:42,102 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-03-20 13:47:42,101: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-03-20 13:47:42,102 DEBG 'main_worker' stdout output:
+[2016-03-20 13:47:42,101: WARNING/MainProcess] celery@main_worker ready.
+
+2016-03-20 13:47:44,110 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:47:44,127 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:47:44,219 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:47:44,230 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:47:44,459 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:47:44,461 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:47:44,461 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:47:44,463 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 13:47:44,488 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:47:44,490 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:47:44,493 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:47:44,505 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 13:47:49,510 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:47:49,510 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 13:47:49,510 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)

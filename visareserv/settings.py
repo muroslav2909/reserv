@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'reserv',
     'djcelery',
     'vamiko',
+    "djsupervisor",
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -132,23 +132,23 @@ STATICFILES_DIRS = (
 
 
 # #for local
-BROKER_HOST = "localhost"
-BROKER_BACKEND = "redis"
-REDIS_PORT = 6379
-REDIS_HOST = "localhost"
-BROKER_USER = ""
-BROKER_PASSWORD = ""
-BROKER_VHOST = "0"
-REDIS_DB = 0
-REDIS_CONNECT_RETRY = True
-CELERY_SEND_EVENTS = True
-CELERY_RESULT_BACKEND = 'redis'
-CELERY_TASK_RESULT_EXPIRES = 10
-
-# for server
-# BROKER_URL = "redis"
+# BROKER_HOST = "localhost"
 # BROKER_BACKEND = "redis"
 # REDIS_PORT = 6379
-# REDIS_HOST = "redis"
-# CELERYD_PREFETCH_MULTIPLIER = 3
-# CELERY_ACKS_LATE = True
+# REDIS_HOST = "localhost"
+# BROKER_USER = ""
+# BROKER_PASSWORD = ""
+# BROKER_VHOST = "0"
+# REDIS_DB = 0
+# REDIS_CONNECT_RETRY = True
+# CELERY_SEND_EVENTS = True
+# CELERY_RESULT_BACKEND = 'redis'
+# CELERY_TASK_RESULT_EXPIRES = 10
+
+# for server
+BROKER_URL = "redis"
+BROKER_BACKEND = "redis"
+REDIS_PORT = 6379
+REDIS_HOST = "redis"
+CELERYD_PREFETCH_MULTIPLIER = 3
+CELERY_ACKS_LATE = True
