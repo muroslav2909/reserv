@@ -8,7 +8,7 @@ celery.log
 celerybeat-schedule
 gunicorn.log
 supervisord.log
-visareserv/settings.pyc
+
 
 
 
