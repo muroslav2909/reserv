@@ -258,3 +258,637 @@ Not Found: /static/logo_vectorized.png
 /project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
   url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
 
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-20 14:55:35 +0000] [33] [INFO] Handling signal: term
+[2016-03-20 14:55:35 +0000] [47] [INFO] Worker exiting (pid: 47)
+[2016-03-20 14:55:35 +0000] [48] [INFO] Worker exiting (pid: 48)
+[2016-03-20 14:55:35 +0000] [52] [INFO] Worker exiting (pid: 52)
+[2016-03-20 14:55:35 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-03-20 14:55:35 +0000] [55] [INFO] Worker exiting (pid: 55)
+[2016-03-20 14:55:35 +0000] [56] [INFO] Worker exiting (pid: 56)
+[2016-03-20 14:55:35 +0000] [60] [INFO] Worker exiting (pid: 60)
+[2016-03-20 14:55:35 +0000] [63] [INFO] Worker exiting (pid: 63)
+[2016-03-20 14:55:35 +0000] [58] [INFO] Worker exiting (pid: 58)
+[2016-03-20 14:55:35 +0000] [33] [INFO] Shutting down: Master
+[2016-03-20 14:55:49 +0000] [148] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 14:55:49 +0000] [148] [INFO] Listening at: http://0.0.0.0:8001 (148)
+[2016-03-20 14:55:49 +0000] [148] [INFO] Using worker: sync
+[2016-03-20 14:55:49 +0000] [158] [INFO] Booting worker with pid: 158
+[2016-03-20 14:55:49 +0000] [159] [INFO] Booting worker with pid: 159
+[2016-03-20 14:55:49 +0000] [160] [INFO] Booting worker with pid: 160
+[2016-03-20 14:55:49 +0000] [163] [INFO] Booting worker with pid: 163
+[2016-03-20 14:55:49 +0000] [164] [INFO] Booting worker with pid: 164
+[2016-03-20 14:55:49 +0000] [165] [INFO] Booting worker with pid: 165
+[2016-03-20 14:55:49 +0000] [166] [INFO] Booting worker with pid: 166
+[2016-03-20 14:55:49 +0000] [167] [INFO] Booting worker with pid: 167
+[2016-03-20 14:55:49 +0000] [168] [INFO] Booting worker with pid: 168
+[2016-03-20 14:56:13 +0000] [226] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 14:56:13 +0000] [226] [INFO] Listening at: http://0.0.0.0:8001 (226)
+[2016-03-20 14:56:13 +0000] [226] [INFO] Using worker: sync
+[2016-03-20 14:56:13 +0000] [231] [INFO] Booting worker with pid: 231
+[2016-03-20 14:56:13 +0000] [232] [INFO] Booting worker with pid: 232
+[2016-03-20 14:56:13 +0000] [237] [INFO] Booting worker with pid: 237
+[2016-03-20 14:56:13 +0000] [238] [INFO] Booting worker with pid: 238
+[2016-03-20 14:56:13 +0000] [239] [INFO] Booting worker with pid: 239
+[2016-03-20 14:56:13 +0000] [240] [INFO] Booting worker with pid: 240
+[2016-03-20 14:56:13 +0000] [245] [INFO] Booting worker with pid: 245
+[2016-03-20 14:56:13 +0000] [246] [INFO] Booting worker with pid: 246
+[2016-03-20 14:56:13 +0000] [247] [INFO] Booting worker with pid: 247
+[2016-03-20 14:56:56 +0000] [226] [INFO] Handling signal: term
+[2016-03-20 14:56:56 +0000] [231] [INFO] Worker exiting (pid: 231)
+[2016-03-20 14:56:56 +0000] [237] [INFO] Worker exiting (pid: 237)
+[2016-03-20 14:56:56 +0000] [239] [INFO] Worker exiting (pid: 239)
+[2016-03-20 14:56:56 +0000] [232] [INFO] Worker exiting (pid: 232)
+[2016-03-20 14:56:56 +0000] [245] [INFO] Worker exiting (pid: 245)
+[2016-03-20 14:56:56 +0000] [238] [INFO] Worker exiting (pid: 238)
+[2016-03-20 14:56:56 +0000] [240] [INFO] Worker exiting (pid: 240)
+[2016-03-20 14:56:56 +0000] [246] [INFO] Worker exiting (pid: 246)
+[2016-03-20 14:56:56 +0000] [247] [INFO] Worker exiting (pid: 247)
+[2016-03-20 14:56:56 +0000] [226] [INFO] Shutting down: Master
+[2016-03-20 14:57:01 +0000] [279] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 14:57:01 +0000] [279] [INFO] Listening at: http://0.0.0.0:8001 (279)
+[2016-03-20 14:57:01 +0000] [279] [INFO] Using worker: sync
+[2016-03-20 14:57:01 +0000] [284] [INFO] Booting worker with pid: 284
+[2016-03-20 14:57:01 +0000] [287] [INFO] Booting worker with pid: 287
+[2016-03-20 14:57:01 +0000] [289] [INFO] Booting worker with pid: 289
+[2016-03-20 14:57:01 +0000] [288] [INFO] Booting worker with pid: 288
+[2016-03-20 14:57:02 +0000] [290] [INFO] Booting worker with pid: 290
+[2016-03-20 14:57:02 +0000] [291] [INFO] Booting worker with pid: 291
+[2016-03-20 14:57:02 +0000] [294] [INFO] Booting worker with pid: 294
+[2016-03-20 14:57:02 +0000] [295] [INFO] Booting worker with pid: 295
+[2016-03-20 14:57:02 +0000] [298] [INFO] Booting worker with pid: 298
+[2016-03-20 14:57:02 +0000] [284] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+[2016-03-20 14:57:02 +0000] [284] [INFO] Worker exiting (pid: 284)
+[2016-03-20 14:57:02 +0000] [287] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+[2016-03-20 14:57:02 +0000] [287] [INFO] Worker exiting (pid: 287)
+Traceback (most recent call last):
+  File "/usr/local/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 206, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+[2016-03-20 14:57:04 +0000] [322] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 14:57:04 +0000] [322] [INFO] Listening at: http://0.0.0.0:8001 (322)
+[2016-03-20 14:57:04 +0000] [322] [INFO] Using worker: sync
+[2016-03-20 14:57:04 +0000] [331] [INFO] Booting worker with pid: 331
+[2016-03-20 14:57:04 +0000] [332] [INFO] Booting worker with pid: 332
+[2016-03-20 14:57:04 +0000] [333] [INFO] Booting worker with pid: 333
+[2016-03-20 14:57:04 +0000] [340] [INFO] Booting worker with pid: 340
+[2016-03-20 14:57:04 +0000] [341] [INFO] Booting worker with pid: 341
+[2016-03-20 14:57:04 +0000] [342] [INFO] Booting worker with pid: 342
+[2016-03-20 14:57:04 +0000] [343] [INFO] Booting worker with pid: 343
+[2016-03-20 14:57:04 +0000] [344] [INFO] Booting worker with pid: 344
+[2016-03-20 14:57:04 +0000] [347] [INFO] Booting worker with pid: 347
+[2016-03-20 14:57:05 +0000] [331] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+[2016-03-20 14:57:05 +0000] [331] [INFO] Worker exiting (pid: 331)
+[2016-03-20 14:57:05 +0000] [332] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+[2016-03-20 14:57:05 +0000] [332] [INFO] Worker exiting (pid: 332)
+Traceback (most recent call last):
+  File "/usr/local/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 206, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+[2016-03-20 14:57:07 +0000] [364] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 14:57:07 +0000] [364] [INFO] Listening at: http://0.0.0.0:8001 (364)
+[2016-03-20 14:57:07 +0000] [364] [INFO] Using worker: sync
+[2016-03-20 14:57:07 +0000] [373] [INFO] Booting worker with pid: 373
+[2016-03-20 14:57:07 +0000] [374] [INFO] Booting worker with pid: 374
+[2016-03-20 14:57:07 +0000] [375] [INFO] Booting worker with pid: 375
+[2016-03-20 14:57:07 +0000] [378] [INFO] Booting worker with pid: 378
+[2016-03-20 14:57:07 +0000] [381] [INFO] Booting worker with pid: 381
+[2016-03-20 14:57:07 +0000] [386] [INFO] Booting worker with pid: 386
+[2016-03-20 14:57:07 +0000] [387] [INFO] Booting worker with pid: 387
+[2016-03-20 14:57:08 +0000] [388] [INFO] Booting worker with pid: 388
+[2016-03-20 14:57:08 +0000] [389] [INFO] Booting worker with pid: 389
+[2016-03-20 14:57:08 +0000] [373] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+[2016-03-20 14:57:08 +0000] [373] [INFO] Worker exiting (pid: 373)
+[2016-03-20 14:57:08 +0000] [374] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+[2016-03-20 14:57:08 +0000] [374] [INFO] Worker exiting (pid: 374)
+[2016-03-20 14:57:08 +0000] [375] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+[2016-03-20 14:57:08 +0000] [375] [INFO] Worker exiting (pid: 375)
+Traceback (most recent call last):
+  File "/usr/local/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 206, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+[2016-03-20 14:57:11 +0000] [401] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 14:57:11 +0000] [401] [INFO] Listening at: http://0.0.0.0:8001 (401)
+[2016-03-20 14:57:11 +0000] [401] [INFO] Using worker: sync
+[2016-03-20 14:57:11 +0000] [410] [INFO] Booting worker with pid: 410
+[2016-03-20 14:57:11 +0000] [411] [INFO] Booting worker with pid: 411
+[2016-03-20 14:57:11 +0000] [412] [INFO] Booting worker with pid: 412
+[2016-03-20 14:57:11 +0000] [413] [INFO] Booting worker with pid: 413
+[2016-03-20 14:57:11 +0000] [416] [INFO] Booting worker with pid: 416
+[2016-03-20 14:57:11 +0000] [421] [INFO] Booting worker with pid: 421
+[2016-03-20 14:57:11 +0000] [422] [INFO] Booting worker with pid: 422
+[2016-03-20 14:57:11 +0000] [424] [INFO] Booting worker with pid: 424
+[2016-03-20 14:57:11 +0000] [426] [INFO] Booting worker with pid: 426

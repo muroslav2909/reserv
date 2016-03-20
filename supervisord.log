@@ -2282,3 +2282,1453 @@ You must only enable the serializers that you will actually use.
   url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
 
 
+2016-03-20 14:42:13,819 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 14:42:13,926 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 14:42:14,022 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 14:42:14,039 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 14:42:14,070 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 14:42:14,087 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 14:55:34,579 DEBG killing autoreload (pid 31) with signal SIGTERM
+2016-03-20 14:55:34,613 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140355914083360 for <Subprocess at 140355914328256 with name autoreload in state STOPPING> (stdout)>
+2016-03-20 14:55:34,613 INFO stopped: autoreload (terminated by SIGTERM)
+2016-03-20 14:55:34,613 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:55:35,724 DEBG killing gunicorn_server (pid 33) with signal SIGTERM
+2016-03-20 14:55:35,725 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:35 +0000] [33] [INFO] Handling signal: term
+
+2016-03-20 14:55:35,754 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:35 +0000] [47] [INFO] Worker exiting (pid: 47)
+[2016-03-20 14:55:35 +0000] [48] [INFO] Worker exiting (pid: 48)
+[2016-03-20 14:55:35 +0000] [52] [INFO] Worker exiting (pid: 52)
+[2016-03-20 14:55:35 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-03-20 14:55:35 +0000] [55] [INFO] Worker exiting (pid: 55)
+[2016-03-20 14:55:35 +0000] [56] [INFO] Worker exiting (pid: 56)
+[2016-03-20 14:55:35 +0000] [60] [INFO] Worker exiting (pid: 60)
+[2016-03-20 14:55:35 +0000] [63] [INFO] Worker exiting (pid: 63)
+
+2016-03-20 14:55:35,755 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:35 +0000] [58] [INFO] Worker exiting (pid: 58)
+
+2016-03-20 14:55:35,889 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:35 +0000] [33] [INFO] Shutting down: Master
+
+2016-03-20 14:55:35,899 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140355914084296 for <Subprocess at 140355914328472 with name gunicorn_server in state STOPPING> (stdout)>
+2016-03-20 14:55:35,899 INFO stopped: gunicorn_server (exit status 0)
+2016-03-20 14:55:35,899 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:55:36,931 DEBG killing main_worker (pid 32) with signal SIGTERM
+2016-03-20 14:55:36,932 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-03-20 14:55:37,943 DEBG 'main_worker' stdout output:
+[2016-03-20 14:55:37,943: INFO/MainProcess] beat: Shutting down...
+
+2016-03-20 14:55:37,948 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f37450767d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-03-20 14:55:38,503 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140355914083720 for <Subprocess at 140355914328616 with name main_worker in state STOPPING> (stdout)>
+2016-03-20 14:55:38,503 INFO stopped: main_worker (exit status 0)
+2016-03-20 14:55:38,504 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:55:38,628 INFO spawned: 'autoreload' with pid 111
+2016-03-20 14:55:41,074 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 14:55:41,085 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 14:55:41,094 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 14:55:48,344 DEBG killing autoreload (pid 111) with signal SIGTERM
+2016-03-20 14:55:48,346 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140355911603264 for <Subprocess at 140355914328256 with name autoreload in state STOPPING> (stdout)>
+2016-03-20 14:55:48,346 INFO stopped: autoreload (terminated by SIGTERM)
+2016-03-20 14:55:48,346 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:55:49,397 INFO spawned: 'gunicorn_server' with pid 148
+2016-03-20 14:55:49,399 DEBG killing gunicorn_server (pid 148) with signal SIGTERM
+2016-03-20 14:55:49,430 INFO spawned: 'main_worker' with pid 149
+2016-03-20 14:55:49,604 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [148] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 14:55:49,604 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [148] [INFO] Listening at: http://0.0.0.0:8001 (148)
+
+2016-03-20 14:55:49,605 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [148] [INFO] Using worker: sync
+
+2016-03-20 14:55:49,619 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [158] [INFO] Booting worker with pid: 158
+
+2016-03-20 14:55:49,688 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [159] [INFO] Booting worker with pid: 159
+
+2016-03-20 14:55:49,716 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [160] [INFO] Booting worker with pid: 160
+
+2016-03-20 14:55:49,759 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [163] [INFO] Booting worker with pid: 163
+
+2016-03-20 14:55:49,817 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [164] [INFO] Booting worker with pid: 164
+
+2016-03-20 14:55:49,826 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [165] [INFO] Booting worker with pid: 165
+
+2016-03-20 14:55:49,848 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [166] [INFO] Booting worker with pid: 166
+
+2016-03-20 14:55:49,885 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [167] [INFO] Booting worker with pid: 167
+
+2016-03-20 14:55:49,900 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:55:49 +0000] [168] [INFO] Booting worker with pid: 168
+
+2016-03-20 14:55:51,298 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-03-20 14:55:51,471 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-03-20 14:55:51,468: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 14:55:51,568 DEBG 'main_worker' stdout output:
+[2016-03-20 14:55:51,568: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-03-20 14:55:51,616 DEBG 'main_worker' stdout output:
+[2016-03-20 14:55:51,607: INFO/MainProcess] mingle: searching for neighbors
+
+2016-03-20 14:55:51,672 DEBG 'main_worker' stdout output:
+[2016-03-20 14:55:51,669: INFO/Beat] beat: Starting...
+
+2016-03-20 14:55:52,639 DEBG 'main_worker' stdout output:
+[2016-03-20 14:55:52,639: INFO/MainProcess] mingle: all alone
+
+2016-03-20 14:55:52,655 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-03-20 14:55:52,655 DEBG 'main_worker' stdout output:
+[2016-03-20 14:55:52,655: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-03-20 14:55:52,655: WARNING/MainProcess] celery@main_worker ready.
+
+2016-03-20 14:55:59,662 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 14:55:59,662 WARN killing 'gunicorn_server' (148) with SIGKILL
+2016-03-20 14:55:59,662 DEBG killing gunicorn_server (pid 148) with signal SIGKILL
+2016-03-20 14:55:59,664 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140355911625976 for <Subprocess at 140355914328472 with name gunicorn_server in state STOPPING> (stdout)>
+2016-03-20 14:55:59,664 INFO stopped: gunicorn_server (terminated by SIGKILL)
+2016-03-20 14:55:59,664 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:56:00,668 DEBG killing main_worker (pid 149) with signal SIGTERM
+2016-03-20 14:56:00,669 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+2016-03-20 14:56:00,669 DEBG 'main_worker' stdout output:
+
+
+2016-03-20 14:56:01,683 DEBG 'main_worker' stdout output:
+[2016-03-20 14:56:01,682: INFO/MainProcess] beat: Shutting down...
+
+2016-03-20 14:56:01,684 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f4904c977d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-03-20 14:56:02,225 DEBG fd 12 closed, stopped monitoring <POutputDispatcher at 140355911625832 for <Subprocess at 140355914328616 with name main_worker in state STOPPING> (stdout)>
+2016-03-20 14:56:02,225 INFO stopped: main_worker (exit status 0)
+2016-03-20 14:56:02,225 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:56:02,368 INFO spawned: 'autoreload' with pid 190
+2016-03-20 14:56:02,892 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-03-20 14:56:02,900 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:9: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+
+2016-03-20 14:56:02,909 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+
+2016-03-20 14:56:12,924 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 14:56:12,930 INFO spawned: 'gunicorn_server' with pid 226
+2016-03-20 14:56:13,085 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [226] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 14:56:13,085 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [226] [INFO] Listening at: http://0.0.0.0:8001 (226)
+
+2016-03-20 14:56:13,085 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [226] [INFO] Using worker: sync
+
+2016-03-20 14:56:13,087 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [231] [INFO] Booting worker with pid: 231
+
+2016-03-20 14:56:13,091 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [232] [INFO] Booting worker with pid: 232
+
+2016-03-20 14:56:13,186 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [237] [INFO] Booting worker with pid: 237
+
+2016-03-20 14:56:13,189 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [238] [INFO] Booting worker with pid: 238
+
+2016-03-20 14:56:13,250 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [239] [INFO] Booting worker with pid: 239
+
+2016-03-20 14:56:13,313 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [240] [INFO] Booting worker with pid: 240
+
+2016-03-20 14:56:13,406 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [245] [INFO] Booting worker with pid: 245
+
+2016-03-20 14:56:13,426 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [246] [INFO] Booting worker with pid: 246
+
+2016-03-20 14:56:13,429 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:13 +0000] [247] [INFO] Booting worker with pid: 247
+
+2016-03-20 14:56:23,445 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 14:56:23,452 INFO spawned: 'main_worker' with pid 258
+2016-03-20 14:56:23,986 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-03-20 14:56:24,027 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 14:56:24,027 DEBG 'main_worker' stdout output:
+[2016-03-20 14:56:24,026: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 14:56:24,066 DEBG 'main_worker' stdout output:
+[2016-03-20 14:56:24,066: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-03-20 14:56:24,076 DEBG 'main_worker' stdout output:
+[2016-03-20 14:56:24,075: INFO/MainProcess] mingle: searching for neighbors
+
+2016-03-20 14:56:24,092 DEBG 'main_worker' stdout output:
+[2016-03-20 14:56:24,087: INFO/Beat] beat: Starting...
+
+2016-03-20 14:56:25,092 DEBG 'main_worker' stdout output:
+[2016-03-20 14:56:25,090: INFO/MainProcess] mingle: all alone
+
+2016-03-20 14:56:25,114 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-03-20 14:56:25,114 DEBG 'main_worker' stdout output:
+[2016-03-20 14:56:25,114: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-03-20 14:56:25,114: WARNING/MainProcess] celery@main_worker ready.
+
+2016-03-20 14:56:34,127 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 14:56:55,262 DEBG killing autoreload (pid 190) with signal SIGTERM
+2016-03-20 14:56:55,280 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140355911624176 for <Subprocess at 140355914328256 with name autoreload in state STOPPING> (stdout)>
+2016-03-20 14:56:55,280 INFO stopped: autoreload (terminated by SIGTERM)
+2016-03-20 14:56:55,280 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:56:56,283 DEBG killing gunicorn_server (pid 226) with signal SIGTERM
+2016-03-20 14:56:56,305 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:56 +0000] [226] [INFO] Handling signal: term
+
+2016-03-20 14:56:56,305 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:56 +0000] [231] [INFO] Worker exiting (pid: 231)
+[2016-03-20 14:56:56 +0000] [237] [INFO] Worker exiting (pid: 237)
+[2016-03-20 14:56:56 +0000] [239] [INFO] Worker exiting (pid: 239)
+[2016-03-20 14:56:56 +0000] [232] [INFO] Worker exiting (pid: 232)
+[2016-03-20 14:56:56 +0000] [245] [INFO] Worker exiting (pid: 245)
+[2016-03-20 14:56:56 +0000] [238] [INFO] Worker exiting (pid: 238)
+[2016-03-20 14:56:56 +0000] [240] [INFO] Worker exiting (pid: 240)
+[2016-03-20 14:56:56 +0000] [246] [INFO] Worker exiting (pid: 246)
+
+2016-03-20 14:56:56,317 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:56 +0000] [247] [INFO] Worker exiting (pid: 247)
+
+2016-03-20 14:56:56,474 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:56:56 +0000] [226] [INFO] Shutting down: Master
+
+2016-03-20 14:56:56,486 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140355911622736 for <Subprocess at 140355914328472 with name gunicorn_server in state STOPPING> (stdout)>
+2016-03-20 14:56:56,486 INFO stopped: gunicorn_server (exit status 0)
+2016-03-20 14:56:56,487 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:56:57,492 DEBG killing main_worker (pid 258) with signal SIGTERM
+2016-03-20 14:56:57,493 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-03-20 14:56:58,511 DEBG 'main_worker' stdout output:
+[2016-03-20 14:56:58,510: INFO/MainProcess] beat: Shutting down...
+
+2016-03-20 14:56:58,513 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f776d8327d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-03-20 14:56:59,058 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140355911602616 for <Subprocess at 140355914328616 with name main_worker in state STOPPING> (stdout)>
+2016-03-20 14:56:59,058 INFO stopped: main_worker (exit status 0)
+2016-03-20 14:56:59,058 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:56:59,064 INFO spawned: 'autoreload' with pid 269
+2016-03-20 14:56:59,412 DEBG 'autoreload' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+
+2016-03-20 14:56:59,412 DEBG 'autoreload' stdout output:
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+
+2016-03-20 14:56:59,430 DEBG 'autoreload' stdout output:
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+
+2016-03-20 14:56:59,431 DEBG 'autoreload' stdout output:
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:56:59,444 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140355911662048 for <Subprocess at 140355914328256 with name autoreload in state STARTING> (stdout)>
+2016-03-20 14:56:59,444 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 14:56:59,444 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:00,447 INFO spawned: 'autoreload' with pid 274
+2016-03-20 14:57:00,630 DEBG 'autoreload' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+
+2016-03-20 14:57:00,631 DEBG 'autoreload' stdout output:
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+
+2016-03-20 14:57:00,632 DEBG 'autoreload' stdout output:
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:00,648 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140355911662048 for <Subprocess at 140355914328256 with name autoreload in state STARTING> (stdout)>
+2016-03-20 14:57:00,648 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 14:57:00,649 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:01,657 INFO spawned: 'gunicorn_server' with pid 279
+2016-03-20 14:57:01,832 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:01 +0000] [279] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 14:57:01,836 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:01 +0000] [279] [INFO] Listening at: http://0.0.0.0:8001 (279)
+[2016-03-20 14:57:01 +0000] [279] [INFO] Using worker: sync
+
+2016-03-20 14:57:01,840 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:01 +0000] [284] [INFO] Booting worker with pid: 284
+
+2016-03-20 14:57:01,927 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:01 +0000] [287] [INFO] Booting worker with pid: 287
+
+2016-03-20 14:57:01,994 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:01 +0000] [289] [INFO] Booting worker with pid: 289
+
+2016-03-20 14:57:01,994 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:01 +0000] [288] [INFO] Booting worker with pid: 288
+
+2016-03-20 14:57:02,023 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:02 +0000] [290] [INFO] Booting worker with pid: 290
+
+2016-03-20 14:57:02,064 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:02 +0000] [291] [INFO] Booting worker with pid: 291
+
+2016-03-20 14:57:02,152 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:02 +0000] [294] [INFO] Booting worker with pid: 294
+
+2016-03-20 14:57:02,207 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:02 +0000] [295] [INFO] Booting worker with pid: 295
+
+2016-03-20 14:57:02,259 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:02 +0000] [298] [INFO] Booting worker with pid: 298
+
+2016-03-20 14:57:02,562 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:02 +0000] [284] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:02,562 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:02 +0000] [284] [INFO] Worker exiting (pid: 284)
+
+2016-03-20 14:57:02,695 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:02 +0000] [287] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:02,698 INFO spawned: 'autoreload' with pid 311
+2016-03-20 14:57:02,699 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:02 +0000] [287] [INFO] Worker exiting (pid: 287)
+
+2016-03-20 14:57:02,734 DEBG 'gunicorn_server' stdout output:
+Traceback (most recent call last):
+  File "/usr/local/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 206, in run
+    
+2016-03-20 14:57:02,738 DEBG 'gunicorn_server' stdout output:
+self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+
+2016-03-20 14:57:02,762 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140355911663416 for <Subprocess at 140355914328472 with name gunicorn_server in state STARTING> (stdout)>
+2016-03-20 14:57:02,762 INFO exited: gunicorn_server (exit status 1; not expected)
+2016-03-20 14:57:02,762 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:03,121 DEBG 'autoreload' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+
+2016-03-20 14:57:03,122 DEBG 'autoreload' stdout output:
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+
+2016-03-20 14:57:03,123 DEBG 'autoreload' stdout output:
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:03,127 INFO spawned: 'main_worker' with pid 316
+2016-03-20 14:57:03,137 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140355911663200 for <Subprocess at 140355914328256 with name autoreload in state STARTING> (stdout)>
+2016-03-20 14:57:03,137 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 14:57:03,137 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:03,310 DEBG 'main_worker' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+
+2016-03-20 14:57:03,311 DEBG 'main_worker' stdout output:
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+
+2016-03-20 14:57:03,311 DEBG 'main_worker' stdout output:
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:03,323 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140355911681160 for <Subprocess at 140355914328616 with name main_worker in state STARTING> (stdout)>
+2016-03-20 14:57:03,324 INFO exited: main_worker (exit status 1; not expected)
+2016-03-20 14:57:03,324 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:04,326 INFO spawned: 'main_worker' with pid 321
+2016-03-20 14:57:04,328 INFO spawned: 'gunicorn_server' with pid 322
+2016-03-20 14:57:04,478 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [322] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 14:57:04,479 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [322] [INFO] Listening at: http://0.0.0.0:8001 (322)
+
+2016-03-20 14:57:04,479 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [322] [INFO] Using worker: sync
+
+2016-03-20 14:57:04,481 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [331] [INFO] Booting worker with pid: 331
+
+2016-03-20 14:57:04,510 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [332] [INFO] Booting worker with pid: 332
+
+2016-03-20 14:57:04,561 DEBG 'main_worker' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+
+2016-03-20 14:57:04,562 DEBG 'main_worker' stdout output:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+
+2016-03-20 14:57:04,563 DEBG 'main_worker' stdout output:
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:04,568 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [333] [INFO] Booting worker with pid: 333
+
+2016-03-20 14:57:04,594 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140355911663200 for <Subprocess at 140355914328616 with name main_worker in state STARTING> (stdout)>
+2016-03-20 14:57:04,595 INFO exited: main_worker (exit status 1; not expected)
+2016-03-20 14:57:04,595 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:04,670 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [340] [INFO] Booting worker with pid: 340
+
+2016-03-20 14:57:04,689 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [341] [INFO] Booting worker with pid: 341
+
+2016-03-20 14:57:04,701 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [342] [INFO] Booting worker with pid: 342
+
+2016-03-20 14:57:04,765 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [343] [INFO] Booting worker with pid: 343
+
+2016-03-20 14:57:04,826 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [344] [INFO] Booting worker with pid: 344
+
+2016-03-20 14:57:04,865 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:04 +0000] [347] [INFO] Booting worker with pid: 347
+
+2016-03-20 14:57:05,026 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:05 +0000] [331] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:05,026 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:05 +0000] [331] [INFO] Worker exiting (pid: 331)
+
+2016-03-20 14:57:05,106 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:05 +0000] [332] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:05,106 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:05 +0000] [332] [INFO] Worker exiting (pid: 332)
+
+2016-03-20 14:57:05,153 DEBG 'gunicorn_server' stdout output:
+Traceback (most recent call last):
+  File "/usr/local/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 206, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+
+2016-03-20 14:57:05,169 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140355911681520 for <Subprocess at 140355914328472 with name gunicorn_server in state STARTING> (stdout)>
+2016-03-20 14:57:05,170 INFO exited: gunicorn_server (exit status 1; not expected)
+2016-03-20 14:57:05,170 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:06,173 INFO spawned: 'autoreload' with pid 358
+2016-03-20 14:57:06,360 DEBG 'autoreload' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+
+2016-03-20 14:57:06,360 DEBG 'autoreload' stdout output:
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+
+2016-03-20 14:57:06,361 DEBG 'autoreload' stdout output:
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:06,378 DEBG fd 7 closed, stopped monitoring <POutputDispatcher at 140355911681520 for <Subprocess at 140355914328256 with name autoreload in state STARTING> (stdout)>
+2016-03-20 14:57:06,378 INFO exited: autoreload (exit status 1; not expected)
+2016-03-20 14:57:06,378 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:07,380 INFO gave up: autoreload entered FATAL state, too many start retries too quickly
+2016-03-20 14:57:07,382 INFO spawned: 'main_worker' with pid 363
+2016-03-20 14:57:07,384 INFO spawned: 'gunicorn_server' with pid 364
+2016-03-20 14:57:07,603 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [364] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 14:57:07,603 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [364] [INFO] Listening at: http://0.0.0.0:8001 (364)
+
+2016-03-20 14:57:07,603 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [364] [INFO] Using worker: sync
+
+2016-03-20 14:57:07,606 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [373] [INFO] Booting worker with pid: 373
+
+2016-03-20 14:57:07,633 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [374] [INFO] Booting worker with pid: 374
+
+2016-03-20 14:57:07,664 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [375] [INFO] Booting worker with pid: 375
+
+2016-03-20 14:57:07,673 DEBG 'main_worker' stdout output:
+Traceback (most recent call last):
+  File "/project/manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+
+2016-03-20 14:57:07,673 DEBG 'main_worker' stdout output:
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 302, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+
+2016-03-20 14:57:07,674 DEBG 'main_worker' stdout output:
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:07,700 DEBG fd 7 closed, stopped monitoring <POutputDispatcher at 140355911681520 for <Subprocess at 140355914328616 with name main_worker in state STARTING> (stdout)>
+2016-03-20 14:57:07,700 INFO exited: main_worker (exit status 1; not expected)
+2016-03-20 14:57:07,700 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:07,714 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [378] [INFO] Booting worker with pid: 378
+
+2016-03-20 14:57:07,801 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [381] [INFO] Booting worker with pid: 381
+
+2016-03-20 14:57:07,869 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [386] [INFO] Booting worker with pid: 386
+
+2016-03-20 14:57:07,928 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:07 +0000] [387] [INFO] Booting worker with pid: 387
+
+2016-03-20 14:57:08,016 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:08 +0000] [388] [INFO] Booting worker with pid: 388
+
+2016-03-20 14:57:08,020 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:08 +0000] [389] [INFO] Booting worker with pid: 389
+
+2016-03-20 14:57:08,192 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:08 +0000] [373] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+[2016-03-20 14:57:08 +0000] [373] [INFO] Worker exiting (pid: 373)
+
+2016-03-20 14:57:08,335 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:08 +0000] [374] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:08,335 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:08 +0000] [374] [INFO] Worker exiting (pid: 374)
+
+2016-03-20 14:57:08,399 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:08 +0000] [375] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/project/visareserv/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 17, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 55, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 43, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 99, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/project/visareserv/settings.py", line 157, in <module>
+    if SERVER_ENVIRONMENT == 'PROD':
+NameError: name 'SERVER_ENVIRONMENT' is not defined
+
+2016-03-20 14:57:08,399 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:08 +0000] [375] [INFO] Worker exiting (pid: 375)
+
+2016-03-20 14:57:08,414 DEBG 'gunicorn_server' stdout output:
+Traceback (most recent call last):
+  File "/usr/local/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 206, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 464, in reap_workers
+
+2016-03-20 14:57:08,414 DEBG 'gunicorn_server' stdout output:
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+
+2016-03-20 14:57:08,434 DEBG fd 10 closed, stopped monitoring <POutputDispatcher at 140355911681664 for <Subprocess at 140355914328472 with name gunicorn_server in state STARTING> (stdout)>
+2016-03-20 14:57:08,434 INFO exited: gunicorn_server (exit status 1; not expected)
+2016-03-20 14:57:08,434 DEBG received SIGCLD indicating a child quit
+2016-03-20 14:57:11,441 INFO spawned: 'main_worker' with pid 400
+2016-03-20 14:57:11,444 INFO spawned: 'gunicorn_server' with pid 401
+2016-03-20 14:57:11,618 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [401] [INFO] Starting gunicorn 19.4.5
+
+2016-03-20 14:57:11,619 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [401] [INFO] Listening at: http://0.0.0.0:8001 (401)
+
+2016-03-20 14:57:11,621 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [401] [INFO] Using worker: sync
+
+2016-03-20 14:57:11,623 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [410] [INFO] Booting worker with pid: 410
+
+2016-03-20 14:57:11,635 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [411] [INFO] Booting worker with pid: 411
+
+2016-03-20 14:57:11,648 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [412] [INFO] Booting worker with pid: 412
+
+2016-03-20 14:57:11,697 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [413] [INFO] Booting worker with pid: 413
+
+2016-03-20 14:57:11,765 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [416] [INFO] Booting worker with pid: 416
+
+2016-03-20 14:57:11,846 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [421] [INFO] Booting worker with pid: 421
+
+2016-03-20 14:57:11,926 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [422] [INFO] Booting worker with pid: 422
+
+2016-03-20 14:57:11,950 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [424] [INFO] Booting worker with pid: 424
+
+2016-03-20 14:57:11,960 DEBG 'gunicorn_server' stdout output:
+[2016-03-20 14:57:11 +0000] [426] [INFO] Booting worker with pid: 426
+
+2016-03-20 14:57:12,799 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-03-20 14:57:12,995 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 14:57:12,996 DEBG 'main_worker' stdout output:
+[2016-03-20 14:57:12,994: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-03-20 14:57:13,078 DEBG 'main_worker' stdout output:
+[2016-03-20 14:57:13,077: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-03-20 14:57:13,111 DEBG 'main_worker' stdout output:
+[2016-03-20 14:57:13,105: INFO/MainProcess] mingle: searching for neighbors
+
+2016-03-20 14:57:13,112 DEBG 'main_worker' stdout output:
+[2016-03-20 14:57:13,111: INFO/Beat] beat: Starting...
+
+2016-03-20 14:57:14,136 DEBG 'main_worker' stdout output:
+[2016-03-20 14:57:14,118: INFO/MainProcess] mingle: all alone
+
+2016-03-20 14:57:14,137 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-03-20 14:57:14,137 DEBG 'main_worker' stdout output:
+[2016-03-20 14:57:14,137: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-03-20 14:57:14,138 DEBG 'main_worker' stdout output:
+[2016-03-20 14:57:14,137: WARNING/MainProcess] celery@main_worker ready.
+
+2016-03-20 14:57:22,147 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 14:57:22,148 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)

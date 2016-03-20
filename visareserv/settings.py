@@ -152,3 +152,7 @@ REDIS_PORT = 6379
 REDIS_HOST = "redis"
 CELERYD_PREFETCH_MULTIPLIER = 3
 CELERY_ACKS_LATE = True
+
+SERVER_ENVIRONMENT = os.getenv('RUN_ENV', '')
+if SERVER_ENVIRONMENT == 'PROD':
+    from settings_prod import *
