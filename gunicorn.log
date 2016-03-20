@@ -1192,3 +1192,15 @@ gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
 [2016-03-20 20:40:30 +0000] [58] [INFO] Booting worker with pid: 58
 [2016-03-20 20:40:30 +0000] [59] [INFO] Booting worker with pid: 59
 [2016-03-20 20:40:30 +0000] [62] [INFO] Booting worker with pid: 62
+[2016-03-20 21:16:52 +0000] [32] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 21:16:52 +0000] [32] [INFO] Listening at: http://0.0.0.0:8001 (32)
+[2016-03-20 21:16:52 +0000] [32] [INFO] Using worker: sync
+[2016-03-20 21:16:52 +0000] [42] [INFO] Booting worker with pid: 42
+[2016-03-20 21:16:52 +0000] [43] [INFO] Booting worker with pid: 43
+[2016-03-20 21:16:52 +0000] [46] [INFO] Booting worker with pid: 46
+[2016-03-20 21:16:52 +0000] [49] [INFO] Booting worker with pid: 49
+[2016-03-20 21:16:52 +0000] [50] [INFO] Booting worker with pid: 50
+[2016-03-20 21:16:52 +0000] [51] [INFO] Booting worker with pid: 51
+[2016-03-20 21:16:52 +0000] [52] [INFO] Booting worker with pid: 52
+[2016-03-20 21:16:52 +0000] [53] [INFO] Booting worker with pid: 53
+[2016-03-20 21:16:52 +0000] [54] [INFO] Booting worker with pid: 54

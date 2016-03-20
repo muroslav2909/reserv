@@ -5477,3 +5477,11 @@ ConnectionError
 2016-03-20 20:40:29,492 INFO spawned: 'gunicorn_server' with pid 37
 2016-03-20 20:40:39,244 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
 2016-03-20 20:40:40,246 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 21:16:51,259 CRIT Supervisor running as root (no user in config file)
+2016-03-20 21:16:51,283 INFO RPC interface 'supervisor' initialized
+2016-03-20 21:16:51,284 INFO daemonizing the supervisord process
+2016-03-20 21:16:51,285 INFO supervisord started with pid 25
+2016-03-20 21:16:51,752 INFO spawned: 'main_worker' with pid 31
+2016-03-20 21:16:51,754 INFO spawned: 'gunicorn_server' with pid 32
+2016-03-20 21:17:02,731 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-03-20 21:17:02,731 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)

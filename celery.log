@@ -1971,3 +1971,91 @@ You must only enable the serializers that you will actually use.
 [2016-03-20 20:40:30,029: INFO/MainProcess] mingle: searching for neighbors
 [2016-03-20 20:40:31,042: INFO/MainProcess] mingle: all alone
 [2016-03-20 20:40:31,234: WARNING/MainProcess] celery@main_worker ready.
+[2016-03-20 21:16:26,635: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer.py", line 279, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer.py", line 838, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 76, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 340, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 981, in on_readable
+    item = self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 331, in on_readable
+    return chan.handlers[type]()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 652, in _brpop_read
+    self.client.connection.disconnect()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 835, in disconnect
+    channel._on_connection_disconnect(self)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 489, in _on_connection_disconnect
+    self._disconnect_pools()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 477, in _disconnect_pools
+    self._async_pool.disconnect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 921, in disconnect
+    connection.disconnect()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 835, in disconnect
+    channel._on_connection_disconnect(self)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 491, in _on_connection_disconnect
+    raise get_redis_ConnectionError()
+ConnectionError
+[2016-03-20 21:16:26,641: ERROR/MainProcess] Error on restarting Control: AttributeError("'NoneType' object has no attribute 'hostname'",)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 155, in send_all
+    fun(parent, *args)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/pidbox.py", line 55, in stop
+    self.consumer = self._close_channel(c)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/pidbox.py", line 64, in _close_channel
+    ignore_errors(c, self.node.channel.close)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/common.py", line 282, in ignore_errors
+    return fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 775, in close
+    self.queue_delete(queue)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/virtual/__init__.py", line 460, in queue_delete
+    self._delete(queue, exchange, *meta)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 731, in _delete
+    with self.conn_or_acquire() as client:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 872, in conn_or_acquire
+    yield self._create_client()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 843, in _create_client
+    return self.Client(connection_pool=self.pool)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 877, in pool
+    self._pool = self._get_pool()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 846, in _get_pool
+    params = self._connparams(async=async)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 806, in _connparams
+    connparams = {'host': conninfo.hostname or '127.0.0.1',
+AttributeError: 'NoneType' object has no attribute 'hostname'
+[2016-03-20 21:16:26,658: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 2.00 seconds...
+
+[2016-03-20 21:16:53,584: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-03-20 21:16:53,680: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-03-20 21:16:53,699: INFO/MainProcess] mingle: searching for neighbors
+[2016-03-20 21:16:53,728: INFO/Beat] beat: Starting...
+[2016-03-20 21:16:54,706: INFO/MainProcess] mingle: all alone
+[2016-03-20 21:16:54,721: WARNING/MainProcess] celery@main_worker ready.
