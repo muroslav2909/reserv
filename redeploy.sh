@@ -5,6 +5,7 @@ if [ -z "$RUN_ENV" ]; then
 fi
 
 if [ "$RUN_ENV" = "PROD" ]; then
+    git stash
     git pull
 fi
 
