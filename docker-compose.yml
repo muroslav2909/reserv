@@ -1,5 +1,5 @@
 django:
-  image: vamiko/project
+  image: muroslav/vamiko
   #build: .
   command: "sh deploy.sh"
   environment:

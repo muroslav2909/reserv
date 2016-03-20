@@ -1,6 +1,6 @@
 # VAMIKO project
 *if requirements was updated rebuild image:*
-docker build --rm -t vamiko/project .
+docker build --rm -t muroslav/vamiko .
 *go inside container*
 docker exec -it visareserv_django_1 /bin/sh
 *push to dockerHUB*
