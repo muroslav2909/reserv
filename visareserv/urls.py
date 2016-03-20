@@ -1,4 +1,5 @@
-from django.conf.urls import url
+import os
+from django.conf.urls import url, patterns
 from django.contrib import admin
 from django.views.generic import RedirectView
 from django.conf.urls.static import static
@@ -11,3 +12,8 @@ urlpatterns = [
     url(r'^favicon\.ico$', RedirectView.as_view(url='/static/logo_vectorized.png'),),
     url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
 ]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+
+SERVER_ENVIRONMENT = os.getenv('RUN_ENV', '')
+if SERVER_ENVIRONMENT == 'PROD':
+    urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )

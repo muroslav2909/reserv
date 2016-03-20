@@ -7,4 +7,11 @@ docker exec -it reserv_django_1 /bin/sh
 docker tag 691b0984951b muroslav/vamiko
 docker push muroslav/vamiko
 
-python manage.py createsuperuser
+*create db*
+sudo apt-get install postgresql postgresql-contrib
+sudo -i -u postgres
+psql
+CREATE DATABASE server_vamiko_postgres;
+CREATE ROLE myroslav LOGIN;
+CREATE USER davide WITH PASSWORD 'jw8s0F4';
+\q

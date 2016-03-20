@@ -1029,3 +1029,166 @@ gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
 /project/visareserv/urls.py:12: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
   url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
 
+[2016-03-20 18:58:25 +0000] [33] [INFO] Handling signal: term
+[2016-03-20 18:58:25 +0000] [54] [INFO] Worker exiting (pid: 54)
+[2016-03-20 18:58:25 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-03-20 18:58:25 +0000] [50] [INFO] Worker exiting (pid: 50)
+[2016-03-20 18:58:25 +0000] [51] [INFO] Worker exiting (pid: 51)
+[2016-03-20 18:58:25 +0000] [55] [INFO] Worker exiting (pid: 55)
+[2016-03-20 18:58:25 +0000] [56] [INFO] Worker exiting (pid: 56)
+[2016-03-20 18:58:25 +0000] [57] [INFO] Worker exiting (pid: 57)
+[2016-03-20 18:58:25 +0000] [59] [INFO] Worker exiting (pid: 59)
+[2016-03-20 18:58:25 +0000] [58] [INFO] Worker exiting (pid: 58)
+[2016-03-20 18:58:25 +0000] [33] [INFO] Shutting down: Master
+[2016-03-20 18:58:41 +0000] [116] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 18:58:41 +0000] [116] [INFO] Listening at: http://0.0.0.0:8001 (116)
+[2016-03-20 18:58:41 +0000] [116] [INFO] Using worker: sync
+[2016-03-20 18:58:41 +0000] [121] [INFO] Booting worker with pid: 121
+[2016-03-20 18:58:41 +0000] [122] [INFO] Booting worker with pid: 122
+[2016-03-20 18:58:41 +0000] [123] [INFO] Booting worker with pid: 123
+[2016-03-20 18:58:41 +0000] [124] [INFO] Booting worker with pid: 124
+[2016-03-20 18:58:41 +0000] [125] [INFO] Booting worker with pid: 125
+[2016-03-20 18:58:41 +0000] [126] [INFO] Booting worker with pid: 126
+[2016-03-20 18:58:41 +0000] [127] [INFO] Booting worker with pid: 127
+[2016-03-20 18:58:41 +0000] [128] [INFO] Booting worker with pid: 128
+[2016-03-20 18:58:42 +0000] [129] [INFO] Booting worker with pid: 129
+[2016-03-20 18:59:07 +0000] [116] [INFO] Handling signal: term
+[2016-03-20 18:59:07 +0000] [129] [INFO] Worker exiting (pid: 129)
+[2016-03-20 18:59:07 +0000] [128] [INFO] Worker exiting (pid: 128)
+[2016-03-20 18:59:07 +0000] [122] [INFO] Worker exiting (pid: 122)
+[2016-03-20 18:59:07 +0000] [121] [INFO] Worker exiting (pid: 121)
+[2016-03-20 18:59:07 +0000] [123] [INFO] Worker exiting (pid: 123)
+[2016-03-20 18:59:07 +0000] [124] [INFO] Worker exiting (pid: 124)
+[2016-03-20 18:59:07 +0000] [127] [INFO] Worker exiting (pid: 127)
+[2016-03-20 18:59:07 +0000] [125] [INFO] Worker exiting (pid: 125)
+[2016-03-20 18:59:07 +0000] [126] [INFO] Worker exiting (pid: 126)
+[2016-03-20 18:59:07 +0000] [116] [INFO] Shutting down: Master
+[2016-03-20 18:59:20 +0000] [226] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 18:59:20 +0000] [226] [INFO] Listening at: http://0.0.0.0:8001 (226)
+[2016-03-20 18:59:20 +0000] [226] [INFO] Using worker: sync
+[2016-03-20 18:59:20 +0000] [231] [INFO] Booting worker with pid: 231
+[2016-03-20 18:59:20 +0000] [232] [INFO] Booting worker with pid: 232
+[2016-03-20 18:59:20 +0000] [237] [INFO] Booting worker with pid: 237
+[2016-03-20 18:59:20 +0000] [239] [INFO] Booting worker with pid: 239
+[2016-03-20 18:59:20 +0000] [241] [INFO] Booting worker with pid: 241
+[2016-03-20 18:59:20 +0000] [242] [INFO] Booting worker with pid: 242
+[2016-03-20 18:59:20 +0000] [243] [INFO] Booting worker with pid: 243
+[2016-03-20 18:59:21 +0000] [244] [INFO] Booting worker with pid: 244
+[2016-03-20 18:59:21 +0000] [245] [INFO] Booting worker with pid: 245
+[2016-03-20 18:59:27 +0000] [226] [INFO] Handling signal: term
+[2016-03-20 18:59:27 +0000] [243] [INFO] Worker exiting (pid: 243)
+[2016-03-20 18:59:27 +0000] [239] [INFO] Worker exiting (pid: 239)
+[2016-03-20 18:59:27 +0000] [232] [INFO] Worker exiting (pid: 232)
+[2016-03-20 18:59:27 +0000] [242] [INFO] Worker exiting (pid: 242)
+[2016-03-20 18:59:27 +0000] [245] [INFO] Worker exiting (pid: 245)
+[2016-03-20 18:59:27 +0000] [237] [INFO] Worker exiting (pid: 237)
+[2016-03-20 18:59:27 +0000] [244] [INFO] Worker exiting (pid: 244)
+[2016-03-20 18:59:27 +0000] [231] [INFO] Worker exiting (pid: 231)
+[2016-03-20 18:59:27 +0000] [241] [INFO] Worker exiting (pid: 241)
+[2016-03-20 18:59:27 +0000] [226] [INFO] Shutting down: Master
+[2016-03-20 18:59:39 +0000] [301] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 18:59:39 +0000] [301] [INFO] Listening at: http://0.0.0.0:8001 (301)
+[2016-03-20 18:59:39 +0000] [301] [INFO] Using worker: sync
+[2016-03-20 18:59:39 +0000] [306] [INFO] Booting worker with pid: 306
+[2016-03-20 18:59:39 +0000] [307] [INFO] Booting worker with pid: 307
+[2016-03-20 18:59:39 +0000] [309] [INFO] Booting worker with pid: 309
+[2016-03-20 18:59:39 +0000] [308] [INFO] Booting worker with pid: 308
+[2016-03-20 18:59:39 +0000] [310] [INFO] Booting worker with pid: 310
+[2016-03-20 18:59:39 +0000] [311] [INFO] Booting worker with pid: 311
+[2016-03-20 18:59:39 +0000] [312] [INFO] Booting worker with pid: 312
+[2016-03-20 18:59:39 +0000] [313] [INFO] Booting worker with pid: 313
+[2016-03-20 18:59:39 +0000] [315] [INFO] Booting worker with pid: 315
+[2016-03-20 18:59:40 +0000] [301] [INFO] Handling signal: term
+[2016-03-20 18:59:41 +0000] [306] [INFO] Worker exiting (pid: 306)
+[2016-03-20 18:59:41 +0000] [309] [INFO] Worker exiting (pid: 309)
+[2016-03-20 18:59:41 +0000] [310] [INFO] Worker exiting (pid: 310)
+[2016-03-20 18:59:41 +0000] [307] [INFO] Worker exiting (pid: 307)
+[2016-03-20 18:59:41 +0000] [311] [INFO] Worker exiting (pid: 311)
+[2016-03-20 18:59:41 +0000] [308] [INFO] Worker exiting (pid: 308)
+[2016-03-20 18:59:41 +0000] [313] [INFO] Worker exiting (pid: 313)
+[2016-03-20 18:59:41 +0000] [312] [INFO] Worker exiting (pid: 312)
+[2016-03-20 18:59:41 +0000] [315] [INFO] Worker exiting (pid: 315)
+[2016-03-20 18:59:41 +0000] [301] [INFO] Shutting down: Master
+[2016-03-20 18:59:55 +0000] [379] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 18:59:55 +0000] [379] [INFO] Listening at: http://0.0.0.0:8001 (379)
+[2016-03-20 18:59:55 +0000] [379] [INFO] Using worker: sync
+[2016-03-20 18:59:55 +0000] [384] [INFO] Booting worker with pid: 384
+[2016-03-20 18:59:55 +0000] [385] [INFO] Booting worker with pid: 385
+[2016-03-20 18:59:55 +0000] [388] [INFO] Booting worker with pid: 388
+[2016-03-20 18:59:55 +0000] [391] [INFO] Booting worker with pid: 391
+[2016-03-20 18:59:55 +0000] [392] [INFO] Booting worker with pid: 392
+[2016-03-20 18:59:56 +0000] [399] [INFO] Booting worker with pid: 399
+[2016-03-20 18:59:56 +0000] [402] [INFO] Booting worker with pid: 402
+[2016-03-20 18:59:56 +0000] [403] [INFO] Booting worker with pid: 403
+[2016-03-20 18:59:57 +0000] [404] [INFO] Booting worker with pid: 404
+[2016-03-20 19:00:15 +0000] [379] [INFO] Handling signal: term
+[2016-03-20 19:00:15 +0000] [384] [INFO] Worker exiting (pid: 384)
+[2016-03-20 19:00:15 +0000] [391] [INFO] Worker exiting (pid: 391)
+[2016-03-20 19:00:15 +0000] [385] [INFO] Worker exiting (pid: 385)
+[2016-03-20 19:00:15 +0000] [388] [INFO] Worker exiting (pid: 388)
+[2016-03-20 19:00:15 +0000] [403] [INFO] Worker exiting (pid: 403)
+[2016-03-20 19:00:15 +0000] [392] [INFO] Worker exiting (pid: 392)
+[2016-03-20 19:00:15 +0000] [404] [INFO] Worker exiting (pid: 404)
+[2016-03-20 19:00:15 +0000] [399] [INFO] Worker exiting (pid: 399)
+[2016-03-20 19:00:15 +0000] [402] [INFO] Worker exiting (pid: 402)
+[2016-03-20 19:00:15 +0000] [379] [INFO] Shutting down: Master
+[2016-03-20 19:00:21 +0000] [432] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 19:00:21 +0000] [432] [INFO] Listening at: http://0.0.0.0:8001 (432)
+[2016-03-20 19:00:21 +0000] [432] [INFO] Using worker: sync
+[2016-03-20 19:00:21 +0000] [437] [INFO] Booting worker with pid: 437
+[2016-03-20 19:00:21 +0000] [438] [INFO] Booting worker with pid: 438
+[2016-03-20 19:00:21 +0000] [441] [INFO] Booting worker with pid: 441
+[2016-03-20 19:00:21 +0000] [444] [INFO] Booting worker with pid: 444
+[2016-03-20 19:00:21 +0000] [447] [INFO] Booting worker with pid: 447
+[2016-03-20 19:00:21 +0000] [448] [INFO] Booting worker with pid: 448
+[2016-03-20 19:00:21 +0000] [449] [INFO] Booting worker with pid: 449
+[2016-03-20 19:00:21 +0000] [450] [INFO] Booting worker with pid: 450
+[2016-03-20 19:00:21 +0000] [451] [INFO] Booting worker with pid: 451
+[2016-03-20 20:35:32 +0000] [32] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 20:35:32 +0000] [32] [INFO] Listening at: http://0.0.0.0:8001 (32)
+[2016-03-20 20:35:32 +0000] [32] [INFO] Using worker: sync
+[2016-03-20 20:35:32 +0000] [42] [INFO] Booting worker with pid: 42
+[2016-03-20 20:35:32 +0000] [43] [INFO] Booting worker with pid: 43
+[2016-03-20 20:35:32 +0000] [44] [INFO] Booting worker with pid: 44
+[2016-03-20 20:35:32 +0000] [45] [INFO] Booting worker with pid: 45
+[2016-03-20 20:35:32 +0000] [52] [INFO] Booting worker with pid: 52
+[2016-03-20 20:35:32 +0000] [55] [INFO] Booting worker with pid: 55
+[2016-03-20 20:35:32 +0000] [56] [INFO] Booting worker with pid: 56
+[2016-03-20 20:35:32 +0000] [57] [INFO] Booting worker with pid: 57
+[2016-03-20 20:35:32 +0000] [58] [INFO] Booting worker with pid: 58
+[2016-03-20 20:37:44 +0000] [33] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 20:37:44 +0000] [33] [INFO] Listening at: http://0.0.0.0:8001 (33)
+[2016-03-20 20:37:44 +0000] [33] [INFO] Using worker: sync
+[2016-03-20 20:37:45 +0000] [48] [INFO] Booting worker with pid: 48
+[2016-03-20 20:37:45 +0000] [49] [INFO] Booting worker with pid: 49
+[2016-03-20 20:37:45 +0000] [54] [INFO] Booting worker with pid: 54
+[2016-03-20 20:37:46 +0000] [55] [INFO] Booting worker with pid: 55
+[2016-03-20 20:37:46 +0000] [58] [INFO] Booting worker with pid: 58
+[2016-03-20 20:37:46 +0000] [59] [INFO] Booting worker with pid: 59
+[2016-03-20 20:37:46 +0000] [62] [INFO] Booting worker with pid: 62
+[2016-03-20 20:37:46 +0000] [63] [INFO] Booting worker with pid: 63
+[2016-03-20 20:37:46 +0000] [68] [INFO] Booting worker with pid: 68
+[2016-03-20 20:39:01 +0000] [32] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 20:39:01 +0000] [32] [INFO] Listening at: http://0.0.0.0:8001 (32)
+[2016-03-20 20:39:01 +0000] [32] [INFO] Using worker: sync
+[2016-03-20 20:39:01 +0000] [42] [INFO] Booting worker with pid: 42
+[2016-03-20 20:39:01 +0000] [44] [INFO] Booting worker with pid: 44
+[2016-03-20 20:39:01 +0000] [46] [INFO] Booting worker with pid: 46
+[2016-03-20 20:39:02 +0000] [48] [INFO] Booting worker with pid: 48
+[2016-03-20 20:39:02 +0000] [49] [INFO] Booting worker with pid: 49
+[2016-03-20 20:39:02 +0000] [51] [INFO] Booting worker with pid: 51
+[2016-03-20 20:39:02 +0000] [52] [INFO] Booting worker with pid: 52
+[2016-03-20 20:39:02 +0000] [55] [INFO] Booting worker with pid: 55
+[2016-03-20 20:39:02 +0000] [58] [INFO] Booting worker with pid: 58
+[2016-03-20 20:40:29 +0000] [37] [INFO] Starting gunicorn 19.4.5
+[2016-03-20 20:40:29 +0000] [37] [INFO] Listening at: http://0.0.0.0:8001 (37)
+[2016-03-20 20:40:29 +0000] [37] [INFO] Using worker: sync
+[2016-03-20 20:40:29 +0000] [43] [INFO] Booting worker with pid: 43
+[2016-03-20 20:40:29 +0000] [44] [INFO] Booting worker with pid: 44
+[2016-03-20 20:40:29 +0000] [45] [INFO] Booting worker with pid: 45
+[2016-03-20 20:40:29 +0000] [50] [INFO] Booting worker with pid: 50
+[2016-03-20 20:40:29 +0000] [51] [INFO] Booting worker with pid: 51
+[2016-03-20 20:40:29 +0000] [57] [INFO] Booting worker with pid: 57
+[2016-03-20 20:40:30 +0000] [58] [INFO] Booting worker with pid: 58
+[2016-03-20 20:40:30 +0000] [59] [INFO] Booting worker with pid: 59
+[2016-03-20 20:40:30 +0000] [62] [INFO] Booting worker with pid: 62
