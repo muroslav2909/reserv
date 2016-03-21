@@ -1,12 +1,11 @@
 db.sqlite3
 .git
-.gitignore~
 .idea/
 chamge_ip.py
 *.pyc
-celery.log
 celerybeat-schedule
 *.log
+*.*~
 
 
 
