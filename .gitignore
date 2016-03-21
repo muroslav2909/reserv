@@ -6,8 +6,7 @@ chamge_ip.py
 *.pyc
 celery.log
 celerybeat-schedule
-gunicorn.log
-supervisord.log
+*.log
 
 
 
