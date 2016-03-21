@@ -6,6 +6,7 @@ chamge_ip.py
 celerybeat-schedule
 *.log
 *.*~
+supervisord.pid
 
 
 
