@@ -7,6 +7,11 @@ celerybeat-schedule
 *.log
 *.*~
 supervisord.pid
+static/bud_apiter_1111111111.jpg
+static/resize_image.py
+vamiko/static_files/bud_apiter_1111111111.jpg
+vamiko/static_files/resize_image.py
+
 
 
 
