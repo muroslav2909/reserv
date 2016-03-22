@@ -9,7 +9,7 @@ def home(request):
     if request.method == 'GET':
         form = VisitorMessageForm()
     else:
-        print request.POST
+        # print request.POST
         if 'subscribe' in request.POST:
             form = SubscribeForm(request.POST)
             if form.is_valid():
@@ -20,11 +20,19 @@ def home(request):
         else:
             form = VisitorMessageForm(request.POST)
             if form.is_valid():
-                visitor_name = form.cleaned_data['visitor_name']
-                message_text = form.cleaned_data['message_text']
-                visitor_email = form.cleaned_data['visitor_email']
-                post = VisitorMessage(visitor_name=visitor_name, message_text=message_text, visitor_email=visitor_email)
-                post.save()
+                try:
+                    visitor_name = form.cleaned_data['visitor_name']
+                    message_text = form.cleaned_data['message_text']
+                    visitor_email = form.cleaned_data['visitor_email']
+                    visitor_phone = form.cleaned_data['visitor_phone']
+
+                    post = VisitorMessage(visitor_name=visitor_name, message_text=message_text, visitor_email=visitor_email, visitor_phone=visitor_phone)
+                    print post
+                    post.save()
+                except Exception, e:
+                    print e
+            else:
+                print "form.is_NOT_valid():"
     return render(request, 'home.html')
 
 

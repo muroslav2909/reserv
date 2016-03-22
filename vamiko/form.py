@@ -14,6 +14,7 @@ class VisitorMessageForm(forms.Form):
     visitor_name = forms.CharField()
     message_text = forms.CharField()
     visitor_email = forms.EmailField()
+    visitor_phone = forms.CharField()
 
 class SubscribeForm(forms.Form):
     visitor_email = forms.EmailField()

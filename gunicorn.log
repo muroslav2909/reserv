@@ -1324,3 +1324,700 @@ gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
 /project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
   url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
 
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:21:29 +0000] [33] [INFO] Handling signal: term
+[2016-03-22 22:21:30 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-03-22 22:21:30 +0000] [50] [INFO] Worker exiting (pid: 50)
+[2016-03-22 22:21:30 +0000] [51] [INFO] Worker exiting (pid: 51)
+[2016-03-22 22:21:30 +0000] [52] [INFO] Worker exiting (pid: 52)
+[2016-03-22 22:21:30 +0000] [53] [INFO] Worker exiting (pid: 53)
+[2016-03-22 22:21:30 +0000] [54] [INFO] Worker exiting (pid: 54)
+[2016-03-22 22:21:30 +0000] [55] [INFO] Worker exiting (pid: 55)
+[2016-03-22 22:21:30 +0000] [56] [INFO] Worker exiting (pid: 56)
+[2016-03-22 22:21:30 +0000] [57] [INFO] Worker exiting (pid: 57)
+[2016-03-22 22:21:57 +0000] [116] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:21:57 +0000] [116] [INFO] Listening at: http://0.0.0.0:8001 (116)
+[2016-03-22 22:21:57 +0000] [116] [INFO] Using worker: sync
+[2016-03-22 22:21:58 +0000] [121] [INFO] Booting worker with pid: 121
+[2016-03-22 22:21:58 +0000] [122] [INFO] Booting worker with pid: 122
+[2016-03-22 22:21:58 +0000] [123] [INFO] Booting worker with pid: 123
+[2016-03-22 22:21:58 +0000] [124] [INFO] Booting worker with pid: 124
+[2016-03-22 22:21:58 +0000] [131] [INFO] Booting worker with pid: 131
+[2016-03-22 22:21:58 +0000] [134] [INFO] Booting worker with pid: 134
+[2016-03-22 22:21:58 +0000] [137] [INFO] Booting worker with pid: 137
+[2016-03-22 22:21:58 +0000] [138] [INFO] Booting worker with pid: 138
+[2016-03-22 22:21:58 +0000] [141] [INFO] Booting worker with pid: 141
+[2016-03-22 22:23:00 +0000] [116] [INFO] Handling signal: term
+[2016-03-22 22:23:00 +0000] [138] [INFO] Worker exiting (pid: 138)
+[2016-03-22 22:23:00 +0000] [131] [INFO] Worker exiting (pid: 131)
+[2016-03-22 22:23:00 +0000] [134] [INFO] Worker exiting (pid: 134)
+[2016-03-22 22:23:00 +0000] [137] [INFO] Worker exiting (pid: 137)
+[2016-03-22 22:23:00 +0000] [122] [INFO] Worker exiting (pid: 122)
+[2016-03-22 22:23:00 +0000] [123] [INFO] Worker exiting (pid: 123)
+[2016-03-22 22:23:00 +0000] [124] [INFO] Worker exiting (pid: 124)
+[2016-03-22 22:23:00 +0000] [121] [INFO] Worker exiting (pid: 121)
+[2016-03-22 22:23:00 +0000] [141] [INFO] Worker exiting (pid: 141)
+[2016-03-22 22:23:00 +0000] [116] [INFO] Shutting down: Master
+[2016-03-22 22:23:07 +0000] [200] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:23:07 +0000] [200] [INFO] Listening at: http://0.0.0.0:8001 (200)
+[2016-03-22 22:23:07 +0000] [200] [INFO] Using worker: sync
+[2016-03-22 22:23:07 +0000] [205] [INFO] Booting worker with pid: 205
+[2016-03-22 22:23:07 +0000] [206] [INFO] Booting worker with pid: 206
+[2016-03-22 22:23:07 +0000] [207] [INFO] Booting worker with pid: 207
+[2016-03-22 22:23:07 +0000] [212] [INFO] Booting worker with pid: 212
+[2016-03-22 22:23:07 +0000] [215] [INFO] Booting worker with pid: 215
+[2016-03-22 22:23:07 +0000] [216] [INFO] Booting worker with pid: 216
+[2016-03-22 22:23:07 +0000] [219] [INFO] Booting worker with pid: 219
+[2016-03-22 22:23:07 +0000] [220] [INFO] Booting worker with pid: 220
+[2016-03-22 22:23:07 +0000] [221] [INFO] Booting worker with pid: 221
+[2016-03-22 22:27:49 +0000] [37] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:27:49 +0000] [37] [INFO] Listening at: http://0.0.0.0:8001 (37)
+[2016-03-22 22:27:49 +0000] [37] [INFO] Using worker: sync
+[2016-03-22 22:27:49 +0000] [46] [INFO] Booting worker with pid: 46
+[2016-03-22 22:27:49 +0000] [47] [INFO] Booting worker with pid: 47
+[2016-03-22 22:27:49 +0000] [48] [INFO] Booting worker with pid: 48
+[2016-03-22 22:27:49 +0000] [49] [INFO] Booting worker with pid: 49
+[2016-03-22 22:27:49 +0000] [50] [INFO] Booting worker with pid: 50
+[2016-03-22 22:27:49 +0000] [51] [INFO] Booting worker with pid: 51
+[2016-03-22 22:27:49 +0000] [52] [INFO] Booting worker with pid: 52
+[2016-03-22 22:27:49 +0000] [53] [INFO] Booting worker with pid: 53
+[2016-03-22 22:27:49 +0000] [59] [INFO] Booting worker with pid: 59
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:27:56 +0000] [48] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:27:57 +0000] [59] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:29:17 +0000] [37] [INFO] Handling signal: term
+[2016-03-22 22:29:17 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-03-22 22:29:17 +0000] [47] [INFO] Worker exiting (pid: 47)
+[2016-03-22 22:29:17 +0000] [51] [INFO] Worker exiting (pid: 51)
+[2016-03-22 22:29:17 +0000] [50] [INFO] Worker exiting (pid: 50)
+[2016-03-22 22:29:17 +0000] [48] [INFO] Worker exiting (pid: 48)
+[2016-03-22 22:29:17 +0000] [53] [INFO] Worker exiting (pid: 53)
+[2016-03-22 22:29:17 +0000] [52] [INFO] Worker exiting (pid: 52)
+[2016-03-22 22:29:17 +0000] [59] [INFO] Worker exiting (pid: 59)
+[2016-03-22 22:29:17 +0000] [46] [INFO] Worker exiting (pid: 46)
+[2016-03-22 22:29:17 +0000] [37] [INFO] Shutting down: Master
+[2016-03-22 22:29:30 +0000] [147] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:29:30 +0000] [147] [INFO] Listening at: http://0.0.0.0:8001 (147)
+[2016-03-22 22:29:30 +0000] [147] [INFO] Using worker: sync
+[2016-03-22 22:29:30 +0000] [152] [INFO] Booting worker with pid: 152
+[2016-03-22 22:29:30 +0000] [155] [INFO] Booting worker with pid: 155
+[2016-03-22 22:29:30 +0000] [158] [INFO] Booting worker with pid: 158
+[2016-03-22 22:29:30 +0000] [159] [INFO] Booting worker with pid: 159
+[2016-03-22 22:29:30 +0000] [160] [INFO] Booting worker with pid: 160
+[2016-03-22 22:29:30 +0000] [163] [INFO] Booting worker with pid: 163
+[2016-03-22 22:29:30 +0000] [164] [INFO] Booting worker with pid: 164
+[2016-03-22 22:29:30 +0000] [165] [INFO] Booting worker with pid: 165
+[2016-03-22 22:29:30 +0000] [166] [INFO] Booting worker with pid: 166
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:30:37 +0000] [147] [INFO] Handling signal: term
+[2016-03-22 22:30:37 +0000] [155] [INFO] Worker exiting (pid: 155)
+[2016-03-22 22:30:37 +0000] [160] [INFO] Worker exiting (pid: 160)
+[2016-03-22 22:30:37 +0000] [163] [INFO] Worker exiting (pid: 163)
+[2016-03-22 22:30:37 +0000] [164] [INFO] Worker exiting (pid: 164)
+[2016-03-22 22:30:37 +0000] [165] [INFO] Worker exiting (pid: 165)
+[2016-03-22 22:30:37 +0000] [166] [INFO] Worker exiting (pid: 166)
+[2016-03-22 22:30:37 +0000] [152] [INFO] Worker exiting (pid: 152)
+[2016-03-22 22:30:37 +0000] [158] [INFO] Worker exiting (pid: 158)
+[2016-03-22 22:30:37 +0000] [159] [INFO] Worker exiting (pid: 159)
+[2016-03-22 22:30:37 +0000] [147] [INFO] Shutting down: Master
+[2016-03-22 22:30:50 +0000] [226] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:30:50 +0000] [226] [INFO] Listening at: http://0.0.0.0:8001 (226)
+[2016-03-22 22:30:50 +0000] [226] [INFO] Using worker: sync
+[2016-03-22 22:30:50 +0000] [231] [INFO] Booting worker with pid: 231
+[2016-03-22 22:30:50 +0000] [232] [INFO] Booting worker with pid: 232
+[2016-03-22 22:30:50 +0000] [233] [INFO] Booting worker with pid: 233
+[2016-03-22 22:30:51 +0000] [238] [INFO] Booting worker with pid: 238
+[2016-03-22 22:30:51 +0000] [241] [INFO] Booting worker with pid: 241
+[2016-03-22 22:30:51 +0000] [244] [INFO] Booting worker with pid: 244
+[2016-03-22 22:30:51 +0000] [245] [INFO] Booting worker with pid: 245
+[2016-03-22 22:30:51 +0000] [246] [INFO] Booting worker with pid: 246
+[2016-03-22 22:30:51 +0000] [247] [INFO] Booting worker with pid: 247
+[2016-03-22 22:38:02 +0000] [226] [INFO] Handling signal: term
+[2016-03-22 22:38:02 +0000] [232] [INFO] Worker exiting (pid: 232)
+[2016-03-22 22:38:02 +0000] [247] [INFO] Worker exiting (pid: 247)
+[2016-03-22 22:38:02 +0000] [231] [INFO] Worker exiting (pid: 231)
+[2016-03-22 22:38:02 +0000] [241] [INFO] Worker exiting (pid: 241)
+[2016-03-22 22:38:02 +0000] [233] [INFO] Worker exiting (pid: 233)
+[2016-03-22 22:38:02 +0000] [238] [INFO] Worker exiting (pid: 238)
+[2016-03-22 22:38:02 +0000] [245] [INFO] Worker exiting (pid: 245)
+[2016-03-22 22:38:02 +0000] [246] [INFO] Worker exiting (pid: 246)
+[2016-03-22 22:38:02 +0000] [244] [INFO] Worker exiting (pid: 244)
+[2016-03-22 22:38:02 +0000] [226] [INFO] Shutting down: Master
+[2016-03-22 22:38:15 +0000] [274] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:38:15 +0000] [274] [INFO] Listening at: http://0.0.0.0:8001 (274)
+[2016-03-22 22:38:15 +0000] [274] [INFO] Using worker: sync
+[2016-03-22 22:38:15 +0000] [279] [INFO] Booting worker with pid: 279
+[2016-03-22 22:38:15 +0000] [280] [INFO] Booting worker with pid: 280
+[2016-03-22 22:38:15 +0000] [283] [INFO] Booting worker with pid: 283
+[2016-03-22 22:38:15 +0000] [286] [INFO] Booting worker with pid: 286
+[2016-03-22 22:38:15 +0000] [287] [INFO] Booting worker with pid: 287
+[2016-03-22 22:38:15 +0000] [290] [INFO] Booting worker with pid: 290
+[2016-03-22 22:38:15 +0000] [291] [INFO] Booting worker with pid: 291
+[2016-03-22 22:38:15 +0000] [294] [INFO] Booting worker with pid: 294
+[2016-03-22 22:38:15 +0000] [297] [INFO] Booting worker with pid: 297
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:39:45 +0000] [274] [INFO] Handling signal: term
+[2016-03-22 22:39:45 +0000] [290] [INFO] Worker exiting (pid: 290)
+[2016-03-22 22:39:45 +0000] [291] [INFO] Worker exiting (pid: 291)
+[2016-03-22 22:39:45 +0000] [279] [INFO] Worker exiting (pid: 279)
+[2016-03-22 22:39:45 +0000] [294] [INFO] Worker exiting (pid: 294)
+<QueryDict: {u'visitor_phone': [u'11111111'], u'message_text': [u';ppppppppppp'], u'visitor_email': [u'12@gg.comk'], u'visitor_name': [u''], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+[2016-03-22 22:39:45 +0000] [297] [INFO] Worker exiting (pid: 297)
+[2016-03-22 22:39:45 +0000] [280] [INFO] Worker exiting (pid: 280)
+<QueryDict: {u'visitor_phone': [u'11111111111'], u'message_text': [u'kkkkk'], u'visitor_email': [u'4747417ljjjjj@ff.com'], u'visitor_name': [u''], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+[2016-03-22 22:39:45 +0000] [283] [INFO] Worker exiting (pid: 283)
+[2016-03-22 22:39:45 +0000] [286] [INFO] Worker exiting (pid: 286)
+[2016-03-22 22:39:45 +0000] [287] [INFO] Worker exiting (pid: 287)
+[2016-03-22 22:39:46 +0000] [274] [INFO] Shutting down: Master
+[2016-03-22 22:39:49 +0000] [353] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:39:49 +0000] [353] [INFO] Listening at: http://0.0.0.0:8001 (353)
+[2016-03-22 22:39:49 +0000] [353] [INFO] Using worker: sync
+[2016-03-22 22:39:49 +0000] [358] [INFO] Booting worker with pid: 358
+[2016-03-22 22:39:49 +0000] [361] [INFO] Booting worker with pid: 361
+[2016-03-22 22:39:49 +0000] [364] [INFO] Booting worker with pid: 364
+[2016-03-22 22:39:49 +0000] [365] [INFO] Booting worker with pid: 365
+[2016-03-22 22:39:49 +0000] [366] [INFO] Booting worker with pid: 366
+[2016-03-22 22:39:49 +0000] [367] [INFO] Booting worker with pid: 367
+[2016-03-22 22:39:49 +0000] [370] [INFO] Booting worker with pid: 370
+[2016-03-22 22:39:49 +0000] [375] [INFO] Booting worker with pid: 375
+[2016-03-22 22:39:49 +0000] [376] [INFO] Booting worker with pid: 376
+[2016-03-22 22:41:32 +0000] [33] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:41:32 +0000] [33] [INFO] Listening at: http://0.0.0.0:8001 (33)
+[2016-03-22 22:41:32 +0000] [33] [INFO] Using worker: sync
+[2016-03-22 22:41:32 +0000] [47] [INFO] Booting worker with pid: 47
+[2016-03-22 22:41:32 +0000] [48] [INFO] Booting worker with pid: 48
+[2016-03-22 22:41:32 +0000] [49] [INFO] Booting worker with pid: 49
+[2016-03-22 22:41:32 +0000] [52] [INFO] Booting worker with pid: 52
+[2016-03-22 22:41:32 +0000] [53] [INFO] Booting worker with pid: 53
+[2016-03-22 22:41:33 +0000] [56] [INFO] Booting worker with pid: 56
+[2016-03-22 22:41:33 +0000] [59] [INFO] Booting worker with pid: 59
+[2016-03-22 22:41:33 +0000] [60] [INFO] Booting worker with pid: 60
+[2016-03-22 22:41:33 +0000] [61] [INFO] Booting worker with pid: 61
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:44:27 +0000] [33] [INFO] Handling signal: term
+[2016-03-22 22:44:27 +0000] [47] [INFO] Worker exiting (pid: 47)
+[2016-03-22 22:44:27 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-03-22 22:44:27 +0000] [48] [INFO] Worker exiting (pid: 48)
+<QueryDict: {u'visitor_phone': [u'11111111'], u'message_text': [u';ppppppppppp'], u'visitor_email': [u'12@gg.comk'], u'visitor_name': [u''], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+<QueryDict: {u'visitor_phone': [u'uj4124525'], u'message_text': [u'jjjjjjjjjj'], u'visitor_email': [u'vvvvvvvvvvv@ff.comp'], u'visitor_name': [u'juj'], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+<QueryDict: {u'visitor_phone': [u'11111111111'], u'message_text': [u'hhhhhhhhhhhh'], u'visitor_email': [u'hhhhhhhhhh@ff.com'], u'visitor_name': [u''], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+[2016-03-22 22:44:27 +0000] [52] [INFO] Worker exiting (pid: 52)
+[2016-03-22 22:44:27 +0000] [53] [INFO] Worker exiting (pid: 53)
+[2016-03-22 22:44:27 +0000] [56] [INFO] Worker exiting (pid: 56)
+[2016-03-22 22:44:27 +0000] [59] [INFO] Worker exiting (pid: 59)
+[2016-03-22 22:44:27 +0000] [60] [INFO] Worker exiting (pid: 60)
+<QueryDict: {u'visitor_phone': [u'qqqqqqqq'], u'message_text': [u'qqqqqqqqqq'], u'visitor_email': [u'qqqqqqqqqqqq@ff.com'], u'visitor_name': [u'qqqqqq'], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+[2016-03-22 22:44:27 +0000] [61] [INFO] Worker exiting (pid: 61)
+[2016-03-22 22:44:27 +0000] [33] [INFO] Shutting down: Master
+[2016-03-22 22:44:40 +0000] [147] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:44:40 +0000] [147] [INFO] Listening at: http://0.0.0.0:8001 (147)
+[2016-03-22 22:44:40 +0000] [147] [INFO] Using worker: sync
+[2016-03-22 22:44:40 +0000] [152] [INFO] Booting worker with pid: 152
+[2016-03-22 22:44:40 +0000] [153] [INFO] Booting worker with pid: 153
+[2016-03-22 22:44:40 +0000] [158] [INFO] Booting worker with pid: 158
+[2016-03-22 22:44:40 +0000] [159] [INFO] Booting worker with pid: 159
+[2016-03-22 22:44:40 +0000] [160] [INFO] Booting worker with pid: 160
+[2016-03-22 22:44:40 +0000] [161] [INFO] Booting worker with pid: 161
+[2016-03-22 22:44:41 +0000] [166] [INFO] Booting worker with pid: 166
+[2016-03-22 22:44:41 +0000] [165] [INFO] Booting worker with pid: 165
+[2016-03-22 22:44:41 +0000] [168] [INFO] Booting worker with pid: 168
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:46:43 +0000] [147] [INFO] Handling signal: term
+[2016-03-22 22:46:43 +0000] [161] [INFO] Worker exiting (pid: 161)
+[2016-03-22 22:46:43 +0000] [160] [INFO] Worker exiting (pid: 160)
+[2016-03-22 22:46:43 +0000] [166] [INFO] Worker exiting (pid: 166)
+[2016-03-22 22:46:43 +0000] [168] [INFO] Worker exiting (pid: 168)
+[2016-03-22 22:46:43 +0000] [152] [INFO] Worker exiting (pid: 152)
+<QueryDict: {u'visitor_phone': [u'scscc@ff.com'], u'message_text': [u'scscc@ff.com'], u'visitor_email': [u'scscc@ff.com'], u'visitor_name': [u'scscc@ff.com'], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+[2016-03-22 22:46:43 +0000] [159] [INFO] Worker exiting (pid: 159)
+[2016-03-22 22:46:43 +0000] [153] [INFO] Worker exiting (pid: 153)
+<QueryDict: {u'visitor_phone': [u'1muroslav2909@gmail.com'], u'message_text': [u'1muroslav2909@gmail.com'], u'visitor_email': [u'1muroslav2909@gmail.com'], u'visitor_name': [u'1muroslav2909@gmail.com'], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+<QueryDict: {u'visitor_phone': [u'scscc@ff.com'], u'message_text': [u'scscc@ff.com'], u'visitor_email': [u'scscc@ff.com'], u'visitor_name': [u'scscc@ff.com'], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+[2016-03-22 22:46:43 +0000] [158] [INFO] Worker exiting (pid: 158)
+[2016-03-22 22:46:43 +0000] [165] [INFO] Worker exiting (pid: 165)
+[2016-03-22 22:46:43 +0000] [147] [INFO] Shutting down: Master
+[2016-03-22 22:46:56 +0000] [226] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:46:56 +0000] [226] [INFO] Listening at: http://0.0.0.0:8001 (226)
+[2016-03-22 22:46:56 +0000] [226] [INFO] Using worker: sync
+[2016-03-22 22:46:56 +0000] [231] [INFO] Booting worker with pid: 231
+[2016-03-22 22:46:56 +0000] [234] [INFO] Booting worker with pid: 234
+[2016-03-22 22:46:56 +0000] [235] [INFO] Booting worker with pid: 235
+[2016-03-22 22:46:56 +0000] [236] [INFO] Booting worker with pid: 236
+[2016-03-22 22:46:57 +0000] [242] [INFO] Booting worker with pid: 242
+[2016-03-22 22:46:57 +0000] [244] [INFO] Booting worker with pid: 244
+[2016-03-22 22:46:57 +0000] [245] [INFO] Booting worker with pid: 245
+[2016-03-22 22:46:57 +0000] [248] [INFO] Booting worker with pid: 248
+[2016-03-22 22:46:57 +0000] [251] [INFO] Booting worker with pid: 251
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:48:50 +0000] [226] [INFO] Handling signal: term
+[2016-03-22 22:48:50 +0000] [234] [INFO] Worker exiting (pid: 234)
+[2016-03-22 22:48:50 +0000] [231] [INFO] Worker exiting (pid: 231)
+[2016-03-22 22:48:50 +0000] [235] [INFO] Worker exiting (pid: 235)
+<QueryDict: {u'visitor_phone': [u'1muroslav2909@gmail.com'], u'message_text': [u'1muroslav2909@gmail.com'], u'visitor_email': [u'1muroslav2909@gmail.com'], u'visitor_name': [u'1muroslav2909@gmail.com'], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+form.is_NOT_valid():
+[2016-03-22 22:48:50 +0000] [236] [INFO] Worker exiting (pid: 236)
+[2016-03-22 22:48:50 +0000] [242] [INFO] Worker exiting (pid: 242)
+<QueryDict: {u'visitor_phone': [u'1muroslav2909@gmail.com'], u'message_text': [u'1muroslav2909@gmail.com'], u'visitor_email': [u'1muroslav2909@gmail.com'], u'visitor_name': [u'1muroslav2909@gmail.com'], u'csrfmiddlewaretoken': [u'mmLbhupxdRQ8sYizB8fbtpqZAOFY0P52'], u'massage': [u'Submit']}>
+form.is_NOT_valid():
+[2016-03-22 22:48:50 +0000] [244] [INFO] Worker exiting (pid: 244)
+[2016-03-22 22:48:50 +0000] [245] [INFO] Worker exiting (pid: 245)
+[2016-03-22 22:48:50 +0000] [248] [INFO] Worker exiting (pid: 248)
+[2016-03-22 22:48:50 +0000] [251] [INFO] Worker exiting (pid: 251)
+[2016-03-22 22:48:50 +0000] [226] [INFO] Shutting down: Master
+[2016-03-22 22:49:04 +0000] [305] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:49:04 +0000] [305] [INFO] Listening at: http://0.0.0.0:8001 (305)
+[2016-03-22 22:49:04 +0000] [305] [INFO] Using worker: sync
+[2016-03-22 22:49:04 +0000] [310] [INFO] Booting worker with pid: 310
+[2016-03-22 22:49:04 +0000] [311] [INFO] Booting worker with pid: 311
+[2016-03-22 22:49:04 +0000] [314] [INFO] Booting worker with pid: 314
+[2016-03-22 22:49:04 +0000] [317] [INFO] Booting worker with pid: 317
+[2016-03-22 22:49:04 +0000] [318] [INFO] Booting worker with pid: 318
+[2016-03-22 22:49:04 +0000] [321] [INFO] Booting worker with pid: 321
+[2016-03-22 22:49:04 +0000] [324] [INFO] Booting worker with pid: 324
+[2016-03-22 22:49:04 +0000] [327] [INFO] Booting worker with pid: 327
+[2016-03-22 22:49:04 +0000] [328] [INFO] Booting worker with pid: 328
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+[2016-03-22 22:50:09 +0000] [305] [INFO] Handling signal: term
+[2016-03-22 22:50:09 +0000] [327] [INFO] Worker exiting (pid: 327)
+[2016-03-22 22:50:09 +0000] [321] [INFO] Worker exiting (pid: 321)
+[2016-03-22 22:50:09 +0000] [314] [INFO] Worker exiting (pid: 314)
+[2016-03-22 22:50:09 +0000] [318] [INFO] Worker exiting (pid: 318)
+[2016-03-22 22:50:09 +0000] [310] [INFO] Worker exiting (pid: 310)
+form.is_NOT_valid():
+[2016-03-22 22:50:09 +0000] [328] [INFO] Worker exiting (pid: 328)
+[2016-03-22 22:50:09 +0000] [324] [INFO] Worker exiting (pid: 324)
+[2016-03-22 22:50:09 +0000] [317] [INFO] Worker exiting (pid: 317)
+[2016-03-22 22:50:09 +0000] [311] [INFO] Worker exiting (pid: 311)
+[2016-03-22 22:50:09 +0000] [305] [INFO] Shutting down: Master
+[2016-03-22 22:50:24 +0000] [384] [INFO] Starting gunicorn 19.4.5
+[2016-03-22 22:50:24 +0000] [384] [INFO] Listening at: http://0.0.0.0:8001 (384)
+[2016-03-22 22:50:24 +0000] [384] [INFO] Using worker: sync
+[2016-03-22 22:50:24 +0000] [389] [INFO] Booting worker with pid: 389
+[2016-03-22 22:50:24 +0000] [390] [INFO] Booting worker with pid: 390
+[2016-03-22 22:50:24 +0000] [393] [INFO] Booting worker with pid: 393
+[2016-03-22 22:50:24 +0000] [396] [INFO] Booting worker with pid: 396
+[2016-03-22 22:50:24 +0000] [397] [INFO] Booting worker with pid: 397
+[2016-03-22 22:50:24 +0000] [400] [INFO] Booting worker with pid: 400
+[2016-03-22 22:50:24 +0000] [401] [INFO] Booting worker with pid: 401
+[2016-03-22 22:50:24 +0000] [404] [INFO] Booting worker with pid: 404
+[2016-03-22 22:50:24 +0000] [405] [INFO] Booting worker with pid: 405
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  url(r'^$', 'vamiko.views.home', name='home'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
+/project/visareserv/urls.py:13: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
+
