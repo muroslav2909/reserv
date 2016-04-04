@@ -35,9 +35,9 @@ class Item(models.Model):
     meta_description = models.CharField(max_length=500, blank=False, null=False, help_text="meta description")
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
-    image_one = models.ImageField(upload_to='', default=None)
-    image_two = models.ImageField(upload_to='', default=None, blank=True, null=True)
-    image_tree = models.ImageField(upload_to='', default=None, blank=True, null=True)
-    image_four = models.ImageField(upload_to='', default=None, blank=True, null=True)
+    image_one = models.ImageField(upload_to='media', default=None)
+    image_two = models.ImageField(upload_to='media', default=None, blank=True, null=True)
+    image_tree = models.ImageField(upload_to='media', default=None, blank=True, null=True)
+    image_four = models.ImageField(upload_to='media', default=None, blank=True, null=True)
     def __unicode__(self):
         return self.item_name

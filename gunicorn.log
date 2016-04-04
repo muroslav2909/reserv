@@ -13773,3 +13773,1950 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
     return list(qs)[0]
 IndexError: list index out of range
+[2016-04-04 21:18:45 +0000] [34] [INFO] Handling signal: term
+[2016-04-04 21:18:45 +0000] [48] [INFO] Worker exiting (pid: 48)
+[2016-04-04 21:18:45 +0000] [51] [INFO] Worker exiting (pid: 51)
+[2016-04-04 21:18:45 +0000] [57] [INFO] Worker exiting (pid: 57)
+[2016-04-04 21:18:45 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-04-04 21:18:45 +0000] [50] [INFO] Worker exiting (pid: 50)
+[2016-04-04 21:18:45 +0000] [58] [INFO] Worker exiting (pid: 58)
+[2016-04-04 21:18:45 +0000] [60] [INFO] Worker exiting (pid: 60)
+[2016-04-04 21:18:45 +0000] [59] [INFO] Worker exiting (pid: 59)
+[2016-04-04 21:18:45 +0000] [56] [INFO] Worker exiting (pid: 56)
+[2016-04-04 21:18:46 +0000] [34] [INFO] Shutting down: Master
+[2016-04-04 21:19:01 +0000] [119] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 21:19:01 +0000] [119] [INFO] Listening at: http://0.0.0.0:8001 (119)
+[2016-04-04 21:19:01 +0000] [119] [INFO] Using worker: sync
+[2016-04-04 21:19:02 +0000] [124] [INFO] Booting worker with pid: 124
+[2016-04-04 21:19:02 +0000] [125] [INFO] Booting worker with pid: 125
+[2016-04-04 21:19:02 +0000] [126] [INFO] Booting worker with pid: 126
+[2016-04-04 21:19:02 +0000] [127] [INFO] Booting worker with pid: 127
+[2016-04-04 21:19:02 +0000] [128] [INFO] Booting worker with pid: 128
+[2016-04-04 21:19:02 +0000] [129] [INFO] Booting worker with pid: 129
+[2016-04-04 21:19:02 +0000] [132] [INFO] Booting worker with pid: 132
+[2016-04-04 21:19:02 +0000] [133] [INFO] Booting worker with pid: 133
+[2016-04-04 21:19:02 +0000] [136] [INFO] Booting worker with pid: 136
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/_00A1784.JPG
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/bud_z_brusa_5.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/_00A1784.JPG
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/bud_z_brusa_5.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_5.jpg
+Not Found: /media/_00A1784.JPG
+Not Found: /media/_00A1784.JPG
+Not Found: /media/bud_z_brusa_5.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_5.jpg
+Not Found: /media/_00A1784.JPG
+Internal Server Error: /project/media/_00A1784.JPG/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /project/bud_z_brusa_4.jpg
+Internal Server Error: /project/bud_z_brusa_4.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /bud_z_brusa_4.jpg
+Internal Server Error: /bud_z_brusa_4.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /bud_z_brusa_4.jpg
+Internal Server Error: /bud_z_brusa_4.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2016-04-04 21:23:46 +0000] [119] [INFO] Handling signal: term
+[2016-04-04 21:23:46 +0000] [128] [INFO] Worker exiting (pid: 128)
+[2016-04-04 21:23:46 +0000] [132] [INFO] Worker exiting (pid: 132)
+[2016-04-04 21:23:46 +0000] [129] [INFO] Worker exiting (pid: 129)
+[2016-04-04 21:23:46 +0000] [136] [INFO] Worker exiting (pid: 136)
+[2016-04-04 21:23:46 +0000] [126] [INFO] Worker exiting (pid: 126)
+[2016-04-04 21:23:46 +0000] [124] [INFO] Worker exiting (pid: 124)
+[2016-04-04 21:23:46 +0000] [127] [INFO] Worker exiting (pid: 127)
+[2016-04-04 21:23:46 +0000] [133] [INFO] Worker exiting (pid: 133)
+[2016-04-04 21:23:46 +0000] [125] [INFO] Worker exiting (pid: 125)
+[2016-04-04 21:23:46 +0000] [119] [INFO] Shutting down: Master
+[2016-04-04 21:24:01 +0000] [233] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 21:24:01 +0000] [233] [INFO] Listening at: http://0.0.0.0:8001 (233)
+[2016-04-04 21:24:01 +0000] [233] [INFO] Using worker: sync
+[2016-04-04 21:24:01 +0000] [238] [INFO] Booting worker with pid: 238
+[2016-04-04 21:24:01 +0000] [239] [INFO] Booting worker with pid: 239
+[2016-04-04 21:24:01 +0000] [242] [INFO] Booting worker with pid: 242
+[2016-04-04 21:24:01 +0000] [245] [INFO] Booting worker with pid: 245
+[2016-04-04 21:24:01 +0000] [246] [INFO] Booting worker with pid: 246
+[2016-04-04 21:24:01 +0000] [249] [INFO] Booting worker with pid: 249
+[2016-04-04 21:24:01 +0000] [250] [INFO] Booting worker with pid: 250
+[2016-04-04 21:24:01 +0000] [251] [INFO] Booting worker with pid: 251
+[2016-04-04 21:24:01 +0000] [256] [INFO] Booting worker with pid: 256
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+The joined path (/media/bud_z_brusa_1.jpg) is located outside of the base path component (/project/media)
+The joined path (/media/bud_z_brusa_1.jpg) is located outside of the base path component (/project/media)
+Not Found: /bud_z_brusa_4.jpg
+Internal Server Error: /bud_z_brusa_4.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /bud_z_brusa_4.jpg
+Internal Server Error: /bud_z_brusa_4.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+The joined path (/media/bud_z_brusa_5.jpg) is located outside of the base path component (/project/media)
+[2016-04-04 21:26:02 +0000] [233] [INFO] Handling signal: term
+[2016-04-04 21:26:02 +0000] [256] [INFO] Worker exiting (pid: 256)
+[2016-04-04 21:26:02 +0000] [238] [INFO] Worker exiting (pid: 238)
+[2016-04-04 21:26:02 +0000] [242] [INFO] Worker exiting (pid: 242)
+[2016-04-04 21:26:02 +0000] [251] [INFO] Worker exiting (pid: 251)
+[2016-04-04 21:26:02 +0000] [245] [INFO] Worker exiting (pid: 245)
+[2016-04-04 21:26:02 +0000] [249] [INFO] Worker exiting (pid: 249)
+[2016-04-04 21:26:02 +0000] [250] [INFO] Worker exiting (pid: 250)
+The joined path (/media/bud_z_brusa_5.jpg) is located outside of the base path component (/project/media)
+[2016-04-04 21:26:05 +0000] [239] [INFO] Worker exiting (pid: 239)
+Internal Server Error: /bud_z_brusa/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2016-04-04 21:26:07 +0000] [246] [INFO] Worker exiting (pid: 246)
+[2016-04-04 21:26:07 +0000] [233] [INFO] Shutting down: Master
+[2016-04-04 21:26:21 +0000] [311] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 21:26:21 +0000] [311] [INFO] Listening at: http://0.0.0.0:8001 (311)
+[2016-04-04 21:26:21 +0000] [311] [INFO] Using worker: sync
+[2016-04-04 21:26:21 +0000] [316] [INFO] Booting worker with pid: 316
+[2016-04-04 21:26:21 +0000] [317] [INFO] Booting worker with pid: 317
+[2016-04-04 21:26:22 +0000] [318] [INFO] Booting worker with pid: 318
+[2016-04-04 21:26:22 +0000] [319] [INFO] Booting worker with pid: 319
+[2016-04-04 21:26:22 +0000] [320] [INFO] Booting worker with pid: 320
+[2016-04-04 21:26:22 +0000] [321] [INFO] Booting worker with pid: 321
+[2016-04-04 21:26:22 +0000] [322] [INFO] Booting worker with pid: 322
+[2016-04-04 21:26:22 +0000] [323] [INFO] Booting worker with pid: 323
+[2016-04-04 21:26:22 +0000] [324] [INFO] Booting worker with pid: 324
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /project/bud_z_brusa_5.jpg
+Internal Server Error: /project/bud_z_brusa_5.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /bud_z_brusa_5.jpg
+Internal Server Error: /bud_z_brusa_5.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /bud_z_brusa_5.jpg
+Internal Server Error: /bud_z_brusa_5.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa_5.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa_5.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2016-04-04 21:28:23 +0000] [311] [INFO] Handling signal: term
+[2016-04-04 21:28:23 +0000] [320] [INFO] Worker exiting (pid: 320)
+[2016-04-04 21:28:23 +0000] [321] [INFO] Worker exiting (pid: 321)
+[2016-04-04 21:28:23 +0000] [322] [INFO] Worker exiting (pid: 322)
+[2016-04-04 21:28:23 +0000] [324] [INFO] Worker exiting (pid: 324)
+[2016-04-04 21:28:23 +0000] [316] [INFO] Worker exiting (pid: 316)
+[2016-04-04 21:28:23 +0000] [323] [INFO] Worker exiting (pid: 323)
+[2016-04-04 21:28:23 +0000] [317] [INFO] Worker exiting (pid: 317)
+[2016-04-04 21:28:23 +0000] [318] [INFO] Worker exiting (pid: 318)
+[2016-04-04 21:28:23 +0000] [319] [INFO] Worker exiting (pid: 319)
+[2016-04-04 21:28:23 +0000] [311] [INFO] Shutting down: Master
+[2016-04-04 21:28:38 +0000] [395] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 21:28:38 +0000] [395] [INFO] Listening at: http://0.0.0.0:8001 (395)
+[2016-04-04 21:28:38 +0000] [395] [INFO] Using worker: sync
+[2016-04-04 21:28:38 +0000] [400] [INFO] Booting worker with pid: 400
+[2016-04-04 21:28:38 +0000] [401] [INFO] Booting worker with pid: 401
+[2016-04-04 21:28:38 +0000] [402] [INFO] Booting worker with pid: 402
+[2016-04-04 21:28:38 +0000] [405] [INFO] Booting worker with pid: 405
+[2016-04-04 21:28:38 +0000] [408] [INFO] Booting worker with pid: 408
+[2016-04-04 21:28:39 +0000] [411] [INFO] Booting worker with pid: 411
+[2016-04-04 21:28:39 +0000] [414] [INFO] Booting worker with pid: 414
+[2016-04-04 21:28:39 +0000] [415] [INFO] Booting worker with pid: 415
+[2016-04-04 21:28:39 +0000] [416] [INFO] Booting worker with pid: 416
+[2016-04-04 21:28:48 +0000] [395] [INFO] Handling signal: term
+[2016-04-04 21:28:48 +0000] [408] [INFO] Worker exiting (pid: 408)
+[2016-04-04 21:28:48 +0000] [414] [INFO] Worker exiting (pid: 414)
+[2016-04-04 21:28:48 +0000] [416] [INFO] Worker exiting (pid: 416)
+[2016-04-04 21:28:48 +0000] [401] [INFO] Worker exiting (pid: 401)
+[2016-04-04 21:28:48 +0000] [411] [INFO] Worker exiting (pid: 411)
+[2016-04-04 21:28:48 +0000] [400] [INFO] Worker exiting (pid: 400)
+[2016-04-04 21:28:48 +0000] [402] [INFO] Worker exiting (pid: 402)
+[2016-04-04 21:28:48 +0000] [405] [INFO] Worker exiting (pid: 405)
+[2016-04-04 21:28:48 +0000] [415] [INFO] Worker exiting (pid: 415)
+[2016-04-04 21:28:48 +0000] [395] [INFO] Shutting down: Master
+[2016-04-04 21:29:00 +0000] [471] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 21:29:00 +0000] [471] [INFO] Listening at: http://0.0.0.0:8001 (471)
+[2016-04-04 21:29:00 +0000] [471] [INFO] Using worker: sync
+[2016-04-04 21:29:00 +0000] [476] [INFO] Booting worker with pid: 476
+[2016-04-04 21:29:00 +0000] [477] [INFO] Booting worker with pid: 477
+[2016-04-04 21:29:00 +0000] [480] [INFO] Booting worker with pid: 480
+[2016-04-04 21:29:00 +0000] [485] [INFO] Booting worker with pid: 485
+[2016-04-04 21:29:00 +0000] [486] [INFO] Booting worker with pid: 486
+[2016-04-04 21:29:00 +0000] [487] [INFO] Booting worker with pid: 487
+[2016-04-04 21:29:00 +0000] [488] [INFO] Booting worker with pid: 488
+[2016-04-04 21:29:00 +0000] [489] [INFO] Booting worker with pid: 489
+[2016-04-04 21:29:01 +0000] [494] [INFO] Booting worker with pid: 494
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /project/bud_z_brusa_5.jpg
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Internal Server Error: /project/bud_z_brusa_5.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /project/media/bud_z_brusa_1.jpg
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Internal Server Error: /project/media/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/bud_z_brusa_1.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_1.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/bud_z_brusa_1.jpg
+Not Found: /media/bud_z_brusa_1.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_1.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_1.jpg
+Not Found: /media/bud_z_brusa_1.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_1.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_1.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_1.jpg
+Not Found: /media/bud_z_brusa_1.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_1.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /project/media/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/media/bud_z_brusa_1.jpg
+Not Found: /media/bud_z_brusa_6.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_6.jpg
+Not Found: /media/media/bud_z_brusa_1.jpg
+Not Found: /media/media/bud_z_brusa_1.jpg
+Not Found: /media/bud_z_brusa_6.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/media/bud_z_brusa_1.jpg
+Not Found: /media/bud_z_brusa_6.jpg
+Internal Server Error: /project/media/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_6.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /media/bud_z_brusa_6.jpg
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /bud_z_brusa/static/mebli_7.jpg
+Internal Server Error: /bud_z_brusa/static/mebli_7.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /bud_z_brusa/static/mebli_12.jpg
+Internal Server Error: /bud_z_brusa/static/mebli_12.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Not Found: /bud_z_brusa/static/mebli_7.jpg
+Not Found: /bud_z_brusa/static/mebli_12.jpg
+Internal Server Error: /bud_z_brusa/static/mebli_7.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/mebli_12.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/mebli_12.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+Internal Server Error: /bud_z_brusa/static/mebli_12.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2016-04-04 21:53:35 +0000] [471] [INFO] Handling signal: term
+[2016-04-04 21:53:35 +0000] [487] [INFO] Worker exiting (pid: 487)
+[2016-04-04 21:53:35 +0000] [489] [INFO] Worker exiting (pid: 489)
+[2016-04-04 21:53:35 +0000] [494] [INFO] Worker exiting (pid: 494)
+[2016-04-04 21:53:35 +0000] [488] [INFO] Worker exiting (pid: 488)
+[2016-04-04 21:53:35 +0000] [477] [INFO] Worker exiting (pid: 477)
+[2016-04-04 21:53:35 +0000] [485] [INFO] Worker exiting (pid: 485)
+[2016-04-04 21:53:38 +0000] [486] [INFO] Worker exiting (pid: 486)
+[2016-04-04 21:53:38 +0000] [476] [INFO] Worker exiting (pid: 476)
+[2016-04-04 21:53:38 +0000] [480] [INFO] Worker exiting (pid: 480)
+[2016-04-04 21:53:38 +0000] [471] [INFO] Shutting down: Master
+[2016-04-04 21:53:52 +0000] [519] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 21:53:52 +0000] [519] [INFO] Listening at: http://0.0.0.0:8001 (519)
+[2016-04-04 21:53:52 +0000] [519] [INFO] Using worker: sync
+[2016-04-04 21:53:53 +0000] [524] [INFO] Booting worker with pid: 524
+[2016-04-04 21:53:54 +0000] [525] [INFO] Booting worker with pid: 525
+[2016-04-04 21:53:54 +0000] [526] [INFO] Booting worker with pid: 526
+[2016-04-04 21:53:54 +0000] [527] [INFO] Booting worker with pid: 527
+[2016-04-04 21:53:54 +0000] [528] [INFO] Booting worker with pid: 528
+[2016-04-04 21:53:54 +0000] [529] [INFO] Booting worker with pid: 529
+[2016-04-04 21:53:54 +0000] [530] [INFO] Booting worker with pid: 530
+[2016-04-04 21:53:54 +0000] [531] [INFO] Booting worker with pid: 531
+[2016-04-04 21:53:54 +0000] [532] [INFO] Booting worker with pid: 532
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Not Found: /bud_z_brusa/static/mebli_7.jpg
+Not Found: /bud_z_brusa/static/mebli_12.jpg
+Internal Server Error: /bud_z_brusa/static/mebli_7.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Internal Server Error: /bud_z_brusa/static/mebli_12.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Internal Server Error: /bud_z_brusa/static/mebli_12.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+[2016-04-04 21:55:16 +0000] [519] [INFO] Handling signal: term
+[2016-04-04 21:55:16 +0000] [525] [INFO] Worker exiting (pid: 525)
+[2016-04-04 21:55:16 +0000] [527] [INFO] Worker exiting (pid: 527)
+[2016-04-04 21:55:16 +0000] [524] [INFO] Worker exiting (pid: 524)
+[2016-04-04 21:55:16 +0000] [532] [INFO] Worker exiting (pid: 532)
+[2016-04-04 21:55:16 +0000] [526] [INFO] Worker exiting (pid: 526)
+[2016-04-04 21:55:16 +0000] [528] [INFO] Worker exiting (pid: 528)
+[2016-04-04 21:55:16 +0000] [529] [INFO] Worker exiting (pid: 529)
+[2016-04-04 21:55:16 +0000] [530] [INFO] Worker exiting (pid: 530)
+[2016-04-04 21:55:16 +0000] [531] [INFO] Worker exiting (pid: 531)
+[2016-04-04 21:55:16 +0000] [519] [INFO] Shutting down: Master
+[2016-04-04 21:55:29 +0000] [633] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 21:55:29 +0000] [633] [INFO] Listening at: http://0.0.0.0:8001 (633)
+[2016-04-04 21:55:29 +0000] [633] [INFO] Using worker: sync
+[2016-04-04 21:55:29 +0000] [638] [INFO] Booting worker with pid: 638
+[2016-04-04 21:55:29 +0000] [639] [INFO] Booting worker with pid: 639
+[2016-04-04 21:55:29 +0000] [640] [INFO] Booting worker with pid: 640
+[2016-04-04 21:55:30 +0000] [643] [INFO] Booting worker with pid: 643
+[2016-04-04 21:55:30 +0000] [644] [INFO] Booting worker with pid: 644
+[2016-04-04 21:55:30 +0000] [647] [INFO] Booting worker with pid: 647
+[2016-04-04 21:55:30 +0000] [650] [INFO] Booting worker with pid: 650
+[2016-04-04 21:55:30 +0000] [651] [INFO] Booting worker with pid: 651
+[2016-04-04 21:55:30 +0000] [654] [INFO] Booting worker with pid: 654
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Internal Server Error: /bud_z_brusa/static/mebli_12.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 68, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Internal Server Error: /bud_z_brusa/static/mebli_7.jpg
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 124, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'django.views.media.serve'. Parent module django.views.media does not exist.
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Internal Server Error: /bud_z_brusa/static/mebli_12.jpg
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 124, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'django.views.media.serve'. Parent module django.views.media does not exist.
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+[2016-04-04 21:55:54 +0000] [633] [INFO] Handling signal: term
+[2016-04-04 21:55:54 +0000] [651] [INFO] Worker exiting (pid: 651)
+[2016-04-04 21:55:54 +0000] [654] [INFO] Worker exiting (pid: 654)
+[2016-04-04 21:55:54 +0000] [638] [INFO] Worker exiting (pid: 638)
+[2016-04-04 21:55:54 +0000] [639] [INFO] Worker exiting (pid: 639)
+[2016-04-04 21:55:54 +0000] [650] [INFO] Worker exiting (pid: 650)
+[2016-04-04 21:55:54 +0000] [640] [INFO] Worker exiting (pid: 640)
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+[2016-04-04 21:55:54 +0000] [643] [INFO] Worker exiting (pid: 643)
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Not Found: /bud_z_brusa/static/mebli_7.jpg
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Not Found: /bud_z_brusa/static/mebli_12.jpg
+[2016-04-04 21:55:54 +0000] [647] [INFO] Worker exiting (pid: 647)
+[2016-04-04 21:55:54 +0000] [644] [INFO] Worker exiting (pid: 644)
+[2016-04-04 21:55:54 +0000] [633] [INFO] Shutting down: Master
+[2016-04-04 21:56:07 +0000] [714] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 21:56:07 +0000] [714] [INFO] Listening at: http://0.0.0.0:8001 (714)
+[2016-04-04 21:56:07 +0000] [714] [INFO] Using worker: sync
+[2016-04-04 21:56:07 +0000] [719] [INFO] Booting worker with pid: 719
+[2016-04-04 21:56:07 +0000] [720] [INFO] Booting worker with pid: 720
+[2016-04-04 21:56:07 +0000] [721] [INFO] Booting worker with pid: 721
+[2016-04-04 21:56:07 +0000] [726] [INFO] Booting worker with pid: 726
+[2016-04-04 21:56:08 +0000] [729] [INFO] Booting worker with pid: 729
+[2016-04-04 21:56:08 +0000] [730] [INFO] Booting worker with pid: 730
+[2016-04-04 21:56:08 +0000] [733] [INFO] Booting worker with pid: 733
+[2016-04-04 21:56:08 +0000] [734] [INFO] Booting worker with pid: 734
+[2016-04-04 21:56:08 +0000] [735] [INFO] Booting worker with pid: 735
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Not Found: /bud_z_brusa/static/mebli_7.jpg
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+Not Found: /bud_z_brusa/static/mebli_12.jpg
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:26: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:27: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+[2016-04-04 21:56:48 +0000] [714] [INFO] Handling signal: term
+[2016-04-04 21:56:48 +0000] [726] [INFO] Worker exiting (pid: 726)
+[2016-04-04 21:56:48 +0000] [721] [INFO] Worker exiting (pid: 721)
+[2016-04-04 21:56:48 +0000] [733] [INFO] Worker exiting (pid: 733)
+[2016-04-04 21:56:48 +0000] [730] [INFO] Worker exiting (pid: 730)
+[2016-04-04 21:56:48 +0000] [735] [INFO] Worker exiting (pid: 735)
+[2016-04-04 21:56:48 +0000] [734] [INFO] Worker exiting (pid: 734)
+[2016-04-04 21:56:48 +0000] [719] [INFO] Worker exiting (pid: 719)
+[2016-04-04 21:56:48 +0000] [729] [INFO] Worker exiting (pid: 729)
+[2016-04-04 21:56:48 +0000] [720] [INFO] Worker exiting (pid: 720)
+[2016-04-04 21:56:48 +0000] [714] [INFO] Shutting down: Master
+[2016-04-04 21:57:02 +0000] [795] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 21:57:02 +0000] [795] [INFO] Listening at: http://0.0.0.0:8001 (795)
+[2016-04-04 21:57:02 +0000] [795] [INFO] Using worker: sync
+[2016-04-04 21:57:02 +0000] [800] [INFO] Booting worker with pid: 800
+[2016-04-04 21:57:02 +0000] [803] [INFO] Booting worker with pid: 803
+[2016-04-04 21:57:02 +0000] [804] [INFO] Booting worker with pid: 804
+[2016-04-04 21:57:02 +0000] [805] [INFO] Booting worker with pid: 805
+[2016-04-04 21:57:02 +0000] [806] [INFO] Booting worker with pid: 806
+[2016-04-04 21:57:02 +0000] [809] [INFO] Booting worker with pid: 809
+[2016-04-04 21:57:02 +0000] [810] [INFO] Booting worker with pid: 810
+[2016-04-04 21:57:02 +0000] [813] [INFO] Booting worker with pid: 813
+[2016-04-04 21:57:02 +0000] [820] [INFO] Booting worker with pid: 820
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
