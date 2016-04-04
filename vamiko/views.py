@@ -65,8 +65,7 @@ def base_item_view(request):
     return render(request, 'item_template.html', context)
 
 def detail(request, url_item_name):
-    if "/" not in url_item_name:
-        item = Item.objects.filter(url_item_name=url_item_name)[0]
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
     context = {
         'DOMAIN_NAME': DOMAIN_NAME,
         "item": item,

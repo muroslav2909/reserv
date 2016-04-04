@@ -44230,3 +44230,2658 @@ Not Found: /media/media/bud_z_brusa_1.jpg
   + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
+2016-04-04 22:23:47,108 DEBG killing autoreload (pid 1243) with signal SIGTERM
+2016-04-04 22:23:47,112 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140408080102608 for <Subprocess at 140408082680000 with name autoreload in state STOPPING> (stdout)>
+2016-04-04 22:23:47,112 INFO stopped: autoreload (terminated by SIGTERM)
+2016-04-04 22:23:47,112 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:23:48,117 DEBG killing gunicorn_server (pid 1281) with signal SIGTERM
+2016-04-04 22:23:48,121 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:23:48 +0000] [1281] [INFO] Handling signal: term
+
+2016-04-04 22:23:48,121 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:23:48 +0000] [1293] [INFO] Worker exiting (pid: 1293)
+[2016-04-04 22:23:48 +0000] [1286] [INFO] Worker exiting (pid: 1286)
+
+2016-04-04 22:23:48,122 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:23:48 +0000] [1287] [INFO] Worker exiting (pid: 1287)
+
+2016-04-04 22:23:48,187 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:23:48 +0000] [1292] [INFO] Worker exiting (pid: 1292)
+[2016-04-04 22:23:48 +0000] [1296] [INFO] Worker exiting (pid: 1296)
+[2016-04-04 22:23:48 +0000] [1299] [INFO] Worker exiting (pid: 1299)
+[2016-04-04 22:23:48 +0000] [1300] [INFO] Worker exiting (pid: 1300)
+[2016-04-04 22:23:48 +0000] [1301] [INFO] Worker exiting (pid: 1301)
+[2016-04-04 22:23:48 +0000] [1302] [INFO] Worker exiting (pid: 1302)
+
+2016-04-04 22:23:48,540 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:23:48 +0000] [1281] [INFO] Shutting down: Master
+
+2016-04-04 22:23:48,557 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408080086584 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:23:48,558 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:23:48,558 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:23:49,563 DEBG killing main_worker (pid 1313) with signal SIGTERM
+2016-04-04 22:23:49,564 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:23:49,575 DEBG 'main_worker' stdout output:
+[2016-04-04 22:23:49,575: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:23:50,587 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fd2bb6405d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:23:51,139 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408080052520 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:23:51,140 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:23:51,140 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:23:51,147 INFO spawned: 'autoreload' with pid 1324
+2016-04-04 22:23:52,902 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-04-04 22:23:52,956 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:23:52,984 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:23:52,985 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:24:01,998 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:24:02,006 INFO spawned: 'gunicorn_server' with pid 1362
+2016-04-04 22:24:02,189 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1362] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:24:02,190 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1362] [INFO] Listening at: http://0.0.0.0:8001 (1362)
+
+2016-04-04 22:24:02,190 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1362] [INFO] Using worker: sync
+
+2016-04-04 22:24:02,192 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1367] [INFO] Booting worker with pid: 1367
+
+2016-04-04 22:24:02,267 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1370] [INFO] Booting worker with pid: 1370
+
+2016-04-04 22:24:02,293 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1371] [INFO] Booting worker with pid: 1371
+
+2016-04-04 22:24:02,355 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1374] [INFO] Booting worker with pid: 1374
+
+2016-04-04 22:24:02,362 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1375] [INFO] Booting worker with pid: 1375
+
+2016-04-04 22:24:02,439 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1378] [INFO] Booting worker with pid: 1378
+
+2016-04-04 22:24:02,439 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1379] [INFO] Booting worker with pid: 1379
+
+2016-04-04 22:24:02,498 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1380] [INFO] Booting worker with pid: 1380
+
+2016-04-04 22:24:02,580 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:24:02 +0000] [1384] [INFO] Booting worker with pid: 1384
+
+2016-04-04 22:24:12,595 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:24:12,601 INFO spawned: 'main_worker' with pid 1394
+2016-04-04 22:24:13,089 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-04-04 22:24:13,128 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:24:13,128 DEBG 'main_worker' stdout output:
+[2016-04-04 22:24:13,128: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:24:13,164 DEBG 'main_worker' stdout output:
+[2016-04-04 22:24:13,164: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-04-04 22:24:13,172 DEBG 'main_worker' stdout output:
+[2016-04-04 22:24:13,172: INFO/MainProcess] mingle: searching for neighbors
+
+2016-04-04 22:24:13,201 DEBG 'main_worker' stdout output:
+[2016-04-04 22:24:13,200: INFO/Beat] beat: Starting...
+
+2016-04-04 22:24:14,179 DEBG 'main_worker' stdout output:
+[2016-04-04 22:24:14,178: INFO/MainProcess] mingle: all alone
+
+2016-04-04 22:24:14,203 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-04-04 22:24:14,203 DEBG 'main_worker' stdout output:
+[2016-04-04 22:24:14,202: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-04-04 22:24:14,204 DEBG 'main_worker' stdout output:
+[2016-04-04 22:24:14,203: WARNING/MainProcess] celery@main_worker ready.
+
+2016-04-04 22:24:23,218 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:26:16,199 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,269 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,270 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,660 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,670 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,672 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,676 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,700 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,700 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,719 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,719 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,721 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,727 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,733 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,733 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,735 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,736 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,739 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,752 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,753 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,753 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,758 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,758 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,759 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,759 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,759 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:16,760 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:17,087 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:17,098 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:17,098 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:26:41,377 DEBG 'gunicorn_server' stdout output:
+Not Found: /project/media/bud_z_brusa_7.jpg
+
+2016-04-04 22:26:41,391 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /project/media/bud_z_brusa_7.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 72, in detail
+    "item": item,
+UnboundLocalError: local variable 'item' referenced before assignment
+
+2016-04-04 22:26:48,914 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /project/media/bud_z_brusa_7.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 72, in detail
+    "item": item,
+UnboundLocalError: local variable 'item' referenced before assignment
+
+2016-04-04 22:27:15,982 DEBG killing autoreload (pid 1324) with signal SIGTERM
+2016-04-04 22:27:15,984 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140408079962552 for <Subprocess at 140408082680000 with name autoreload in state STOPPING> (stdout)>
+2016-04-04 22:27:15,984 INFO stopped: autoreload (terminated by SIGTERM)
+2016-04-04 22:27:15,984 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:27:16,988 DEBG killing gunicorn_server (pid 1362) with signal SIGTERM
+2016-04-04 22:27:16,999 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:16 +0000] [1362] [INFO] Handling signal: term
+
+2016-04-04 22:27:16,999 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:16 +0000] [1371] [INFO] Worker exiting (pid: 1371)
+[2016-04-04 22:27:16 +0000] [1380] [INFO] Worker exiting (pid: 1380)
+[2016-04-04 22:27:16 +0000] [1379] [INFO] Worker exiting (pid: 1379)
+[2016-04-04 22:27:16 +0000] [1367] [INFO] Worker exiting (pid: 1367)
+[2016-04-04 22:27:16 +0000] [1370] [INFO] Worker exiting (pid: 1370)
+
+2016-04-04 22:27:17,000 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:16 +0000] [1375] [INFO] Worker exiting (pid: 1375)
+
+2016-04-04 22:27:17,015 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:17 +0000] [1374] [INFO] Worker exiting (pid: 1374)
+[2016-04-04 22:27:17 +0000] [1384] [INFO] Worker exiting (pid: 1384)
+
+2016-04-04 22:27:17,029 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:17 +0000] [1378] [INFO] Worker exiting (pid: 1378)
+
+2016-04-04 22:27:17,224 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:17 +0000] [1362] [INFO] Shutting down: Master
+
+2016-04-04 22:27:17,238 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408079962264 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:27:17,238 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:27:17,239 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:27:18,256 DEBG killing main_worker (pid 1394) with signal SIGTERM
+2016-04-04 22:27:18,259 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:27:18,265 DEBG 'main_worker' stdout output:
+[2016-04-04 22:27:18,265: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:27:19,274 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f70d69de5d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:27:19,838 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408082465136 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:27:19,839 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:27:19,839 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:27:19,858 INFO spawned: 'autoreload' with pid 1405
+2016-04-04 22:27:21,134 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-04-04 22:27:21,162 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:21,176 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:21,176 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:30,189 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:27:30,193 INFO spawned: 'gunicorn_server' with pid 1443
+2016-04-04 22:27:30,360 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1443] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:27:30,360 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1443] [INFO] Listening at: http://0.0.0.0:8001 (1443)
+
+2016-04-04 22:27:30,361 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1443] [INFO] Using worker: sync
+
+2016-04-04 22:27:30,363 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1448] [INFO] Booting worker with pid: 1448
+
+2016-04-04 22:27:30,459 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1451] [INFO] Booting worker with pid: 1451
+
+2016-04-04 22:27:30,463 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1452] [INFO] Booting worker with pid: 1452
+
+2016-04-04 22:27:30,528 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1453] [INFO] Booting worker with pid: 1453
+
+2016-04-04 22:27:30,596 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1458] [INFO] Booting worker with pid: 1458
+
+2016-04-04 22:27:30,620 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1459] [INFO] Booting worker with pid: 1459
+
+2016-04-04 22:27:30,640 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1460] [INFO] Booting worker with pid: 1460
+
+2016-04-04 22:27:30,693 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1463] [INFO] Booting worker with pid: 1463
+
+2016-04-04 22:27:30,743 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:27:30 +0000] [1464] [INFO] Booting worker with pid: 1464
+
+2016-04-04 22:27:31,250 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:31,314 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:31,314 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:31,317 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:31,394 DEBG 'gunicorn_server' stdout output:
+Not Found: /media/media/bud_z_brusa_7.jpg
+
+2016-04-04 22:27:31,454 DEBG 'gunicorn_server' stdout output:
+Not Found: /media/media/kolysanka_1.jpg
+
+2016-04-04 22:27:31,761 DEBG 'gunicorn_server' stdout output:
+Not Found: /media/media/bud_z_brusa_7.jpg
+
+2016-04-04 22:27:31,770 DEBG 'gunicorn_server' stdout output:
+Not Found: /media/media/kolysanka_1.jpg
+
+2016-04-04 22:27:32,002 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:32,062 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:32,062 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,075 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:27:41,078 INFO spawned: 'main_worker' with pid 1475
+2016-04-04 22:27:41,310 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,325 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,326 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,328 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,536 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,557 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,558 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,558 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,582 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,595 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,596 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,596 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:41,689 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-04-04 22:27:41,921 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:27:41,922 DEBG 'main_worker' stdout output:
+[2016-04-04 22:27:41,921: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:27:41,987 DEBG 'main_worker' stdout output:
+[2016-04-04 22:27:41,986: INFO/Beat] beat: Starting...
+
+2016-04-04 22:27:42,002 DEBG 'main_worker' stdout output:
+[2016-04-04 22:27:42,002: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-04-04 22:27:42,010 DEBG 'main_worker' stdout output:
+[2016-04-04 22:27:42,010: INFO/MainProcess] mingle: searching for neighbors
+
+2016-04-04 22:27:43,018 DEBG 'main_worker' stdout output:
+[2016-04-04 22:27:43,017: INFO/MainProcess] mingle: all alone
+
+2016-04-04 22:27:43,045 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-04-04 22:27:43,046 DEBG 'main_worker' stdout output:
+[2016-04-04 22:27:43,045: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-04-04 22:27:43,045: WARNING/MainProcess] celery@main_worker ready.
+
+2016-04-04 22:27:44,140 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:44,156 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:44,157 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:27:44,159 DEBG 'gunicorn_server' stdout output:
+Not Found: /media/media/bud_z_brusa_7.jpg
+
+2016-04-04 22:27:51,169 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:28:36,312 DEBG killing autoreload (pid 1405) with signal SIGTERM
+2016-04-04 22:28:36,314 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140408079999416 for <Subprocess at 140408082680000 with name autoreload in state STOPPING> (stdout)>
+2016-04-04 22:28:36,314 INFO stopped: autoreload (terminated by SIGTERM)
+2016-04-04 22:28:36,314 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:28:37,318 DEBG killing gunicorn_server (pid 1443) with signal SIGTERM
+2016-04-04 22:28:37,320 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:37 +0000] [1443] [INFO] Handling signal: term
+
+2016-04-04 22:28:37,320 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:37 +0000] [1453] [INFO] Worker exiting (pid: 1453)
+[2016-04-04 22:28:37 +0000] [1452] [INFO] Worker exiting (pid: 1452)
+[2016-04-04 22:28:37 +0000] [1448] [INFO] Worker exiting (pid: 1448)
+
+2016-04-04 22:28:37,357 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:37 +0000] [1451] [INFO] Worker exiting (pid: 1451)
+[2016-04-04 22:28:37 +0000] [1458] [INFO] Worker exiting (pid: 1458)
+[2016-04-04 22:28:37 +0000] [1459] [INFO] Worker exiting (pid: 1459)
+[2016-04-04 22:28:37 +0000] [1460] [INFO] Worker exiting (pid: 1460)
+[2016-04-04 22:28:37 +0000] [1463] [INFO] Worker exiting (pid: 1463)
+[2016-04-04 22:28:37 +0000] [1464] [INFO] Worker exiting (pid: 1464)
+
+2016-04-04 22:28:37,467 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:37 +0000] [1443] [INFO] Shutting down: Master
+
+2016-04-04 22:28:37,476 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408080001000 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:28:37,476 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:28:37,476 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:28:38,479 DEBG killing main_worker (pid 1475) with signal SIGTERM
+2016-04-04 22:28:38,480 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:28:39,495 DEBG 'main_worker' stdout output:
+[2016-04-04 22:28:39,495: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:28:39,498 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fe7024d7610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:28:40,043 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408079999488 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:28:40,043 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:28:40,043 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:28:40,050 INFO spawned: 'autoreload' with pid 1486
+2016-04-04 22:28:40,601 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-04-04 22:28:40,621 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:28:40,638 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:28:40,638 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:28:50,651 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:28:50,657 INFO spawned: 'gunicorn_server' with pid 1524
+2016-04-04 22:28:50,903 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:50 +0000] [1524] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:28:50,904 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:50 +0000] [1524] [INFO] Listening at: http://0.0.0.0:8001 (1524)
+
+2016-04-04 22:28:50,906 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:50 +0000] [1524] [INFO] Using worker: sync
+
+2016-04-04 22:28:50,909 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:50 +0000] [1529] [INFO] Booting worker with pid: 1529
+
+2016-04-04 22:28:50,919 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:50 +0000] [1530] [INFO] Booting worker with pid: 1530
+
+2016-04-04 22:28:50,938 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:50 +0000] [1531] [INFO] Booting worker with pid: 1531
+
+2016-04-04 22:28:51,012 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:51 +0000] [1533] [INFO] Booting worker with pid: 1533
+
+2016-04-04 22:28:51,027 DEBG killing autoreload (pid 1486) with signal SIGTERM
+2016-04-04 22:28:51,031 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140408088105256 for <Subprocess at 140408082680000 with name autoreload in state STOPPING> (stdout)>
+2016-04-04 22:28:51,031 INFO stopped: autoreload (terminated by SIGTERM)
+2016-04-04 22:28:51,031 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:28:51,107 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:51 +0000] [1535] [INFO] Booting worker with pid: 1535
+
+2016-04-04 22:28:51,189 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:51 +0000] [1539] [INFO] Booting worker with pid: 1539
+
+2016-04-04 22:28:51,194 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:51 +0000] [1540] [INFO] Booting worker with pid: 1540
+
+2016-04-04 22:28:51,247 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:51 +0000] [1545] [INFO] Booting worker with pid: 1545
+
+2016-04-04 22:28:51,352 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:51 +0000] [1546] [INFO] Booting worker with pid: 1546
+
+2016-04-04 22:28:52,356 DEBG killing gunicorn_server (pid 1524) with signal SIGTERM
+2016-04-04 22:28:52,371 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:52 +0000] [1524] [INFO] Handling signal: term
+
+2016-04-04 22:28:52,802 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:52 +0000] [1529] [INFO] Worker exiting (pid: 1529)
+
+2016-04-04 22:28:52,841 INFO spawned: 'main_worker' with pid 1557
+2016-04-04 22:28:53,056 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:53 +0000] [1530] [INFO] Worker exiting (pid: 1530)
+
+2016-04-04 22:28:53,120 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:53 +0000] [1533] [INFO] Worker exiting (pid: 1533)
+
+2016-04-04 22:28:53,139 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:53 +0000] [1531] [INFO] Worker exiting (pid: 1531)
+
+2016-04-04 22:28:53,400 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:53 +0000] [1535] [INFO] Worker exiting (pid: 1535)
+
+2016-04-04 22:28:53,433 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:53 +0000] [1540] [INFO] Worker exiting (pid: 1540)
+
+2016-04-04 22:28:53,436 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:53 +0000] [1539] [INFO] Worker exiting (pid: 1539)
+
+2016-04-04 22:28:53,536 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:53 +0000] [1546] [INFO] Worker exiting (pid: 1546)
+
+2016-04-04 22:28:53,570 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:53 +0000] [1545] [INFO] Worker exiting (pid: 1545)
+
+2016-04-04 22:28:53,642 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:28:53 +0000] [1524] [INFO] Shutting down: Master
+
+2016-04-04 22:28:53,656 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408082681152 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:28:53,657 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:28:53,657 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:28:54,068 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-04-04 22:28:54,071 DEBG killing main_worker (pid 1557) with signal SIGTERM
+2016-04-04 22:28:54,074 DEBG fd 10 closed, stopped monitoring <POutputDispatcher at 140408080101672 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:28:54,074 INFO stopped: main_worker (terminated by SIGTERM)
+2016-04-04 22:28:54,074 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:28:55,086 INFO spawned: 'autoreload' with pid 1562
+2016-04-04 22:28:55,617 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-04-04 22:28:55,631 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:28:55,639 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:28:55,639 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:28:55,639 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:28:55,668 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:28:55,668 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:05,680 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:29:05,684 INFO spawned: 'gunicorn_server' with pid 1600
+2016-04-04 22:29:05,807 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:05 +0000] [1600] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:29:05,808 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:05 +0000] [1600] [INFO] Listening at: http://0.0.0.0:8001 (1600)
+[2016-04-04 22:29:05 +0000] [1600] [INFO] Using worker: sync
+
+2016-04-04 22:29:05,810 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:05 +0000] [1605] [INFO] Booting worker with pid: 1605
+
+2016-04-04 22:29:05,819 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:05 +0000] [1606] [INFO] Booting worker with pid: 1606
+
+2016-04-04 22:29:05,857 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:05 +0000] [1607] [INFO] Booting worker with pid: 1607
+
+2016-04-04 22:29:05,860 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:05 +0000] [1608] [INFO] Booting worker with pid: 1608
+
+2016-04-04 22:29:05,879 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:05 +0000] [1609] [INFO] Booting worker with pid: 1609
+
+2016-04-04 22:29:05,912 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:05 +0000] [1614] [INFO] Booting worker with pid: 1614
+
+2016-04-04 22:29:05,960 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:05 +0000] [1615] [INFO] Booting worker with pid: 1615
+
+2016-04-04 22:29:06,004 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:06 +0000] [1616] [INFO] Booting worker with pid: 1616
+
+2016-04-04 22:29:06,037 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:06 +0000] [1619] [INFO] Booting worker with pid: 1619
+
+2016-04-04 22:29:07,177 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,273 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,273 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,274 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:29:07,274 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,274 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,364 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,402 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,402 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,451 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,466 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,466 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:29:07,467 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+
+2016-04-04 22:29:07,467 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,528 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,531 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,532 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,564 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,565 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,566 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,567 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:29:07,568 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,569 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+
+2016-04-04 22:29:07,571 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,577 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,577 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,578 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,579 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:29:07,579 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,580 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+
+2016-04-04 22:29:07,580 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,862 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,874 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,874 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,874 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:07,875 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:29:07,875 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:07,875 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+
+2016-04-04 22:29:07,875 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:11,448 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:11,460 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:11,460 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:11,460 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:29:11,460 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:11,461 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:11,476 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:11,485 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:29:11,486 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:29:11,486 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:29:16,493 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:29:16,516 INFO spawned: 'main_worker' with pid 1632
+2016-04-04 22:29:17,248 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-04-04 22:29:17,319 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:29:17,319 DEBG 'main_worker' stdout output:
+[2016-04-04 22:29:17,318: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:29:17,390 DEBG 'main_worker' stdout output:
+[2016-04-04 22:29:17,389: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-04-04 22:29:17,413 DEBG 'main_worker' stdout output:
+[2016-04-04 22:29:17,404: INFO/MainProcess] mingle: searching for neighbors
+
+2016-04-04 22:29:17,438 DEBG 'main_worker' stdout output:
+[2016-04-04 22:29:17,437: INFO/Beat] beat: Starting...
+
+2016-04-04 22:29:18,412 DEBG 'main_worker' stdout output:
+[2016-04-04 22:29:18,412: INFO/MainProcess] mingle: all alone
+
+2016-04-04 22:29:18,427 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-04-04 22:29:18,439 DEBG 'main_worker' stdout output:
+[2016-04-04 22:29:18,427: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-04-04 22:29:18,427: WARNING/MainProcess] celery@main_worker ready.
+
+2016-04-04 22:29:27,452 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:29:39,709 DEBG killing autoreload (pid 1562) with signal SIGTERM
+2016-04-04 22:29:39,713 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140408080085720 for <Subprocess at 140408082680000 with name autoreload in state STOPPING> (stdout)>
+2016-04-04 22:29:39,713 INFO stopped: autoreload (terminated by SIGTERM)
+2016-04-04 22:29:39,713 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:29:39,714 DEBG killing gunicorn_server (pid 1600) with signal SIGTERM
+2016-04-04 22:29:39,715 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:39 +0000] [1600] [INFO] Handling signal: term
+
+2016-04-04 22:29:39,715 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:39 +0000] [1605] [INFO] Worker exiting (pid: 1605)
+[2016-04-04 22:29:39 +0000] [1606] [INFO] Worker exiting (pid: 1606)
+[2016-04-04 22:29:39 +0000] [1607] [INFO] Worker exiting (pid: 1607)
+
+2016-04-04 22:29:39,755 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:39 +0000] [1608] [INFO] Worker exiting (pid: 1608)
+[2016-04-04 22:29:39 +0000] [1609] [INFO] Worker exiting (pid: 1609)
+[2016-04-04 22:29:39 +0000] [1614] [INFO] Worker exiting (pid: 1614)
+[2016-04-04 22:29:39 +0000] [1615] [INFO] Worker exiting (pid: 1615)
+[2016-04-04 22:29:39 +0000] [1619] [INFO] Worker exiting (pid: 1619)
+[2016-04-04 22:29:39 +0000] [1616] [INFO] Worker exiting (pid: 1616)
+
+2016-04-04 22:29:39,907 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:39 +0000] [1600] [INFO] Shutting down: Master
+
+2016-04-04 22:29:39,917 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408080086296 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:29:39,917 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:29:39,917 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:29:40,922 DEBG killing main_worker (pid 1632) with signal SIGTERM
+2016-04-04 22:29:40,922 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:29:41,936 DEBG 'main_worker' stdout output:
+[2016-04-04 22:29:41,935: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:29:41,939 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f3721f515d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:29:42,501 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408082354688 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:29:42,501 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:29:42,501 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:29:42,517 INFO spawned: 'autoreload' with pid 1643
+2016-04-04 22:29:52,531 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:29:52,535 INFO spawned: 'gunicorn_server' with pid 1681
+2016-04-04 22:29:52,688 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1681] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:29:52,689 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1681] [INFO] Listening at: http://0.0.0.0:8001 (1681)
+
+2016-04-04 22:29:52,689 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1681] [INFO] Using worker: sync
+
+2016-04-04 22:29:52,694 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1686] [INFO] Booting worker with pid: 1686
+
+2016-04-04 22:29:52,707 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1687] [INFO] Booting worker with pid: 1687
+
+2016-04-04 22:29:52,723 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1688] [INFO] Booting worker with pid: 1688
+
+2016-04-04 22:29:52,808 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1693] [INFO] Booting worker with pid: 1693
+
+2016-04-04 22:29:52,843 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1696] [INFO] Booting worker with pid: 1696
+
+2016-04-04 22:29:52,927 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1697] [INFO] Booting worker with pid: 1697
+
+2016-04-04 22:29:52,982 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:52 +0000] [1698] [INFO] Booting worker with pid: 1698
+
+2016-04-04 22:29:53,031 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:53 +0000] [1701] [INFO] Booting worker with pid: 1701
+
+2016-04-04 22:29:53,043 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:29:53 +0000] [1702] [INFO] Booting worker with pid: 1702
+
+2016-04-04 22:30:03,057 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:30:03,064 INFO spawned: 'main_worker' with pid 1713
+2016-04-04 22:30:03,675 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:03,674: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:30:03,717 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:03,716: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-04-04 22:30:03,729 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:03,729: INFO/MainProcess] mingle: searching for neighbors
+
+2016-04-04 22:30:03,751 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:03,751: INFO/Beat] beat: Starting...
+
+2016-04-04 22:30:04,738 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:04,737: INFO/MainProcess] mingle: all alone
+
+2016-04-04 22:30:04,756 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:04,756: WARNING/MainProcess] celery@main_worker ready.
+
+2016-04-04 22:30:13,767 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:30:17,843 DEBG killing gunicorn_server (pid 1681) with signal SIGTERM
+2016-04-04 22:30:17,844 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:17 +0000] [1681] [INFO] Handling signal: term
+
+2016-04-04 22:30:17,845 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:17 +0000] [1696] [INFO] Worker exiting (pid: 1696)
+[2016-04-04 22:30:17 +0000] [1697] [INFO] Worker exiting (pid: 1697)
+
+2016-04-04 22:30:17,847 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:17 +0000] [1698] [INFO] Worker exiting (pid: 1698)
+
+2016-04-04 22:30:17,848 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:17 +0000] [1688] [INFO] Worker exiting (pid: 1688)
+
+2016-04-04 22:30:17,859 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:17 +0000] [1702] [INFO] Worker exiting (pid: 1702)
+[2016-04-04 22:30:17 +0000] [1686] [INFO] Worker exiting (pid: 1686)
+[2016-04-04 22:30:17 +0000] [1687] [INFO] Worker exiting (pid: 1687)
+
+2016-04-04 22:30:17,860 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:17 +0000] [1693] [INFO] Worker exiting (pid: 1693)
+
+2016-04-04 22:30:17,900 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:17 +0000] [1701] [INFO] Worker exiting (pid: 1701)
+
+2016-04-04 22:30:18,057 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:18 +0000] [1681] [INFO] Shutting down: Master
+
+2016-04-04 22:30:18,066 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408080138040 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:30:18,066 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:30:18,066 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:30:19,071 DEBG killing main_worker (pid 1713) with signal SIGTERM
+2016-04-04 22:30:19,071 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:30:19,079 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:19,079: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:30:20,091 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fc574dfd5d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:30:20,647 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408080102536 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:30:20,648 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:30:20,648 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:30:21,684 INFO spawned: 'gunicorn_server' with pid 1724
+2016-04-04 22:30:21,857 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:21 +0000] [1724] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:30:21,858 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:21 +0000] [1724] [INFO] Listening at: http://0.0.0.0:8001 (1724)
+
+2016-04-04 22:30:21,858 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:21 +0000] [1724] [INFO] Using worker: sync
+
+2016-04-04 22:30:21,861 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:21 +0000] [1729] [INFO] Booting worker with pid: 1729
+
+2016-04-04 22:30:21,921 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:21 +0000] [1732] [INFO] Booting worker with pid: 1732
+
+2016-04-04 22:30:22,022 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:22 +0000] [1735] [INFO] Booting worker with pid: 1735
+
+2016-04-04 22:30:22,050 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:22 +0000] [1736] [INFO] Booting worker with pid: 1736
+
+2016-04-04 22:30:22,070 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:22 +0000] [1737] [INFO] Booting worker with pid: 1737
+
+2016-04-04 22:30:22,084 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:22 +0000] [1738] [INFO] Booting worker with pid: 1738
+
+2016-04-04 22:30:22,150 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:22 +0000] [1739] [INFO] Booting worker with pid: 1739
+
+2016-04-04 22:30:22,259 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:22 +0000] [1743] [INFO] Booting worker with pid: 1743
+
+2016-04-04 22:30:22,272 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:30:22 +0000] [1742] [INFO] Booting worker with pid: 1742
+
+2016-04-04 22:30:32,285 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:30:32,289 INFO spawned: 'main_worker' with pid 1756
+2016-04-04 22:30:32,771 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-04-04 22:30:32,811 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:30:32,811 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:32,810: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:30:32,843 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:32,843: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-04-04 22:30:32,854 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:32,854: INFO/MainProcess] mingle: searching for neighbors
+
+2016-04-04 22:30:32,869 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:32,869: INFO/Beat] beat: Starting...
+
+2016-04-04 22:30:33,862 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:33,861: INFO/MainProcess] mingle: all alone
+
+2016-04-04 22:30:33,890 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-04-04 22:30:33,890 DEBG 'main_worker' stdout output:
+[2016-04-04 22:30:33,889: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-04-04 22:30:33,890: WARNING/MainProcess] celery@main_worker ready.
+
+2016-04-04 22:30:42,903 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:30:42,906 DEBG 'autoreload' stdout output:
+gunicorn_server: stopped
+main_worker: stopped
+gunicorn_server: started
+main_worker: started
+
+2016-04-04 22:31:34,781 DEBG killing gunicorn_server (pid 1724) with signal SIGTERM
+2016-04-04 22:31:34,782 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:34 +0000] [1724] [INFO] Handling signal: term
+
+2016-04-04 22:31:34,785 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:34 +0000] [1737] [INFO] Worker exiting (pid: 1737)
+[2016-04-04 22:31:34 +0000] [1729] [INFO] Worker exiting (pid: 1729)
+[2016-04-04 22:31:34 +0000] [1738] [INFO] Worker exiting (pid: 1738)
+
+2016-04-04 22:31:34,798 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:34 +0000] [1732] [INFO] Worker exiting (pid: 1732)
+[2016-04-04 22:31:34 +0000] [1735] [INFO] Worker exiting (pid: 1735)
+[2016-04-04 22:31:34 +0000] [1736] [INFO] Worker exiting (pid: 1736)
+[2016-04-04 22:31:34 +0000] [1739] [INFO] Worker exiting (pid: 1739)
+
+2016-04-04 22:31:34,799 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:34 +0000] [1742] [INFO] Worker exiting (pid: 1742)
+
+2016-04-04 22:31:34,803 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:34 +0000] [1743] [INFO] Worker exiting (pid: 1743)
+
+2016-04-04 22:31:34,970 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:34 +0000] [1724] [INFO] Shutting down: Master
+
+2016-04-04 22:31:34,982 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408082627904 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:31:34,982 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:31:34,982 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:31:35,989 DEBG killing main_worker (pid 1756) with signal SIGTERM
+2016-04-04 22:31:35,990 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:31:37,006 DEBG 'main_worker' stdout output:
+[2016-04-04 22:31:37,005: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:31:37,007 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fe9a72315d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:31:37,569 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408080001216 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:31:37,570 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:31:37,570 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:31:37,580 INFO spawned: 'gunicorn_server' with pid 1767
+2016-04-04 22:31:37,736 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:37 +0000] [1767] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:31:37,736 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:37 +0000] [1767] [INFO] Listening at: http://0.0.0.0:8001 (1767)
+[2016-04-04 22:31:37 +0000] [1767] [INFO] Using worker: sync
+
+2016-04-04 22:31:37,738 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:37 +0000] [1772] [INFO] Booting worker with pid: 1772
+
+2016-04-04 22:31:37,742 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:37 +0000] [1773] [INFO] Booting worker with pid: 1773
+
+2016-04-04 22:31:37,825 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:37 +0000] [1778] [INFO] Booting worker with pid: 1778
+
+2016-04-04 22:31:37,833 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:37 +0000] [1779] [INFO] Booting worker with pid: 1779
+
+2016-04-04 22:31:37,927 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:37 +0000] [1782] [INFO] Booting worker with pid: 1782
+
+2016-04-04 22:31:38,017 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:38 +0000] [1785] [INFO] Booting worker with pid: 1785
+
+2016-04-04 22:31:38,042 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:38 +0000] [1786] [INFO] Booting worker with pid: 1786
+
+2016-04-04 22:31:38,065 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:38 +0000] [1787] [INFO] Booting worker with pid: 1787
+
+2016-04-04 22:31:38,098 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:38 +0000] [1790] [INFO] Booting worker with pid: 1790
+
+2016-04-04 22:31:48,111 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:31:48,118 INFO spawned: 'main_worker' with pid 1799
+2016-04-04 22:31:48,598 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-04-04 22:31:48,637 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:31:48,637 DEBG 'main_worker' stdout output:
+[2016-04-04 22:31:48,636: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:31:48,669 DEBG 'main_worker' stdout output:
+[2016-04-04 22:31:48,669: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-04-04 22:31:48,677 DEBG 'main_worker' stdout output:
+[2016-04-04 22:31:48,677: INFO/MainProcess] mingle: searching for neighbors
+
+2016-04-04 22:31:48,691 DEBG 'main_worker' stdout output:
+[2016-04-04 22:31:48,691: INFO/Beat] beat: Starting...
+
+2016-04-04 22:31:49,684 DEBG 'main_worker' stdout output:
+[2016-04-04 22:31:49,683: INFO/MainProcess] mingle: all alone
+
+2016-04-04 22:31:49,712 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-04-04 22:31:49,712 DEBG 'main_worker' stdout output:
+[2016-04-04 22:31:49,711: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-04-04 22:31:49,712: WARNING/MainProcess] celery@main_worker ready.
+
+2016-04-04 22:31:53,461 DEBG killing gunicorn_server (pid 1767) with signal SIGTERM
+2016-04-04 22:31:53,471 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:53 +0000] [1767] [INFO] Handling signal: term
+[2016-04-04 22:31:53 +0000] [1772] [INFO] Worker exiting (pid: 1772)
+[2016-04-04 22:31:53 +0000] [1773] [INFO] Worker exiting (pid: 1773)
+[2016-04-04 22:31:53 +0000] [1782] [INFO] Worker exiting (pid: 1782)
+[2016-04-04 22:31:53 +0000] [1779] [INFO] Worker exiting (pid: 1779)
+[2016-04-04 22:31:53 +0000] [1778] [INFO] Worker exiting (pid: 1778)
+
+2016-04-04 22:31:53,472 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:53 +0000] [1785] [INFO] Worker exiting (pid: 1785)
+[2016-04-04 22:31:53 +0000] [1786] [INFO] Worker exiting (pid: 1786)
+
+2016-04-04 22:31:53,479 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:53 +0000] [1787] [INFO] Worker exiting (pid: 1787)
+
+2016-04-04 22:31:53,487 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:53 +0000] [1790] [INFO] Worker exiting (pid: 1790)
+
+2016-04-04 22:31:53,671 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:53 +0000] [1767] [INFO] Shutting down: Master
+
+2016-04-04 22:31:53,681 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408079999128 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:31:53,681 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:31:53,681 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:31:54,687 DEBG killing main_worker (pid 1799) with signal SIGTERM
+2016-04-04 22:31:54,688 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:31:55,693 DEBG 'autoreload' stdout output:
+gunicorn_server: stopped
+main_worker: stopped
+gunicorn_server: started
+main_worker: ERROR (abnormal termination)
+
+2016-04-04 22:31:55,705 DEBG 'main_worker' stdout output:
+[2016-04-04 22:31:55,705: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:31:55,708 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fcec7e225d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:31:56,261 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408080000280 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:31:56,261 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:31:56,261 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:31:56,271 INFO spawned: 'gunicorn_server' with pid 1810
+2016-04-04 22:31:56,426 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1810] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:31:56,426 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1810] [INFO] Listening at: http://0.0.0.0:8001 (1810)
+
+2016-04-04 22:31:56,427 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1810] [INFO] Using worker: sync
+
+2016-04-04 22:31:56,429 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1815] [INFO] Booting worker with pid: 1815
+
+2016-04-04 22:31:56,492 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1818] [INFO] Booting worker with pid: 1818
+
+2016-04-04 22:31:56,521 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1819] [INFO] Booting worker with pid: 1819
+
+2016-04-04 22:31:56,584 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1820] [INFO] Booting worker with pid: 1820
+
+2016-04-04 22:31:56,631 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1823] [INFO] Booting worker with pid: 1823
+
+2016-04-04 22:31:56,702 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1826] [INFO] Booting worker with pid: 1826
+
+2016-04-04 22:31:56,778 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1827] [INFO] Booting worker with pid: 1827
+
+2016-04-04 22:31:56,838 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1832] [INFO] Booting worker with pid: 1832
+
+2016-04-04 22:31:56,856 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:31:56 +0000] [1833] [INFO] Booting worker with pid: 1833
+
+2016-04-04 22:31:57,452 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:57,499 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:31:57,501 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:31:57,502 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+
+2016-04-04 22:31:57,502 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:31:58,361 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,363 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,387 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,390 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,402 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:31:58,409 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,410 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,411 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,412 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,413 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:31:58,414 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:31:58,414 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+
+2016-04-04 22:31:58,415 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:31:58,423 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,423 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,424 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:31:58,424 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:31:58,424 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:31:58,425 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,425 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,425 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:31:58,425 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:31:58,427 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:31:58,427 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:31:58,435 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:32:06,106 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:32:06,117 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:32:06,118 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:32:06,118 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:32:06,118 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:32:06,118 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+
+2016-04-04 22:32:06,118 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:32:06,282 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:32:06,282 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:32:06,289 INFO spawned: 'main_worker' with pid 1842
+2016-04-04 22:32:06,297 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:32:06,297 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:32:06,297 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:32:06,300 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:32:06,314 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:32:06,328 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:32:06,328 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-04-04 22:32:06,329 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:22: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
+
+
+2016-04-04 22:32:06,329 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:32:06,329 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:23: RemovedInDjango110Warning: django.conf.urls.patterns() is deprecated and will be removed in Django 1.10. Update your urlpatterns to be a list of django.conf.urls.url() instances instead.
+  urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+
+
+2016-04-04 22:32:06,329 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py:89: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.media.serve). Pass the callable instead.
+  t = url(prefix=prefix, *t)
+
+
+2016-04-04 22:32:06,740 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-04-04 22:32:06,780 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:32:06,780 DEBG 'main_worker' stdout output:
+[2016-04-04 22:32:06,779: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:32:06,826 DEBG 'main_worker' stdout output:
+[2016-04-04 22:32:06,813: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-04-04 22:32:06,827 DEBG 'main_worker' stdout output:
+[2016-04-04 22:32:06,823: INFO/MainProcess] mingle: searching for neighbors
+
+2016-04-04 22:32:06,846 DEBG 'main_worker' stdout output:
+[2016-04-04 22:32:06,845: INFO/Beat] beat: Starting...
+
+2016-04-04 22:32:07,831 DEBG 'main_worker' stdout output:
+[2016-04-04 22:32:07,831: INFO/MainProcess] mingle: all alone
+
+2016-04-04 22:32:07,843 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-04-04 22:32:07,844 DEBG 'main_worker' stdout output:
+[2016-04-04 22:32:07,843: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-04-04 22:32:07,843: WARNING/MainProcess] celery@main_worker ready.
+
+2016-04-04 22:32:16,857 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:32:16,860 DEBG 'autoreload' stdout output:
+gunicorn_server: stopped
+main_worker: stopped
+gunicorn_server: started
+main_worker: started
+
+2016-04-04 22:33:22,128 DEBG killing gunicorn_server (pid 1810) with signal SIGTERM
+2016-04-04 22:33:22,130 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:22 +0000] [1810] [INFO] Handling signal: term
+
+2016-04-04 22:33:22,130 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:22 +0000] [1826] [INFO] Worker exiting (pid: 1826)
+
+2016-04-04 22:33:22,133 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:22 +0000] [1827] [INFO] Worker exiting (pid: 1827)
+
+2016-04-04 22:33:22,146 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:22 +0000] [1832] [INFO] Worker exiting (pid: 1832)
+[2016-04-04 22:33:22 +0000] [1833] [INFO] Worker exiting (pid: 1833)
+[2016-04-04 22:33:22 +0000] [1815] [INFO] Worker exiting (pid: 1815)
+[2016-04-04 22:33:22 +0000] [1818] [INFO] Worker exiting (pid: 1818)
+
+2016-04-04 22:33:22,146 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:22 +0000] [1819] [INFO] Worker exiting (pid: 1819)
+
+2016-04-04 22:33:22,151 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:22 +0000] [1820] [INFO] Worker exiting (pid: 1820)
+
+2016-04-04 22:33:22,152 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:22 +0000] [1823] [INFO] Worker exiting (pid: 1823)
+
+2016-04-04 22:33:22,350 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:22 +0000] [1810] [INFO] Shutting down: Master
+
+2016-04-04 22:33:22,363 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408080086584 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:33:22,364 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:33:22,364 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:33:23,369 DEBG killing main_worker (pid 1842) with signal SIGTERM
+2016-04-04 22:33:23,370 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:33:24,387 DEBG 'main_worker' stdout output:
+[2016-04-04 22:33:24,386: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:33:24,427 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f389a6905d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:33:24,951 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408080088600 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:33:24,952 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:33:24,952 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:33:24,961 INFO spawned: 'gunicorn_server' with pid 1853
+2016-04-04 22:33:26,482 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1853] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:33:26,483 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1853] [INFO] Listening at: http://0.0.0.0:8001 (1853)
+
+2016-04-04 22:33:26,483 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1853] [INFO] Using worker: sync
+
+2016-04-04 22:33:26,488 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1858] [INFO] Booting worker with pid: 1858
+
+2016-04-04 22:33:26,549 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1859] [INFO] Booting worker with pid: 1859
+
+2016-04-04 22:33:26,605 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1862] [INFO] Booting worker with pid: 1862
+
+2016-04-04 22:33:26,668 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1865] [INFO] Booting worker with pid: 1865
+
+2016-04-04 22:33:26,685 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1866] [INFO] Booting worker with pid: 1866
+
+2016-04-04 22:33:26,696 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1867] [INFO] Booting worker with pid: 1867
+
+2016-04-04 22:33:26,770 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1870] [INFO] Booting worker with pid: 1870
+
+2016-04-04 22:33:26,851 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:33:26 +0000] [1871] [INFO] Booting worker with pid: 1871
+[2016-04-04 22:33:26 +0000] [1872] [INFO] Booting worker with pid: 1872
+
+2016-04-04 22:33:35,863 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:33:35,871 INFO spawned: 'main_worker' with pid 1885
+2016-04-04 22:33:37,031 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-04-04 22:33:38,217 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:33:38,218 DEBG 'main_worker' stdout output:
+[2016-04-04 22:33:38,217: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 22:33:38,274 DEBG 'main_worker' stdout output:
+[2016-04-04 22:33:38,274: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-04-04 22:33:38,285 DEBG 'main_worker' stdout output:
+[2016-04-04 22:33:38,285: INFO/MainProcess] mingle: searching for neighbors
+
+2016-04-04 22:33:38,300 DEBG 'main_worker' stdout output:
+[2016-04-04 22:33:38,300: INFO/Beat] beat: Starting...
+
+2016-04-04 22:33:39,292 DEBG 'main_worker' stdout output:
+[2016-04-04 22:33:39,291: INFO/MainProcess] mingle: all alone
+
+2016-04-04 22:33:39,316 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-04-04 22:33:39,317 DEBG 'main_worker' stdout output:
+[2016-04-04 22:33:39,316: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-04-04 22:33:39,316: WARNING/MainProcess] celery@main_worker ready.
+
+2016-04-04 22:33:46,327 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 22:33:46,332 DEBG 'autoreload' stdout output:
+gunicorn_server: stopped
+main_worker: stopped
+gunicorn_server: started
+main_worker: started
+
+2016-04-04 22:37:50,750 DEBG killing gunicorn_server (pid 1853) with signal SIGTERM
+2016-04-04 22:37:50,751 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:50 +0000] [1853] [INFO] Handling signal: term
+
+2016-04-04 22:37:50,752 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:50 +0000] [1858] [INFO] Worker exiting (pid: 1858)
+[2016-04-04 22:37:50 +0000] [1859] [INFO] Worker exiting (pid: 1859)
+
+2016-04-04 22:37:50,769 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:50 +0000] [1862] [INFO] Worker exiting (pid: 1862)
+[2016-04-04 22:37:50 +0000] [1865] [INFO] Worker exiting (pid: 1865)
+[2016-04-04 22:37:50 +0000] [1870] [INFO] Worker exiting (pid: 1870)
+[2016-04-04 22:37:50 +0000] [1871] [INFO] Worker exiting (pid: 1871)
+[2016-04-04 22:37:50 +0000] [1866] [INFO] Worker exiting (pid: 1866)
+[2016-04-04 22:37:50 +0000] [1872] [INFO] Worker exiting (pid: 1872)
+[2016-04-04 22:37:50 +0000] [1867] [INFO] Worker exiting (pid: 1867)
+
+2016-04-04 22:37:50,897 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:50 +0000] [1853] [INFO] Shutting down: Master
+
+2016-04-04 22:37:50,907 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408082410240 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:37:50,907 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:37:50,907 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:37:51,912 DEBG killing main_worker (pid 1885) with signal SIGTERM
+2016-04-04 22:37:51,912 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:37:52,931 DEBG 'main_worker' stdout output:
+[2016-04-04 22:37:52,930: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:37:52,934 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fbac1a2e5d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:37:53,483 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408082468808 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:37:53,483 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:37:53,483 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:37:53,490 INFO spawned: 'gunicorn_server' with pid 1896
+2016-04-04 22:37:53,767 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:53 +0000] [1896] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 22:37:53,767 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:53 +0000] [1896] [INFO] Listening at: http://0.0.0.0:8001 (1896)
+
+2016-04-04 22:37:53,768 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:53 +0000] [1896] [INFO] Using worker: sync
+
+2016-04-04 22:37:53,770 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:53 +0000] [1901] [INFO] Booting worker with pid: 1901
+
+2016-04-04 22:37:53,850 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:53 +0000] [1902] [INFO] Booting worker with pid: 1902
+
+2016-04-04 22:37:53,853 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:53 +0000] [1903] [INFO] Booting worker with pid: 1903
+
+2016-04-04 22:37:53,866 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:53 +0000] [1906] [INFO] Booting worker with pid: 1906
+
+2016-04-04 22:37:53,888 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:53 +0000] [1907] [INFO] Booting worker with pid: 1907
+
+2016-04-04 22:37:53,955 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:53 +0000] [1908] [INFO] Booting worker with pid: 1908
+
+2016-04-04 22:37:54,063 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:54 +0000] [1915] [INFO] Booting worker with pid: 1915
+
+2016-04-04 22:37:54,150 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:54 +0000] [1918] [INFO] Booting worker with pid: 1918
+
+2016-04-04 22:37:54,231 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:37:54 +0000] [1921] [INFO] Booting worker with pid: 1921
+
