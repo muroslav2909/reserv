@@ -16054,3 +16054,126 @@ Not Found: /media/media/bud_z_brusa_6.jpg
 /project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
   + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+[2016-04-04 22:21:28 +0000] [1200] [INFO] Handling signal: term
+[2016-04-04 22:21:28 +0000] [1209] [INFO] Worker exiting (pid: 1209)
+[2016-04-04 22:21:28 +0000] [1220] [INFO] Worker exiting (pid: 1220)
+[2016-04-04 22:21:28 +0000] [1214] [INFO] Worker exiting (pid: 1214)
+[2016-04-04 22:21:28 +0000] [1219] [INFO] Worker exiting (pid: 1219)
+[2016-04-04 22:21:28 +0000] [1221] [INFO] Worker exiting (pid: 1221)
+[2016-04-04 22:21:28 +0000] [1205] [INFO] Worker exiting (pid: 1205)
+[2016-04-04 22:21:28 +0000] [1206] [INFO] Worker exiting (pid: 1206)
+[2016-04-04 22:21:28 +0000] [1211] [INFO] Worker exiting (pid: 1211)
+[2016-04-04 22:21:28 +0000] [1213] [INFO] Worker exiting (pid: 1213)
+[2016-04-04 22:21:29 +0000] [1200] [INFO] Shutting down: Master
+[2016-04-04 22:21:42 +0000] [1281] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 22:21:42 +0000] [1281] [INFO] Listening at: http://0.0.0.0:8001 (1281)
+[2016-04-04 22:21:42 +0000] [1281] [INFO] Using worker: sync
+[2016-04-04 22:21:42 +0000] [1286] [INFO] Booting worker with pid: 1286
+[2016-04-04 22:21:42 +0000] [1287] [INFO] Booting worker with pid: 1287
+[2016-04-04 22:21:42 +0000] [1292] [INFO] Booting worker with pid: 1292
+[2016-04-04 22:21:42 +0000] [1293] [INFO] Booting worker with pid: 1293
+[2016-04-04 22:21:42 +0000] [1296] [INFO] Booting worker with pid: 1296
+[2016-04-04 22:21:43 +0000] [1299] [INFO] Booting worker with pid: 1299
+[2016-04-04 22:21:43 +0000] [1300] [INFO] Booting worker with pid: 1300
+[2016-04-04 22:21:43 +0000] [1301] [INFO] Booting worker with pid: 1301
+[2016-04-04 22:21:43 +0000] [1302] [INFO] Booting worker with pid: 1302
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/media/bud_z_brusa_1.jpg
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/media/bud_z_brusa_6.jpg
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/media/bud_z_brusa_6.jpg
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+Not Found: /media/media/bud_z_brusa_1.jpg
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

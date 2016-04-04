@@ -12,7 +12,9 @@ static/resize_image.py
 vamiko/static_files/bud_apiter_1111111111.jpg
 vamiko/static_files/resize_image.py
 /media/
-
-
+supervisord.log
+celerybeat-schedule
+celery.log
+gunicorn.log
 
 
