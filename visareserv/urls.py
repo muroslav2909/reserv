@@ -20,9 +20,8 @@ urlpatterns = [
 
 SERVER_ENVIRONMENT = os.getenv('RUN_ENV', '')
 if SERVER_ENVIRONMENT == 'PROD':
-    MEDIA_ROOT = os.path.join(str(BASE_DIR)+"media/", 'media')
     urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
-    urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+    urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': str(settings.MEDIA_ROOT)+"/media/"}), )
 #
 # if SERVER_ENVIRONMENT == 'DEV':
 #     urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )

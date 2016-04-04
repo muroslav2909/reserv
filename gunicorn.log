@@ -17077,3 +17077,26 @@ Not Found: /media/media/bud_z_brusa_7.jpg
 [2016-04-04 22:50:37 +0000] [1946] [INFO] Worker exiting (pid: 1946)
 [2016-04-04 22:50:37 +0000] [1947] [INFO] Worker exiting (pid: 1947)
 [2016-04-04 22:50:37 +0000] [1939] [INFO] Shutting down: Master
+[2016-04-04 22:50:44 +0000] [1982] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 22:50:44 +0000] [1982] [INFO] Listening at: http://0.0.0.0:8001 (1982)
+[2016-04-04 22:50:44 +0000] [1982] [INFO] Using worker: sync
+[2016-04-04 22:50:45 +0000] [1987] [INFO] Booting worker with pid: 1987
+[2016-04-04 22:50:45 +0000] [1988] [INFO] Booting worker with pid: 1988
+[2016-04-04 22:50:45 +0000] [1989] [INFO] Booting worker with pid: 1989
+[2016-04-04 22:50:45 +0000] [1990] [INFO] Booting worker with pid: 1990
+[2016-04-04 22:50:45 +0000] [1991] [INFO] Booting worker with pid: 1991
+[2016-04-04 22:50:45 +0000] [1992] [INFO] Booting worker with pid: 1992
+[2016-04-04 22:50:45 +0000] [1993] [INFO] Booting worker with pid: 1993
+[2016-04-04 22:50:45 +0000] [1994] [INFO] Booting worker with pid: 1994
+[2016-04-04 22:50:45 +0000] [1995] [INFO] Booting worker with pid: 1995
+[2016-04-04 22:54:39 +0000] [1982] [INFO] Handling signal: term
+[2016-04-04 22:54:39 +0000] [1988] [INFO] Worker exiting (pid: 1988)
+[2016-04-04 22:54:39 +0000] [1987] [INFO] Worker exiting (pid: 1987)
+[2016-04-04 22:54:39 +0000] [1989] [INFO] Worker exiting (pid: 1989)
+[2016-04-04 22:54:39 +0000] [1990] [INFO] Worker exiting (pid: 1990)
+[2016-04-04 22:54:39 +0000] [1991] [INFO] Worker exiting (pid: 1991)
+[2016-04-04 22:54:39 +0000] [1992] [INFO] Worker exiting (pid: 1992)
+[2016-04-04 22:54:39 +0000] [1993] [INFO] Worker exiting (pid: 1993)
+[2016-04-04 22:54:39 +0000] [1994] [INFO] Worker exiting (pid: 1994)
+[2016-04-04 22:54:39 +0000] [1995] [INFO] Worker exiting (pid: 1995)
+[2016-04-04 22:54:40 +0000] [1982] [INFO] Shutting down: Master
