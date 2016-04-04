@@ -5,6 +5,7 @@ from django.views.generic import RedirectView
 from django.conf.urls.static import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from visareserv import settings
+from visareserv.settings import BASE_DIR
 
 urlpatterns = [
     url(r'^$', 'vamiko.views.home', name='home'),
@@ -19,8 +20,10 @@ urlpatterns = [
 
 SERVER_ENVIRONMENT = os.getenv('RUN_ENV', '')
 if SERVER_ENVIRONMENT == 'PROD':
+    MEDIA_URL = '/media/'
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'media/media')
     urlpatterns += patterns('', (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )
-    urlpatterns += patterns('', (r'^media/media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
+    urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.media.serve', {'document_root': settings.MEDIA_ROOT}), )
 #
 # if SERVER_ENVIRONMENT == 'DEV':
 #     urlpatterns += patterns('', (r'^(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}), )

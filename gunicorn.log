@@ -17043,3 +17043,26 @@ Not Found: /media/media/bud_z_brusa_7.jpg
 [2016-04-04 22:37:54 +0000] [1915] [INFO] Booting worker with pid: 1915
 [2016-04-04 22:37:54 +0000] [1918] [INFO] Booting worker with pid: 1918
 [2016-04-04 22:37:54 +0000] [1921] [INFO] Booting worker with pid: 1921
+[2016-04-04 22:40:36 +0000] [1896] [INFO] Handling signal: term
+[2016-04-04 22:40:36 +0000] [1901] [INFO] Worker exiting (pid: 1901)
+[2016-04-04 22:40:36 +0000] [1903] [INFO] Worker exiting (pid: 1903)
+[2016-04-04 22:40:36 +0000] [1908] [INFO] Worker exiting (pid: 1908)
+[2016-04-04 22:40:36 +0000] [1915] [INFO] Worker exiting (pid: 1915)
+[2016-04-04 22:40:36 +0000] [1907] [INFO] Worker exiting (pid: 1907)
+[2016-04-04 22:40:36 +0000] [1906] [INFO] Worker exiting (pid: 1906)
+[2016-04-04 22:40:36 +0000] [1902] [INFO] Worker exiting (pid: 1902)
+[2016-04-04 22:40:36 +0000] [1918] [INFO] Worker exiting (pid: 1918)
+[2016-04-04 22:40:36 +0000] [1921] [INFO] Worker exiting (pid: 1921)
+[2016-04-04 22:40:36 +0000] [1896] [INFO] Shutting down: Master
+[2016-04-04 22:40:39 +0000] [1939] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 22:40:39 +0000] [1939] [INFO] Listening at: http://0.0.0.0:8001 (1939)
+[2016-04-04 22:40:39 +0000] [1939] [INFO] Using worker: sync
+[2016-04-04 22:40:39 +0000] [1944] [INFO] Booting worker with pid: 1944
+[2016-04-04 22:40:39 +0000] [1945] [INFO] Booting worker with pid: 1945
+[2016-04-04 22:40:39 +0000] [1946] [INFO] Booting worker with pid: 1946
+[2016-04-04 22:40:39 +0000] [1947] [INFO] Booting worker with pid: 1947
+[2016-04-04 22:40:39 +0000] [1952] [INFO] Booting worker with pid: 1952
+[2016-04-04 22:40:39 +0000] [1957] [INFO] Booting worker with pid: 1957
+[2016-04-04 22:40:39 +0000] [1960] [INFO] Booting worker with pid: 1960
+[2016-04-04 22:40:39 +0000] [1961] [INFO] Booting worker with pid: 1961
+[2016-04-04 22:40:39 +0000] [1962] [INFO] Booting worker with pid: 1962
