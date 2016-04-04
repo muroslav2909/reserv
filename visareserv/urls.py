@@ -11,8 +11,11 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^favicon\.ico$', RedirectView.as_view(url='/static/logo_vectorized.png'),),
     url(r'^form_upload', 'vamiko.views.form_upload', name='form_upload'),
-]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    url(r'^base_item_view', 'vamiko.views.base_item_view', name='base_item_view'),
+    url(r'^(?P<url_item_name>.+?)/$', 'vamiko.views.detail', name='detail'),
 
+]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)\
+              + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 SERVER_ENVIRONMENT = os.getenv('RUN_ENV', '')
 if SERVER_ENVIRONMENT == 'PROD':

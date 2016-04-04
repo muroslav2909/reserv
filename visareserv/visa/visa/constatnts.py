@@ -9,4 +9,3 @@ STATUS_CHOICE = (
     (STOP, ("Stop")),
     (RUN, ("Run")),
 )
-

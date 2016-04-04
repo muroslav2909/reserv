@@ -1,8 +1,10 @@
 from audioop import reverse
-from django.shortcuts import render, render_to_response
+from django.http import HttpResponse
+from django.shortcuts import render, render_to_response, get_object_or_404
 
 from vamiko.form import VisitorMessageForm, SubscribeForm
-from vamiko.models import VisitorMessage, Subscribe
+from vamiko.models import VisitorMessage, Subscribe, Item
+from visareserv.settings import *
 
 
 def home(request):
@@ -52,4 +54,21 @@ def form_upload(request):
 
     return render(request, 'form_upload.html', {
         'form': '',
-    })
+    })#
+
+
+def base_item_view(request):
+    context = {
+        'DOMAIN_NAME': DOMAIN_NAME,
+    }
+
+    return render(request, 'item_template.html', context)
+
+def detail(request, url_item_name):
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+    context = {
+        'DOMAIN_NAME': DOMAIN_NAME,
+        "item": item,
+    }
+
+    return render(request, 'item_template.html', context)

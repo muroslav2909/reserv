@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+<div class="container">
+  <button type="button" class="btn btn-lg btn-success" id="myBtn" data-toggle="modal" data-target="#myModal" data-show="true">Замовити</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+       <!--Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <!-- Container (Contact Section) -->
+            <div id="contact" class="container-fluid bg-grey">
+                <div align="right" >
+                    <!--<p data-dismiss="modal" >X</p>-->
+                    <!--<span data-dismiss="modal" class="glyphicon glyphicon-menu-down"></span>-->
+                    <button style="border:none;" type="button" class="btn btn-default" data-dismiss="modal" >X</button>
+                </div>
+              <h2 class="text-center">КОНТАКТИ</h2><br>
+              <!-- alert -->
+              <div class="container" style="display:none;" id="myAlert">
+                  <div class="alert alert-success alert-dismissable" id="myAlert2">
+                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                      Дякуємо! Ваше повідомлення було надіслано.
+                  </div>
+              </div>
+            <!-- -->
+              <div class="row">
+                <div class="col-sm-5">
+                     <p>Напишіть нам і ми зв'яжемося з вами.</p>
+                  <p><span class="glyphicon glyphicon-map-marker"></span> м. Долина, Івано-Франківська область</p>
+                  <p><span class="glyphicon glyphicon-phone"></span> +38 067 6727291</p>
+                  <p><span class="glyphicon glyphicon-envelope"></span> vamiko.mail@gmail.com</p>
+                </div>
+                <div class="col-sm-7 slideanim">
+                   <form aciton="" name="massage" method="post" >
+                      {% csrf_token %}
+                      <div class="row">
+                        <div class="col-sm-6 form-group">
+                          <input class="form-control" id="name" name="visitor_name" placeholder="Ім’я" type="text">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                          <input class="form-control" id="email" name="visitor_email" placeholder="Email" type="email" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                          <input class="form-control" id="phone" name="visitor_phone" placeholder="Телефон" type="phone">
+                        </div>
+                      </div>
+                      <textarea class="form-control" id="comments" name="message_text" placeholder="Ваше питання" rows="5"></textarea><br>
+                      <div class="row">
+                        <div class="col-sm-12 form-group">
+                          <button class="btn btn-default pull-right" name="massage" type="submit" value="Submit" onclick="showAlert();">Надіслати</button>
+                        </div>
+                      </div>
+                   </form>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
