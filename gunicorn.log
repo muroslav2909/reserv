@@ -15720,3 +15720,14 @@ Not Found: /bud_z_brusa/static/mebli_12.jpg
 /project/visareserv/urls.py:18: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
   + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+[2016-04-04 22:08:26 +0000] [795] [INFO] Handling signal: term
+[2016-04-04 22:08:26 +0000] [805] [INFO] Worker exiting (pid: 805)
+[2016-04-04 22:08:26 +0000] [800] [INFO] Worker exiting (pid: 800)
+[2016-04-04 22:08:26 +0000] [803] [INFO] Worker exiting (pid: 803)
+[2016-04-04 22:08:26 +0000] [804] [INFO] Worker exiting (pid: 804)
+[2016-04-04 22:08:26 +0000] [810] [INFO] Worker exiting (pid: 810)
+[2016-04-04 22:08:26 +0000] [806] [INFO] Worker exiting (pid: 806)
+[2016-04-04 22:08:26 +0000] [809] [INFO] Worker exiting (pid: 809)
+[2016-04-04 22:08:26 +0000] [820] [INFO] Worker exiting (pid: 820)
+[2016-04-04 22:08:26 +0000] [813] [INFO] Worker exiting (pid: 813)
+[2016-04-04 22:08:26 +0000] [795] [INFO] Shutting down: Master

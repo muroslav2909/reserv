@@ -42524,3 +42524,62 @@ You must only enable the serializers that you will actually use.
   + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
+2016-04-04 22:08:25,700 DEBG killing autoreload (pid 757) with signal SIGTERM
+2016-04-04 22:08:25,703 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 140408080086224 for <Subprocess at 140408082680000 with name autoreload in state STOPPING> (stdout)>
+2016-04-04 22:08:25,703 INFO stopped: autoreload (terminated by SIGTERM)
+2016-04-04 22:08:25,703 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:08:26,708 DEBG killing gunicorn_server (pid 795) with signal SIGTERM
+2016-04-04 22:08:26,710 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:08:26 +0000] [795] [INFO] Handling signal: term
+
+2016-04-04 22:08:26,719 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:08:26 +0000] [805] [INFO] Worker exiting (pid: 805)
+[2016-04-04 22:08:26 +0000] [800] [INFO] Worker exiting (pid: 800)
+[2016-04-04 22:08:26 +0000] [803] [INFO] Worker exiting (pid: 803)
+[2016-04-04 22:08:26 +0000] [804] [INFO] Worker exiting (pid: 804)
+[2016-04-04 22:08:26 +0000] [810] [INFO] Worker exiting (pid: 810)
+[2016-04-04 22:08:26 +0000] [806] [INFO] Worker exiting (pid: 806)
+
+2016-04-04 22:08:26,761 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:08:26 +0000] [809] [INFO] Worker exiting (pid: 809)
+[2016-04-04 22:08:26 +0000] [820] [INFO] Worker exiting (pid: 820)
+[2016-04-04 22:08:26 +0000] [813] [INFO] Worker exiting (pid: 813)
+
+2016-04-04 22:08:26,876 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:08:26 +0000] [795] [INFO] Shutting down: Master
+
+2016-04-04 22:08:26,889 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408080085072 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:08:26,889 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:08:26,889 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:08:27,893 DEBG killing main_worker (pid 827) with signal SIGTERM
+2016-04-04 22:08:27,893 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:08:27,906 DEBG 'main_worker' stdout output:
+[2016-04-04 22:08:27,898: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:08:28,909 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f027ef8b5d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:08:29,463 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408080055976 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:08:29,463 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:08:29,463 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:08:29,473 INFO spawned: 'autoreload' with pid 838
