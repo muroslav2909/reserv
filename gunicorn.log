@@ -17066,3 +17066,14 @@ Not Found: /media/media/bud_z_brusa_7.jpg
 [2016-04-04 22:40:39 +0000] [1960] [INFO] Booting worker with pid: 1960
 [2016-04-04 22:40:39 +0000] [1961] [INFO] Booting worker with pid: 1961
 [2016-04-04 22:40:39 +0000] [1962] [INFO] Booting worker with pid: 1962
+[2016-04-04 22:50:37 +0000] [1939] [INFO] Handling signal: term
+[2016-04-04 22:50:37 +0000] [1952] [INFO] Worker exiting (pid: 1952)
+[2016-04-04 22:50:37 +0000] [1957] [INFO] Worker exiting (pid: 1957)
+[2016-04-04 22:50:37 +0000] [1960] [INFO] Worker exiting (pid: 1960)
+[2016-04-04 22:50:37 +0000] [1961] [INFO] Worker exiting (pid: 1961)
+[2016-04-04 22:50:37 +0000] [1962] [INFO] Worker exiting (pid: 1962)
+[2016-04-04 22:50:37 +0000] [1944] [INFO] Worker exiting (pid: 1944)
+[2016-04-04 22:50:37 +0000] [1945] [INFO] Worker exiting (pid: 1945)
+[2016-04-04 22:50:37 +0000] [1946] [INFO] Worker exiting (pid: 1946)
+[2016-04-04 22:50:37 +0000] [1947] [INFO] Worker exiting (pid: 1947)
+[2016-04-04 22:50:37 +0000] [1939] [INFO] Shutting down: Master

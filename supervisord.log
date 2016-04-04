@@ -47146,3 +47146,54 @@ main_worker: stopped
 gunicorn_server: started
 main_worker: started
 
+2016-04-04 22:50:37,119 DEBG killing gunicorn_server (pid 1939) with signal SIGTERM
+2016-04-04 22:50:37,155 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:50:37 +0000] [1939] [INFO] Handling signal: term
+[2016-04-04 22:50:37 +0000] [1952] [INFO] Worker exiting (pid: 1952)
+[2016-04-04 22:50:37 +0000] [1957] [INFO] Worker exiting (pid: 1957)
+[2016-04-04 22:50:37 +0000] [1960] [INFO] Worker exiting (pid: 1960)
+[2016-04-04 22:50:37 +0000] [1961] [INFO] Worker exiting (pid: 1961)
+[2016-04-04 22:50:37 +0000] [1962] [INFO] Worker exiting (pid: 1962)
+[2016-04-04 22:50:37 +0000] [1944] [INFO] Worker exiting (pid: 1944)
+[2016-04-04 22:50:37 +0000] [1945] [INFO] Worker exiting (pid: 1945)
+[2016-04-04 22:50:37 +0000] [1946] [INFO] Worker exiting (pid: 1946)
+[2016-04-04 22:50:37 +0000] [1947] [INFO] Worker exiting (pid: 1947)
+
+2016-04-04 22:50:37,293 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 22:50:37 +0000] [1939] [INFO] Shutting down: Master
+
+2016-04-04 22:50:37,303 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408082467008 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 22:50:37,303 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 22:50:37,303 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:50:38,308 DEBG killing main_worker (pid 1971) with signal SIGTERM
+2016-04-04 22:50:38,309 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 22:50:39,325 DEBG 'main_worker' stdout output:
+[2016-04-04 22:50:39,324: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 22:50:39,329 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f421476a5d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 22:50:39,884 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408079962408 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 22:50:39,885 INFO stopped: main_worker (exit status 0)
+2016-04-04 22:50:39,885 DEBG received SIGCLD indicating a child quit
+2016-04-04 22:50:39,940 INFO spawned: 'gunicorn_server' with pid 1982

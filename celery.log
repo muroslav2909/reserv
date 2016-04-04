@@ -11120,3 +11120,24 @@ You must only enable the serializers that you will actually use.
   warn('Using settings.DEBUG leads to a memory leak, never '
 
 [2016-04-04 22:40:52,373: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-04-04 22:50:39,324: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f421476a5d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
