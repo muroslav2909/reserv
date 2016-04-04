@@ -48277,3 +48277,179 @@ worker: Warm shutdown (MainProcess)
 2016-04-04 23:02:50,973 DEBG 'gunicorn_server' stdout output:
 [2016-04-04 23:02:50 +0000] [2265] [INFO] Booting worker with pid: 2265
 
+2016-04-04 23:03:00,988 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 23:03:00,995 INFO spawned: 'main_worker' with pid 2272
+2016-04-04 23:03:01,482 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-04-04 23:03:01,524 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 23:03:01,524 DEBG 'main_worker' stdout output:
+[2016-04-04 23:03:01,523: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-04-04 23:03:01,614 DEBG 'main_worker' stdout output:
+[2016-04-04 23:03:01,560: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-04-04 23:03:01,615 DEBG 'main_worker' stdout output:
+[2016-04-04 23:03:01,567: INFO/MainProcess] mingle: searching for neighbors
+[2016-04-04 23:03:01,582: INFO/Beat] beat: Starting...
+
+2016-04-04 23:03:02,575 DEBG 'main_worker' stdout output:
+[2016-04-04 23:03:02,574: INFO/MainProcess] mingle: all alone
+
+2016-04-04 23:03:02,602 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-04-04 23:03:02,603 DEBG 'main_worker' stdout output:
+[2016-04-04 23:03:02,602: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-04-04 23:03:02,602: WARNING/MainProcess] celery@main_worker ready.
+
+2016-04-04 23:03:11,616 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-04-04 23:03:11,620 DEBG 'autoreload' stdout output:
+gunicorn_server: stopped
+main_worker: stopped
+gunicorn_server: started
+main_worker: started
+
+2016-04-04 23:05:16,339 DEBG killing gunicorn_server (pid 2240) with signal SIGTERM
+2016-04-04 23:05:16,352 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:16 +0000] [2240] [INFO] Handling signal: term
+
+2016-04-04 23:05:16,354 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:16 +0000] [2250] [INFO] Worker exiting (pid: 2250)
+[2016-04-04 23:05:16 +0000] [2245] [INFO] Worker exiting (pid: 2245)
+[2016-04-04 23:05:16 +0000] [2257] [INFO] Worker exiting (pid: 2257)
+[2016-04-04 23:05:16 +0000] [2246] [INFO] Worker exiting (pid: 2246)
+[2016-04-04 23:05:16 +0000] [2247] [INFO] Worker exiting (pid: 2247)
+[2016-04-04 23:05:16 +0000] [2260] [INFO] Worker exiting (pid: 2260)
+[2016-04-04 23:05:16 +0000] [2254] [INFO] Worker exiting (pid: 2254)
+[2016-04-04 23:05:16 +0000] [2265] [INFO] Worker exiting (pid: 2265)
+
+2016-04-04 23:05:16,377 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:16 +0000] [2251] [INFO] Worker exiting (pid: 2251)
+
+2016-04-04 23:05:16,540 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:16 +0000] [2240] [INFO] Shutting down: Master
+
+2016-04-04 23:05:16,553 DEBG fd 11 closed, stopped monitoring <POutputDispatcher at 140408080027088 for <Subprocess at 140408082679568 with name gunicorn_server in state STOPPING> (stdout)>
+2016-04-04 23:05:16,553 INFO stopped: gunicorn_server (exit status 0)
+2016-04-04 23:05:16,553 DEBG received SIGCLD indicating a child quit
+2016-04-04 23:05:17,558 DEBG killing main_worker (pid 2272) with signal SIGTERM
+2016-04-04 23:05:17,558 DEBG 'main_worker' stdout output:
+
+worker: Warm shutdown (MainProcess)
+
+2016-04-04 23:05:18,576 DEBG 'main_worker' stdout output:
+[2016-04-04 23:05:18,576: INFO/MainProcess] beat: Shutting down...
+
+2016-04-04 23:05:18,579 DEBG 'main_worker' stdout output:
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.19.0-33-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fda4c35c5d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+
+2016-04-04 23:05:19,149 DEBG fd 14 closed, stopped monitoring <POutputDispatcher at 140408080024208 for <Subprocess at 140408082678704 with name main_worker in state STOPPING> (stdout)>
+2016-04-04 23:05:19,149 INFO stopped: main_worker (exit status 0)
+2016-04-04 23:05:19,149 DEBG received SIGCLD indicating a child quit
+2016-04-04 23:05:19,158 INFO spawned: 'gunicorn_server' with pid 2283
+2016-04-04 23:05:19,326 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2283] [INFO] Starting gunicorn 19.4.5
+
+2016-04-04 23:05:19,326 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2283] [INFO] Listening at: http://0.0.0.0:8001 (2283)
+
+2016-04-04 23:05:19,326 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2283] [INFO] Using worker: sync
+
+2016-04-04 23:05:19,330 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2288] [INFO] Booting worker with pid: 2288
+
+2016-04-04 23:05:19,381 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2289] [INFO] Booting worker with pid: 2289
+
+2016-04-04 23:05:19,426 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2292] [INFO] Booting worker with pid: 2292
+
+2016-04-04 23:05:19,482 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2295] [INFO] Booting worker with pid: 2295
+
+2016-04-04 23:05:19,489 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2296] [INFO] Booting worker with pid: 2296
+
+2016-04-04 23:05:19,558 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2299] [INFO] Booting worker with pid: 2299
+
+2016-04-04 23:05:19,621 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2300] [INFO] Booting worker with pid: 2300
+
+2016-04-04 23:05:19,654 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2303] [INFO] Booting worker with pid: 2303
+
+2016-04-04 23:05:19,698 DEBG 'gunicorn_server' stdout output:
+[2016-04-04 23:05:19 +0000] [2306] [INFO] Booting worker with pid: 2306
+

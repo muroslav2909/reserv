@@ -17227,3 +17227,26 @@ Not Found: /media/media/bud_z_brusa_7.jpg
 [2016-04-04 23:02:50 +0000] [2257] [INFO] Booting worker with pid: 2257
 [2016-04-04 23:02:50 +0000] [2260] [INFO] Booting worker with pid: 2260
 [2016-04-04 23:02:50 +0000] [2265] [INFO] Booting worker with pid: 2265
+[2016-04-04 23:05:16 +0000] [2240] [INFO] Handling signal: term
+[2016-04-04 23:05:16 +0000] [2250] [INFO] Worker exiting (pid: 2250)
+[2016-04-04 23:05:16 +0000] [2245] [INFO] Worker exiting (pid: 2245)
+[2016-04-04 23:05:16 +0000] [2257] [INFO] Worker exiting (pid: 2257)
+[2016-04-04 23:05:16 +0000] [2246] [INFO] Worker exiting (pid: 2246)
+[2016-04-04 23:05:16 +0000] [2247] [INFO] Worker exiting (pid: 2247)
+[2016-04-04 23:05:16 +0000] [2260] [INFO] Worker exiting (pid: 2260)
+[2016-04-04 23:05:16 +0000] [2254] [INFO] Worker exiting (pid: 2254)
+[2016-04-04 23:05:16 +0000] [2265] [INFO] Worker exiting (pid: 2265)
+[2016-04-04 23:05:16 +0000] [2251] [INFO] Worker exiting (pid: 2251)
+[2016-04-04 23:05:16 +0000] [2240] [INFO] Shutting down: Master
+[2016-04-04 23:05:19 +0000] [2283] [INFO] Starting gunicorn 19.4.5
+[2016-04-04 23:05:19 +0000] [2283] [INFO] Listening at: http://0.0.0.0:8001 (2283)
+[2016-04-04 23:05:19 +0000] [2283] [INFO] Using worker: sync
+[2016-04-04 23:05:19 +0000] [2288] [INFO] Booting worker with pid: 2288
+[2016-04-04 23:05:19 +0000] [2289] [INFO] Booting worker with pid: 2289
+[2016-04-04 23:05:19 +0000] [2292] [INFO] Booting worker with pid: 2292
+[2016-04-04 23:05:19 +0000] [2295] [INFO] Booting worker with pid: 2295
+[2016-04-04 23:05:19 +0000] [2296] [INFO] Booting worker with pid: 2296
+[2016-04-04 23:05:19 +0000] [2299] [INFO] Booting worker with pid: 2299
+[2016-04-04 23:05:19 +0000] [2300] [INFO] Booting worker with pid: 2300
+[2016-04-04 23:05:19 +0000] [2303] [INFO] Booting worker with pid: 2303
+[2016-04-04 23:05:19 +0000] [2306] [INFO] Booting worker with pid: 2306
