@@ -1,6 +1,7 @@
 from audioop import reverse
 from django.http import HttpResponse
 from django.shortcuts import render, render_to_response, get_object_or_404
+from django.template import Context, loader
 
 from vamiko.form import VisitorMessageForm, SubscribeForm
 from vamiko.models import VisitorMessage, Subscribe, Item
@@ -10,6 +11,11 @@ from visareserv.settings import *
 def home(request):
     if request.method == 'GET':
         form = VisitorMessageForm()
+        template = loader.get_template('home.html')
+        context = Context({
+            'DOMAIN_NAME': DOMAIN_NAME
+        })
+        return HttpResponse(template.render(context))
     else:
         # print request.POST
         if 'subscribe' in request.POST:

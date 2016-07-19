@@ -11708,3 +11708,1022 @@ worker: Warm shutdown (MainProcess)
 [tasks]
 
 
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 20:01:20,027: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 20:01:20,101: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 20:01:20,189: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 20:01:20,386: INFO/Beat] beat: Starting...
+[2016-07-19 20:01:21,208: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 20:01:21,224: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 20:01:21,225: WARNING/MainProcess] celery@main_worker ready.
+[2016-07-19 20:05:10,330: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer.py", line 279, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer.py", line 838, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 76, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 274, in create_loop
+    tick_callback()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 974, in on_poll_start
+    cycle_poll_start()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 308, in on_poll_start
+    self._register_LISTEN(channel)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 298, in _register_LISTEN
+    self._register(channel, channel.subclient, 'LISTEN')
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 274, in _register
+    client.connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 442, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 111 connecting to redis:6379. Connection refused.
+[2016-07-19 20:05:10,339: ERROR/MainProcess] Error on restarting Control: AttributeError("'NoneType' object has no attribute 'hostname'",)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 155, in send_all
+    fun(parent, *args)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/pidbox.py", line 55, in stop
+    self.consumer = self._close_channel(c)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/pidbox.py", line 64, in _close_channel
+    ignore_errors(c, self.node.channel.close)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/common.py", line 282, in ignore_errors
+    return fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 775, in close
+    self.queue_delete(queue)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/virtual/__init__.py", line 460, in queue_delete
+    self._delete(queue, exchange, *meta)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 731, in _delete
+    with self.conn_or_acquire() as client:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 872, in conn_or_acquire
+    yield self._create_client()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 843, in _create_client
+    return self.Client(connection_pool=self.pool)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 877, in pool
+    self._pool = self._get_pool()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 846, in _get_pool
+    params = self._connparams(async=async)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 806, in _connparams
+    connparams = {'host': conninfo.hostname or '127.0.0.1',
+AttributeError: 'NoneType' object has no attribute 'hostname'
+[2016-07-19 20:05:10,352: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 2.00 seconds...
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 20:05:26,774: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 20:05:26,823: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 20:05:26,843: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 20:05:27,106: INFO/Beat] beat: Starting...
+[2016-07-19 20:05:27,863: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 20:05:27,883: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 20:05:27,884: WARNING/MainProcess] celery@main_worker ready.
+[2016-07-19 20:08:19,402: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer.py", line 279, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer.py", line 838, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 76, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 274, in create_loop
+    tick_callback()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 974, in on_poll_start
+    cycle_poll_start()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 308, in on_poll_start
+    self._register_LISTEN(channel)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 298, in _register_LISTEN
+    self._register(channel, channel.subclient, 'LISTEN')
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 274, in _register
+    client.connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 442, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 111 connecting to redis:6379. Connection refused.
+[2016-07-19 20:08:19,411: ERROR/MainProcess] Error on restarting Gossip: AttributeError("'NoneType' object has no attribute 'hostname'",)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 155, in send_all
+    fun(parent, *args)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 409, in stop
+    self._close(c, True)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 422, in _close
+    ignore_errors(c.connection, channel.close)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/common.py", line 282, in ignore_errors
+    return fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 775, in close
+    self.queue_delete(queue)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/virtual/__init__.py", line 460, in queue_delete
+    self._delete(queue, exchange, *meta)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 731, in _delete
+    with self.conn_or_acquire() as client:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 872, in conn_or_acquire
+    yield self._create_client()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 843, in _create_client
+    return self.Client(connection_pool=self.pool)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 877, in pool
+    self._pool = self._get_pool()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 846, in _get_pool
+    params = self._connparams(async=async)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 806, in _connparams
+    connparams = {'host': conninfo.hostname or '127.0.0.1',
+AttributeError: 'NoneType' object has no attribute 'hostname'
+[2016-07-19 20:08:19,419: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: .
+Trying again in 2.00 seconds...
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 20:08:35,264: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 20:08:35,339: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 20:08:35,358: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 20:08:35,535: INFO/Beat] beat: Starting...
+[2016-07-19 20:08:36,365: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 20:08:36,382: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 20:08:36,383: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-07-19 21:14:13,185: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.4.0-28-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f7bb9128610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:14:35,465: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:14:35,499: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 21:14:35,507: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 21:14:35,632: INFO/Beat] beat: Starting...
+[2016-07-19 21:14:36,514: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:14:36,534: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:14:36,535: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-07-19 21:15:02,854: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.4.0-28-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7eff262ba610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:15:25,093: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:15:25,130: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 21:15:25,140: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 21:15:25,269: INFO/Beat] beat: Starting...
+[2016-07-19 21:15:26,146: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:15:26,244: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:15:26,246: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-07-19 21:15:27,307: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.4.0-28-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f3f40ae3610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:15:51,661: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:15:51,694: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 21:15:51,706: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 21:15:51,817: INFO/Beat] beat: Starting...
+[2016-07-19 21:15:52,712: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:15:52,726: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:15:52,726: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-07-19 21:18:12,080: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.4.0-28-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f9a43458610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:18:34,211: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:18:34,245: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 21:18:34,253: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 21:18:34,362: INFO/Beat] beat: Starting...
+[2016-07-19 21:18:35,259: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:18:35,282: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:18:35,283: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-07-19 21:19:39,452: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.4.0-28-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f66152d1610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:19:59,238: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:19:59,291: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 21:19:59,307: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 21:19:59,475: INFO/Beat] beat: Starting...
+[2016-07-19 21:20:00,314: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:20:00,333: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:20:00,334: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-07-19 21:20:21,764: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.4.0-28-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f95c87aa610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:20:42,702: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:20:42,780: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 21:20:42,797: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 21:20:42,943: INFO/Beat] beat: Starting...
+[2016-07-19 21:20:43,804: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:20:43,814: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:20:43,814: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-07-19 21:25:08,673: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.4.0-28-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fd115c1d610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:25:34,460: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:25:34,555: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 21:25:34,606: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 21:25:35,047: INFO/Beat] beat: Starting...
+[2016-07-19 21:25:35,624: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:25:35,655: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:25:35,656: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-07-19 21:28:01,252: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.4.0-28-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7ff5d3d93610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:28:20,698: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:28:20,771: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 21:28:20,785: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 21:28:21,026: INFO/Beat] beat: Starting...
+[2016-07-19 21:28:21,796: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:28:21,807: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:28:21,807: WARNING/MainProcess] celery@main_worker ready.
+
+worker: Warm shutdown (MainProcess)
+[2016-07-19 21:29:11,630: INFO/MainProcess] beat: Shutting down...
+ 
+ -------------- celery@main_worker v3.1.20 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.4.0-28-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f250a719610 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     database
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+
+
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:29:33,373: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2016-07-19 21:29:33,417: INFO/MainProcess] Connected to redis://redis:6379//
+[2016-07-19 21:29:33,430: INFO/MainProcess] mingle: searching for neighbors
+[2016-07-19 21:29:33,564: INFO/Beat] beat: Starting...
+[2016-07-19 21:29:34,438: INFO/MainProcess] mingle: all alone
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:29:34,454: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-07-19 21:29:34,455: WARNING/MainProcess] celery@main_worker ready.
