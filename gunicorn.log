@@ -18828,3 +18828,31 @@ IndexError: list index out of range
 
 Not Found: /static/optimized/bud_univ_1-min.jpg
 Not Found: /static/mebli_1-min.jpg
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+Internal Server Error: /project/media/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+[2016-07-20 00:07:23 +0000] [34] [INFO] Starting gunicorn 19.4.5
+[2016-07-20 00:07:23 +0000] [34] [INFO] Listening at: http://0.0.0.0:8001 (34)
+[2016-07-20 00:07:23 +0000] [34] [INFO] Using worker: sync
+[2016-07-20 00:07:23 +0000] [48] [INFO] Booting worker with pid: 48
+[2016-07-20 00:07:23 +0000] [50] [INFO] Booting worker with pid: 50
+[2016-07-20 00:07:23 +0000] [52] [INFO] Booting worker with pid: 52
+[2016-07-20 00:07:23 +0000] [56] [INFO] Booting worker with pid: 56
+[2016-07-20 00:07:23 +0000] [58] [INFO] Booting worker with pid: 58
+[2016-07-20 00:07:23 +0000] [62] [INFO] Booting worker with pid: 62
+[2016-07-20 00:07:24 +0000] [66] [INFO] Booting worker with pid: 66
+[2016-07-20 00:07:24 +0000] [68] [INFO] Booting worker with pid: 68
+[2016-07-20 00:07:24 +0000] [70] [INFO] Booting worker with pid: 70
