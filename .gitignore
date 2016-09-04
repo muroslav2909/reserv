@@ -16,5 +16,10 @@ supervisord.log
 celerybeat-schedule
 celery.log
 gunicorn.log
+celery.log
+celerybeat-schedule
+gunicorn.log
+supervisord.log
+supervisord.pid
 
 

@@ -53363,3 +53363,707 @@ You must only enable the serializers that you will actually use.
 2016-07-20 00:07:34,474 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
 2016-07-20 00:07:34,475 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
 2016-07-20 00:07:34,475 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-09-04 13:31:27,649 CRIT Supervisor running as root (no user in config file)
+2016-09-04 13:31:27,668 INFO RPC interface 'supervisor' initialized
+2016-09-04 13:31:27,669 INFO daemonizing the supervisord process
+2016-09-04 13:31:27,670 INFO supervisord started with pid 27
+2016-09-04 13:31:28,182 INFO spawned: 'autoreload' with pid 33
+2016-09-04 13:31:28,184 INFO spawned: 'main_worker' with pid 34
+2016-09-04 13:31:28,185 INFO spawned: 'gunicorn_server' with pid 35
+2016-09-04 13:31:28,400 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [35] [INFO] Starting gunicorn 19.4.5
+
+2016-09-04 13:31:28,400 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [35] [INFO] Listening at: http://0.0.0.0:8001 (35)
+[2016-09-04 13:31:28 +0000] [35] [INFO] Using worker: sync
+
+2016-09-04 13:31:28,403 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [49] [INFO] Booting worker with pid: 49
+
+2016-09-04 13:31:28,462 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [51] [INFO] Booting worker with pid: 51
+
+2016-09-04 13:31:28,536 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [54] [INFO] Booting worker with pid: 54
+
+2016-09-04 13:31:28,606 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [57] [INFO] Booting worker with pid: 57
+
+2016-09-04 13:31:28,638 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [61] [INFO] Booting worker with pid: 61
+
+2016-09-04 13:31:28,662 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [63] [INFO] Booting worker with pid: 63
+
+2016-09-04 13:31:28,695 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [65] [INFO] Booting worker with pid: 65
+
+2016-09-04 13:31:28,775 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [69] [INFO] Booting worker with pid: 69
+
+2016-09-04 13:31:28,865 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 13:31:28 +0000] [71] [INFO] Booting worker with pid: 71
+
+2016-09-04 13:31:29,365 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/platforms.py:812: RuntimeWarning: You are running the worker with superuser privileges, which is
+absolutely not recommended!
+
+Please specify a different user using the -u option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  uid=uid, euid=euid, gid=gid, egid=egid,
+
+
+2016-09-04 13:31:29,578 DEBG 'autoreload' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
+
+
+2016-09-04 13:31:29,590 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-09-04 13:31:29,591 DEBG 'main_worker' stdout output:
+[2016-09-04 13:31:29,590: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:162: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+
+2016-09-04 13:31:29,642 DEBG 'main_worker' stdout output:
+[2016-09-04 13:31:29,633: INFO/MainProcess] Connected to redis://redis:6379//
+
+2016-09-04 13:31:29,647 DEBG 'main_worker' stdout output:
+[2016-09-04 13:31:29,646: INFO/MainProcess] mingle: searching for neighbors
+
+2016-09-04 13:31:29,709 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:29,749 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:29,749 DEBG 'autoreload' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:29,832 DEBG 'main_worker' stdout output:
+[2016-09-04 13:31:29,831: INFO/Beat] beat: Starting...
+
+2016-09-04 13:31:30,658 DEBG 'main_worker' stdout output:
+[2016-09-04 13:31:30,658: INFO/MainProcess] mingle: all alone
+
+2016-09-04 13:31:30,671 DEBG 'main_worker' stdout output:
+/usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+
+2016-09-04 13:31:30,671 DEBG 'main_worker' stdout output:
+[2016-09-04 13:31:30,671: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2016-09-04 13:31:30,671: WARNING/MainProcess] celery@main_worker ready.
+
+2016-09-04 13:31:38,682 INFO success: autoreload entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-09-04 13:31:38,682 INFO success: main_worker entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-09-04 13:31:38,682 INFO success: gunicorn_server entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2016-09-04 13:31:53,600 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 13:31:53,606 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,615 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,615 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,624 DEBG 'gunicorn_server' stdout output:
+/project/vamiko/views.py:18: RemovedInDjango110Warning: render() must be called with a dict, not a Context.
+  return HttpResponse(template.render(context))
+
+
+2016-09-04 13:31:53,625 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py:67: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  "A {% csrf_token %} was used in a template, but the context "
+
+
+2016-09-04 13:31:53,774 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 13:31:53,783 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 13:31:53,790 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 13:31:53,791 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 13:31:53,795 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 13:31:53,802 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,814 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,816 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,819 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,820 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,824 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,843 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,843 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,849 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,849 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,854 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,856 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,858 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,870 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,873 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,874 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,877 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,878 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,890 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 13:31:53,892 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 13:31:53,905 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,905 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,918 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,919 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:31:53,921 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 13:32:07,105 DEBG 'gunicorn_server' stdout output:
+Not Found: /project/media/bud_z_brusa_1.jpg
+
+2016-09-04 13:32:07,131 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /project/media/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 13:38:58,239 DEBG 'gunicorn_server' stdout output:
+Not Found: /http://placehold.it/800x400
+
+2016-09-04 13:38:58,291 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /http://placehold.it/800x400/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 13:41:22,002 DEBG 'gunicorn_server' stdout output:
+Not Found: /http://placehold.it/800x400
+
+2016-09-04 13:41:22,059 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /http://placehold.it/800x400/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 13:41:33,823 DEBG 'gunicorn_server' stdout output:
+Not Found: /http://placehold.it/800x400
+
+2016-09-04 13:41:33,875 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /http://placehold.it/800x400/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 13:54:31,119 DEBG 'gunicorn_server' stdout output:
+Not Found: /budynky_z_brusa/img_chania.jpg
+
+2016-09-04 13:54:31,143 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /budynky_z_brusa/img_chania.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 13:54:31,237 DEBG 'gunicorn_server' stdout output:
+Not Found: /budynky_z_brusa/img_chania2.jpg
+
+2016-09-04 13:54:31,247 DEBG 'gunicorn_server' stdout output:
+Not Found: /budynky_z_brusa/img_flower.jpg
+
+2016-09-04 13:54:31,258 DEBG 'gunicorn_server' stdout output:
+Not Found: /budynky_z_brusa/img_flower2.jpg
+
+2016-09-04 13:54:31,310 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /budynky_z_brusa/img_chania2.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 13:54:31,311 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /budynky_z_brusa/img_flower.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 13:54:31,316 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /budynky_z_brusa/img_flower2.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 13:59:58,020 DEBG 'gunicorn_server' stdout output:
+Not Found: /budynky_z_brusa
+
+2016-09-04 14:00:28,979 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:00:28 +0000] [35] [CRITICAL] WORKER TIMEOUT (pid:54)
+
+2016-09-04 14:00:28,981 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:00:28 +0000] [54] [INFO] Worker exiting (pid: 54)
+
+2016-09-04 14:00:29,042 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:00:29 +0000] [123] [INFO] Booting worker with pid: 123
+
+2016-09-04 14:03:33,832 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 14:03:33,854 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:03:33,890 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:03:33,890 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:18:47,824 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /project/media/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 14:18:47,976 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /project/media/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 14:19:09,277 DEBG 'gunicorn_server' stdout output:
+Internal Server Error: /project/media/bud_z_brusa_1.jpg/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/vamiko/views.py", line 74, in detail
+    item = Item.objects.filter(url_item_name=url_item_name)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+IndexError: list index out of range
+
+2016-09-04 14:42:34,224 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:42:34 +0000] [35] [CRITICAL] WORKER TIMEOUT (pid:69)
+
+2016-09-04 14:42:34,225 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:42:34 +0000] [35] [CRITICAL] WORKER TIMEOUT (pid:71)
+[2016-09-04 14:42:34 +0000] [35] [CRITICAL] WORKER TIMEOUT (pid:49)
+[2016-09-04 14:42:34 +0000] [35] [CRITICAL] WORKER TIMEOUT (pid:51)
+[2016-09-04 14:42:34 +0000] [35] [CRITICAL] WORKER TIMEOUT (pid:63)
+[2016-09-04 14:42:34 +0000] [51] [INFO] Worker exiting (pid: 51)
+[2016-09-04 14:42:34 +0000] [63] [INFO] Worker exiting (pid: 63)
+[2016-09-04 14:42:34 +0000] [69] [INFO] Worker exiting (pid: 69)
+[2016-09-04 14:42:34 +0000] [49] [INFO] Worker exiting (pid: 49)
+[2016-09-04 14:42:34 +0000] [71] [INFO] Worker exiting (pid: 71)
+
+2016-09-04 14:42:34,314 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:42:34 +0000] [127] [INFO] Booting worker with pid: 127
+
+2016-09-04 14:42:34,392 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:42:34 +0000] [129] [INFO] Booting worker with pid: 129
+
+2016-09-04 14:42:34,398 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:42:34 +0000] [131] [INFO] Booting worker with pid: 131
+
+2016-09-04 14:42:34,494 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:42:34 +0000] [133] [INFO] Booting worker with pid: 133
+
+2016-09-04 14:42:34,564 DEBG 'gunicorn_server' stdout output:
+[2016-09-04 14:42:34 +0000] [141] [INFO] Booting worker with pid: 141
+
+2016-09-04 14:44:04,177 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 14:44:04,188 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,205 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,205 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,254 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 14:44:04,262 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,284 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,284 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,337 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 14:44:04,347 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,372 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,372 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,387 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 14:44:04,394 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,405 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:44:04,405 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:45:06,488 DEBG 'gunicorn_server' stdout output:
+/usr/local/lib/python2.7/dist-packages/django/http/cookie.py:92: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if cookie == '':
+
+
+2016-09-04 14:45:06,496 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.home). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:45:06,513 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.form_upload). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+2016-09-04 14:45:06,514 DEBG 'gunicorn_server' stdout output:
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.base_item_view). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+/project/visareserv/urls.py:19: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got vamiko.views.detail). Pass the callable instead.
+  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
