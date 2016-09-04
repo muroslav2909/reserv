@@ -134,6 +134,11 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'vamiko/static_files', ''),
 )
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = os.getenv('VAMIKO_EMAIL', '')
+EMAIL_HOST_PASSWORD = os.getenv('VAMIKO_EMAIL_PASS', '')
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
 # #for local
 # BROKER_HOST = "localhost"

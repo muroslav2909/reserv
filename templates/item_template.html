@@ -361,19 +361,19 @@
                       {% csrf_token %}
                       <div class="row">
                         <div class="col-sm-6 form-group">
-                          <input class="form-control" id="name" name="visitor_name" placeholder="Ім’я" type="text">
+                          <input class="form-control" id="visitor_name" name="visitor_name" placeholder="Ім’я" type="text">
                         </div>
                         <div class="col-sm-6 form-group">
-                          <input class="form-control" id="email" name="visitor_email" placeholder="Email" type="email" required>
+                          <input class="form-control" id="visitor_email" name="visitor_email" placeholder="Email" type="email" required>
                         </div>
                         <div class="col-sm-6 form-group">
-                          <input class="form-control" id="phone" name="visitor_phone" placeholder="Телефон" type="phone">
+                          <input class="form-control" id="visitor_phone" name="visitor_phone" placeholder="Телефон" type="phone">
                         </div>
                       </div>
-                      <textarea class="form-control" id="comments" name="message_text" placeholder="Ваше питання" rows="5"></textarea><br>
+                      <textarea class="form-control" id="message_text" name="message_text" placeholder="Ваше питання" rows="5"></textarea><br>
                       <div class="row">
                         <div class="col-sm-12 form-group">
-                          <button class="btn btn-default pull-right" name="massage" type="submit" value="Submit" onclick="showAlert();">Надіслати</button>
+                          <button class="btn btn-default pull-right" name="submit" type="submit" value="Submit" onclick="showAlert();">Надіслати</button>
                         </div>
                       </div>
                    </form>
